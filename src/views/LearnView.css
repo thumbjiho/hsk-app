@@ -74,7 +74,7 @@
   display: grid;
   grid-template-columns: 1fr auto 1fr;
   align-items: center;
-  padding: 16px 20px 12px;
+  padding: calc(16px + var(--sa-top)) calc(20px + var(--sa-right)) 12px calc(20px + var(--sa-left));
   flex-shrink: 0;
 }
 .navbar > :first-child { justify-self: start; }
@@ -159,7 +159,7 @@
 .action-bar {
   display: flex;
   gap: 12px;
-  padding: 12px 16px 20px;
+  padding: 12px calc(16px + var(--sa-right)) calc(20px + var(--sa-bot)) calc(16px + var(--sa-left));
   flex-shrink: 0;
   align-items: center;
 }

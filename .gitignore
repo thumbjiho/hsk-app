@@ -22,3 +22,9 @@ dist-ssr
 *.njsproj
 *.sln
 *.sw?
+
+# Capacitor iOS — generated web assets + per-user build state
+ios/App/App/public
+ios/App/build
+ios/DerivedData
+**/xcuserdata/

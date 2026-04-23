@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="2732" height="2732" viewBox="0 0 2732 2732">
+  <rect width="2732" height="2732" fill="#1a1a1c"/>
+
+  <text
+    x="1366" y="1470"
+    text-anchor="middle"
+    font-family="Noto Serif SC, Source Han Serif SC, Songti SC, STSong, serif"
+    font-weight="500"
+    font-size="620"
+    fill="#e63946">汉</text>
+
+  <text
+    x="1366" y="1700"
+    text-anchor="middle"
+    font-family="Noto Sans KR, Noto Sans, Helvetica, sans-serif"
+    font-weight="500"
+    font-size="72"
+    letter-spacing="12"
+    fill="#8a8a90">HSK 단어장</text>
+</svg>

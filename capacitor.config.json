@@ -1,0 +1,24 @@
+{
+  "appId": "me.umjo.hsk",
+  "appName": "HSK 단어장",
+  "webDir": "dist",
+  "ios": {
+    "contentInset": "never",
+    "scheme": "hsk"
+  },
+  "plugins": {
+    "StatusBar": {
+      "style": "DARK",
+      "backgroundColor": "#1a1a1c",
+      "overlaysWebView": true
+    },
+    "SplashScreen": {
+      "launchShowDuration": 1200,
+      "launchAutoHide": true,
+      "backgroundColor": "#1a1a1c",
+      "showSpinner": false,
+      "splashImmersive": true,
+      "iosSpinnerStyle": "small"
+    }
+  }
+}

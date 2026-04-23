@@ -46,6 +46,17 @@ body {
   overflow: hidden;
 }
 
+/* iOS safe-area support. In Capacitor (and mobile web) the status bar /
+   notch / home-indicator overlap the web view — these env() variables let
+   us pad the first/last rows of the layout to stay clear of system UI.
+   Each view's navbar applies `--sa-top`, the bottom CTA row applies `--sa-bot`. */
+:root {
+  --sa-top: env(safe-area-inset-top, 0px);
+  --sa-bot: env(safe-area-inset-bottom, 0px);
+  --sa-left: env(safe-area-inset-left, 0px);
+  --sa-right: env(safe-area-inset-right, 0px);
+}
+
 button {
   font-family: inherit;
   color: inherit;
