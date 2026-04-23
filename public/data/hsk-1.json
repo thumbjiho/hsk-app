@@ -1,0 +1,7394 @@
+[
+  {
+    "id": "L1-0001",
+    "simplified": "爱",
+    "traditional": "愛",
+    "pinyin": "ài",
+    "pos": [
+      "V"
+    ],
+    "level": 1,
+    "meaning_ko": "사랑하다",
+    "example_zh": "我爱你。",
+    "example_zh_trad": "我愛你。",
+    "example_pinyin": "Wǒ ài nǐ.",
+    "example_ko": "나는 너를 사랑한다."
+  },
+  {
+    "id": "L1-0002",
+    "simplified": "爱好",
+    "traditional": "愛好",
+    "pinyin": "àihào",
+    "pos": [
+      "V",
+      "N"
+    ],
+    "level": 1,
+    "meaning_ko": "취미, 좋아하다",
+    "example_zh": "我的爱好是看书。",
+    "example_zh_trad": "我的愛好是看書。",
+    "example_pinyin": "Wǒ de àihào shì kàn shū.",
+    "example_ko": "내 취미는 책 읽기다."
+  },
+  {
+    "id": "L1-0003",
+    "simplified": "八",
+    "traditional": "八",
+    "pinyin": "bā",
+    "pos": [
+      "Num"
+    ],
+    "level": 1,
+    "meaning_ko": "8, 여덟",
+    "example_zh": "今天八月八号。",
+    "example_zh_trad": "今天八月八號。",
+    "example_pinyin": "Jīntiān bā yuè bā hào.",
+    "example_ko": "오늘은 8월 8일이다."
+  },
+  {
+    "id": "L1-0004",
+    "simplified": "爸爸",
+    "traditional": "爸爸",
+    "pinyin": "bàba",
+    "pos": [
+      "N"
+    ],
+    "level": 1,
+    "meaning_ko": "아빠, 아버지",
+    "example_zh": "我爸爸在家。",
+    "example_zh_trad": "我爸爸在家。",
+    "example_pinyin": "Wǒ bàba zài jiā.",
+    "example_ko": "우리 아빠는 집에 계신다."
+  },
+  {
+    "id": "L1-0005",
+    "simplified": "吧",
+    "traditional": "吧",
+    "pinyin": "ba",
+    "pos": [
+      "Aux"
+    ],
+    "level": 1,
+    "meaning_ko": "~하자, ~겠지 (제안·추측의 어조사)",
+    "example_zh": "我们走吧。",
+    "example_zh_trad": "我們走吧。",
+    "example_pinyin": "Wǒmen zǒu ba.",
+    "example_ko": "우리 가자."
+  },
+  {
+    "id": "L1-0006",
+    "simplified": "白",
+    "traditional": "白",
+    "pinyin": "bái",
+    "pos": [
+      "Adj"
+    ],
+    "level": 1,
+    "meaning_ko": "희다, 하얀",
+    "example_zh": "这是白色的。",
+    "example_zh_trad": "這是白色的。",
+    "example_pinyin": "Zhè shì báisè de.",
+    "example_ko": "이것은 흰색이다."
+  },
+  {
+    "id": "L1-0007",
+    "simplified": "白天",
+    "traditional": "白天",
+    "pinyin": "báitiān",
+    "pos": [
+      "N"
+    ],
+    "level": 1,
+    "meaning_ko": "낮, 대낮",
+    "example_zh": "白天我在学校。",
+    "example_zh_trad": "白天我在學校。",
+    "example_pinyin": "Báitiān wǒ zài xuéxiào.",
+    "example_ko": "낮에는 내가 학교에 있다."
+  },
+  {
+    "id": "L1-0008",
+    "simplified": "百",
+    "traditional": "百",
+    "pinyin": "bǎi",
+    "pos": [
+      "Num"
+    ],
+    "level": 1,
+    "meaning_ko": "100, 백",
+    "example_zh": "一百块钱。",
+    "example_zh_trad": "一百塊錢。",
+    "example_pinyin": "Yì bǎi kuài qián.",
+    "example_ko": "100위안이다."
+  },
+  {
+    "id": "L1-0009",
+    "simplified": "班",
+    "traditional": "班",
+    "pinyin": "bān",
+    "pos": [
+      "N",
+      "M"
+    ],
+    "level": 1,
+    "meaning_ko": "반, 학급",
+    "example_zh": "他在三班。",
+    "example_zh_trad": "他在三班。",
+    "example_pinyin": "Tā zài sān bān.",
+    "example_ko": "그는 3반이다."
+  },
+  {
+    "id": "L1-0010",
+    "simplified": "半",
+    "traditional": "半",
+    "pinyin": "bàn",
+    "pos": [
+      "Num"
+    ],
+    "level": 1,
+    "meaning_ko": "반, 절반",
+    "example_zh": "现在八点半。",
+    "example_zh_trad": "現在八點半。",
+    "example_pinyin": "Xiànzài bā diǎn bàn.",
+    "example_ko": "지금 8시 반이다."
+  },
+  {
+    "id": "L1-0011",
+    "simplified": "半年",
+    "traditional": "半年",
+    "pinyin": "bàn nián",
+    "pos": [],
+    "level": 1,
+    "meaning_ko": "반 년, 6개월",
+    "example_zh": "我学中文半年了。",
+    "example_zh_trad": "我學中文半年了。",
+    "example_pinyin": "Wǒ xué Zhōngwén bàn nián le.",
+    "example_ko": "나는 중국어를 반 년째 배우고 있다."
+  },
+  {
+    "id": "L1-0012",
+    "simplified": "半天",
+    "traditional": "半天",
+    "pinyin": "bàntiān",
+    "pos": [],
+    "level": 1,
+    "meaning_ko": "반나절; 한참 동안",
+    "example_zh": "我半天没说话。",
+    "example_zh_trad": "我半天沒說話。",
+    "example_pinyin": "Wǒ bàntiān méi shuōhuà.",
+    "example_ko": "나는 한참 동안 말을 안 했다."
+  },
+  {
+    "id": "L1-0013",
+    "simplified": "帮",
+    "traditional": "幫",
+    "pinyin": "bāng",
+    "pos": [
+      "V"
+    ],
+    "level": 1,
+    "meaning_ko": "돕다",
+    "example_zh": "我帮你。",
+    "example_zh_trad": "我幫你。",
+    "example_pinyin": "Wǒ bāng nǐ.",
+    "example_ko": "내가 너를 도와줄게."
+  },
+  {
+    "id": "L1-0014",
+    "simplified": "帮忙",
+    "traditional": "幫忙",
+    "pinyin": "bāngmáng",
+    "pos": [],
+    "level": 1,
+    "meaning_ko": "돕다, 거들다",
+    "example_zh": "请帮我一个忙。",
+    "example_zh_trad": "請幫我一個忙。",
+    "example_pinyin": "Qǐng bāng wǒ yí gè máng.",
+    "example_ko": "저 좀 도와주세요."
+  },
+  {
+    "id": "L1-0015",
+    "simplified": "包",
+    "traditional": "包",
+    "pinyin": "bāo",
+    "pos": [
+      "N",
+      "M",
+      "V"
+    ],
+    "level": 1,
+    "meaning_ko": "가방; 싸다, 포장하다",
+    "example_zh": "这是我的书包。",
+    "example_zh_trad": "這是我的書包。",
+    "example_pinyin": "Zhè shì wǒ de shūbāo.",
+    "example_ko": "이것은 내 책가방이다."
+  },
+  {
+    "id": "L1-0016",
+    "simplified": "包子",
+    "traditional": "包子",
+    "pinyin": "bāozi",
+    "pos": [
+      "N"
+    ],
+    "level": 1,
+    "meaning_ko": "빠오즈 (고기·채소 소를 넣은 찐빵)",
+    "example_zh": "我想吃包子。",
+    "example_zh_trad": "我想吃包子。",
+    "example_pinyin": "Wǒ xiǎng chī bāozi.",
+    "example_ko": "나는 빠오즈를 먹고 싶다."
+  },
+  {
+    "id": "L1-0017",
+    "simplified": "杯",
+    "traditional": "杯",
+    "pinyin": "bēi",
+    "pos": [
+      "M"
+    ],
+    "level": 1,
+    "meaning_ko": "잔 (양사)",
+    "example_zh": "一杯水。",
+    "example_zh_trad": "一杯水。",
+    "example_pinyin": "Yì bēi shuǐ.",
+    "example_ko": "물 한 잔."
+  },
+  {
+    "id": "L1-0018",
+    "simplified": "杯子",
+    "traditional": "杯子",
+    "pinyin": "bēizi",
+    "pos": [
+      "N"
+    ],
+    "level": 1,
+    "meaning_ko": "컵, 잔",
+    "example_zh": "桌子上有一个杯子。",
+    "example_zh_trad": "桌子上有一個杯子。",
+    "example_pinyin": "Zhuōzi shàng yǒu yí gè bēizi.",
+    "example_ko": "탁자 위에 컵이 하나 있다."
+  },
+  {
+    "id": "L1-0019",
+    "simplified": "北",
+    "traditional": "北",
+    "pinyin": "běi",
+    "pos": [
+      "N"
+    ],
+    "level": 1,
+    "meaning_ko": "북, 북쪽",
+    "example_zh": "他们去北边。",
+    "example_zh_trad": "他們去北邊。",
+    "example_pinyin": "Tāmen qù běibian.",
+    "example_ko": "그들은 북쪽으로 간다."
+  },
+  {
+    "id": "L1-0020",
+    "simplified": "北边",
+    "traditional": "北邊",
+    "pinyin": "běibian",
+    "pos": [
+      "N"
+    ],
+    "level": 1,
+    "meaning_ko": "북쪽",
+    "example_zh": "我家在学校的北边。",
+    "example_zh_trad": "我家在學校的北邊。",
+    "example_pinyin": "Wǒ jiā zài xuéxiào de běibian.",
+    "example_ko": "우리 집은 학교의 북쪽에 있다."
+  },
+  {
+    "id": "L1-0021",
+    "simplified": "北京",
+    "traditional": "北京",
+    "pinyin": "Běijīng",
+    "pos": [
+      "N"
+    ],
+    "level": 1,
+    "meaning_ko": "베이징, 북경",
+    "example_zh": "我想去北京。",
+    "example_zh_trad": "我想去北京。",
+    "example_pinyin": "Wǒ xiǎng qù Běijīng.",
+    "example_ko": "나는 베이징에 가고 싶다."
+  },
+  {
+    "id": "L1-0022",
+    "simplified": "本",
+    "traditional": "本",
+    "pinyin": "běn",
+    "pos": [
+      "M"
+    ],
+    "level": 1,
+    "meaning_ko": "권 (책·공책 양사)",
+    "example_zh": "这本书很好。",
+    "example_zh_trad": "這本書很好。",
+    "example_pinyin": "Zhè běn shū hěn hǎo.",
+    "example_ko": "이 책은 아주 좋다."
+  },
+  {
+    "id": "L1-0023",
+    "simplified": "本子",
+    "traditional": "本子",
+    "pinyin": "běnzi",
+    "pos": [
+      "N"
+    ],
+    "level": 1,
+    "meaning_ko": "공책, 노트",
+    "example_zh": "我有一个本子。",
+    "example_zh_trad": "我有一個本子。",
+    "example_pinyin": "Wǒ yǒu yí gè běnzi.",
+    "example_ko": "나는 공책이 하나 있다."
+  },
+  {
+    "id": "L1-0024",
+    "simplified": "比",
+    "traditional": "比",
+    "pinyin": "bǐ",
+    "pos": [
+      "Prep",
+      "V"
+    ],
+    "level": 1,
+    "meaning_ko": "~보다 (비교); 비교하다",
+    "example_zh": "他比我高。",
+    "example_zh_trad": "他比我高。",
+    "example_pinyin": "Tā bǐ wǒ gāo.",
+    "example_ko": "그는 나보다 키가 크다."
+  },
+  {
+    "id": "L1-0025",
+    "simplified": "别",
+    "traditional": "別",
+    "pinyin": "bié",
+    "pos": [
+      "Adv"
+    ],
+    "level": 1,
+    "meaning_ko": "~하지 마라",
+    "example_zh": "别走。",
+    "example_zh_trad": "別走。",
+    "example_pinyin": "Bié zǒu.",
+    "example_ko": "가지 마."
+  },
+  {
+    "id": "L1-0026",
+    "simplified": "别的",
+    "traditional": "別的",
+    "pinyin": "biéde",
+    "pos": [
+      "Pron"
+    ],
+    "level": 1,
+    "meaning_ko": "다른 것, 다른",
+    "example_zh": "我想看别的。",
+    "example_zh_trad": "我想看別的。",
+    "example_pinyin": "Wǒ xiǎng kàn biéde.",
+    "example_ko": "나는 다른 걸 보고 싶다."
+  },
+  {
+    "id": "L1-0027",
+    "simplified": "别人",
+    "traditional": "別人",
+    "pinyin": "biérén",
+    "pos": [
+      "Pron"
+    ],
+    "level": 1,
+    "meaning_ko": "다른 사람, 남",
+    "example_zh": "别人怎么想？",
+    "example_zh_trad": "別人怎麼想？",
+    "example_pinyin": "Biérén zěnme xiǎng?",
+    "example_ko": "다른 사람들은 어떻게 생각해?"
+  },
+  {
+    "id": "L1-0028",
+    "simplified": "病",
+    "traditional": "病",
+    "pinyin": "bìng",
+    "pos": [
+      "N",
+      "V"
+    ],
+    "level": 1,
+    "meaning_ko": "병; 병이 나다, 아프다",
+    "example_zh": "我病了。",
+    "example_zh_trad": "我病了。",
+    "example_pinyin": "Wǒ bìng le.",
+    "example_ko": "나는 병이 났다 / 아프다."
+  },
+  {
+    "id": "L1-0029",
+    "simplified": "病人",
+    "traditional": "病人",
+    "pinyin": "bìngrén",
+    "pos": [
+      "N"
+    ],
+    "level": 1,
+    "meaning_ko": "환자",
+    "example_zh": "他是病人。",
+    "example_zh_trad": "他是病人。",
+    "example_pinyin": "Tā shì bìngrén.",
+    "example_ko": "그는 환자다."
+  },
+  {
+    "id": "L1-0030",
+    "simplified": "不大",
+    "traditional": "不大",
+    "pinyin": "bù dà",
+    "pos": [],
+    "level": 1,
+    "meaning_ko": "그다지 ~하지 않다",
+    "example_zh": "他不大喜欢吃菜。",
+    "example_zh_trad": "他不大喜歡吃菜。",
+    "example_pinyin": "Tā bú dà xǐhuan chī cài.",
+    "example_ko": "그는 채소를 그다지 좋아하지 않는다."
+  },
+  {
+    "id": "L1-0031",
+    "simplified": "不对",
+    "traditional": "不對",
+    "pinyin": "bùduì",
+    "pos": [
+      "Adj"
+    ],
+    "level": 1,
+    "meaning_ko": "틀리다, 맞지 않다",
+    "example_zh": "这个不对。",
+    "example_zh_trad": "這個不對。",
+    "example_pinyin": "Zhège bú duì.",
+    "example_ko": "이것은 틀렸다."
+  },
+  {
+    "id": "L1-0032",
+    "simplified": "不客气",
+    "traditional": "不客氣",
+    "pinyin": "bù kèqì",
+    "pos": [],
+    "level": 1,
+    "meaning_ko": "천만에요, 별말씀을요",
+    "example_zh": "谢谢。不客气。",
+    "example_zh_trad": "謝謝。不客氣。",
+    "example_pinyin": "Xièxie. Bú kèqi.",
+    "example_ko": "감사합니다. — 천만에요."
+  },
+  {
+    "id": "L1-0033",
+    "simplified": "不用",
+    "traditional": "不用",
+    "pinyin": "bùyòng",
+    "pos": [
+      "Adv"
+    ],
+    "level": 1,
+    "meaning_ko": "~할 필요 없다",
+    "example_zh": "不用谢。",
+    "example_zh_trad": "不用謝。",
+    "example_pinyin": "Bú yòng xiè.",
+    "example_ko": "감사할 필요 없어요 (천만에요)."
+  },
+  {
+    "id": "L1-0034",
+    "simplified": "不",
+    "traditional": "不",
+    "pinyin": "bù",
+    "pos": [
+      "Adv"
+    ],
+    "level": 1,
+    "meaning_ko": "아니다, 안 ~하다 (부정)",
+    "example_zh": "我不去。",
+    "example_zh_trad": "我不去。",
+    "example_pinyin": "Wǒ bú qù.",
+    "example_ko": "나는 안 간다."
+  },
+  {
+    "id": "L1-0035",
+    "simplified": "菜",
+    "traditional": "菜",
+    "pinyin": "cài",
+    "pos": [
+      "N"
+    ],
+    "level": 1,
+    "meaning_ko": "요리; 채소",
+    "example_zh": "这个菜很好吃。",
+    "example_zh_trad": "這個菜很好吃。",
+    "example_pinyin": "Zhège cài hěn hǎochī.",
+    "example_ko": "이 요리는 아주 맛있다."
+  },
+  {
+    "id": "L1-0036",
+    "simplified": "茶",
+    "traditional": "茶",
+    "pinyin": "chá",
+    "pos": [
+      "N"
+    ],
+    "level": 1,
+    "meaning_ko": "차",
+    "example_zh": "我喝茶。",
+    "example_zh_trad": "我喝茶。",
+    "example_pinyin": "Wǒ hē chá.",
+    "example_ko": "나는 차를 마신다."
+  },
+  {
+    "id": "L1-0037",
+    "simplified": "差",
+    "traditional": "差",
+    "pinyin": "chà",
+    "pos": [
+      "V",
+      "Adj"
+    ],
+    "level": 1,
+    "meaning_ko": "부족하다, 모자라다",
+    "example_zh": "现在差五分钟八点。",
+    "example_zh_trad": "現在差五分鐘八點。",
+    "example_pinyin": "Xiànzài chà wǔ fēnzhōng bā diǎn.",
+    "example_ko": "지금 8시 5분 전이다."
+  },
+  {
+    "id": "L1-0038",
+    "simplified": "常",
+    "traditional": "常",
+    "pinyin": "cháng",
+    "pos": [
+      "Adv"
+    ],
+    "level": 1,
+    "meaning_ko": "자주, 늘",
+    "example_zh": "我常去那里。",
+    "example_zh_trad": "我常去那裡。",
+    "example_pinyin": "Wǒ cháng qù nàli.",
+    "example_ko": "나는 거기 자주 간다."
+  },
+  {
+    "id": "L1-0039",
+    "simplified": "常常",
+    "traditional": "常常",
+    "pinyin": "chángcháng",
+    "pos": [
+      "Adv"
+    ],
+    "level": 1,
+    "meaning_ko": "자주, 종종",
+    "example_zh": "他常常看书。",
+    "example_zh_trad": "他常常看書。",
+    "example_pinyin": "Tā chángcháng kàn shū.",
+    "example_ko": "그는 자주 책을 본다."
+  },
+  {
+    "id": "L1-0040",
+    "simplified": "唱",
+    "traditional": "唱",
+    "pinyin": "chàng",
+    "pos": [
+      "V"
+    ],
+    "level": 1,
+    "meaning_ko": "(노래를) 부르다",
+    "example_zh": "她唱得很好。",
+    "example_zh_trad": "她唱得很好。",
+    "example_pinyin": "Tā chàng de hěn hǎo.",
+    "example_ko": "그녀는 노래를 아주 잘 부른다."
+  },
+  {
+    "id": "L1-0041",
+    "simplified": "唱歌",
+    "traditional": "唱歌",
+    "pinyin": "chànggē",
+    "pos": [],
+    "level": 1,
+    "meaning_ko": "노래를 부르다",
+    "example_zh": "我喜欢唱歌。",
+    "example_zh_trad": "我喜歡唱歌。",
+    "example_pinyin": "Wǒ xǐhuan chànggē.",
+    "example_ko": "나는 노래 부르는 것을 좋아한다."
+  },
+  {
+    "id": "L1-0042",
+    "simplified": "车",
+    "traditional": "車",
+    "pinyin": "chē",
+    "pos": [
+      "N"
+    ],
+    "level": 1,
+    "meaning_ko": "차, 자동차",
+    "example_zh": "这是我的车。",
+    "example_zh_trad": "這是我的車。",
+    "example_pinyin": "Zhè shì wǒ de chē.",
+    "example_ko": "이것은 내 차다."
+  },
+  {
+    "id": "L1-0043",
+    "simplified": "车票",
+    "traditional": "車票",
+    "pinyin": "chēpiào",
+    "pos": [
+      "N"
+    ],
+    "level": 1,
+    "meaning_ko": "차표, 승차권",
+    "example_zh": "一张车票多少钱？",
+    "example_zh_trad": "一張車票多少錢？",
+    "example_pinyin": "Yì zhāng chēpiào duōshao qián?",
+    "example_ko": "차표 한 장 얼마예요?"
+  },
+  {
+    "id": "L1-0044",
+    "simplified": "车上",
+    "traditional": "車上",
+    "pinyin": "chē shang",
+    "pos": [],
+    "level": 1,
+    "meaning_ko": "차 안(에), 차에",
+    "example_zh": "我在车上。",
+    "example_zh_trad": "我在車上。",
+    "example_pinyin": "Wǒ zài chē shang.",
+    "example_ko": "나는 차 안에 있다."
+  },
+  {
+    "id": "L1-0045",
+    "simplified": "车站",
+    "traditional": "車站",
+    "pinyin": "chēzhàn",
+    "pos": [
+      "N"
+    ],
+    "level": 1,
+    "meaning_ko": "정류장, 역",
+    "example_zh": "车站在前面。",
+    "example_zh_trad": "車站在前面。",
+    "example_pinyin": "Chēzhàn zài qiánmian.",
+    "example_ko": "정류장은 앞쪽에 있다."
+  },
+  {
+    "id": "L1-0046",
+    "simplified": "吃",
+    "traditional": "吃",
+    "pinyin": "chī",
+    "pos": [
+      "V"
+    ],
+    "level": 1,
+    "meaning_ko": "먹다",
+    "example_zh": "我想吃饭。",
+    "example_zh_trad": "我想吃飯。",
+    "example_pinyin": "Wǒ xiǎng chī fàn.",
+    "example_ko": "나는 밥을 먹고 싶다."
+  },
+  {
+    "id": "L1-0047",
+    "simplified": "吃饭",
+    "traditional": "吃飯",
+    "pinyin": "chīfàn",
+    "pos": [],
+    "level": 1,
+    "meaning_ko": "밥을 먹다, 식사하다",
+    "example_zh": "我们一起吃饭吧。",
+    "example_zh_trad": "我們一起吃飯吧。",
+    "example_pinyin": "Wǒmen yìqǐ chīfàn ba.",
+    "example_ko": "우리 같이 밥 먹자."
+  },
+  {
+    "id": "L1-0048",
+    "simplified": "出",
+    "traditional": "出",
+    "pinyin": "chū",
+    "pos": [
+      "V"
+    ],
+    "level": 1,
+    "meaning_ko": "나가다, 나오다",
+    "example_zh": "他出门了。",
+    "example_zh_trad": "他出門了。",
+    "example_pinyin": "Tā chū mén le.",
+    "example_ko": "그는 (문을) 나갔다."
+  },
+  {
+    "id": "L1-0049",
+    "simplified": "出来",
+    "traditional": "出來",
+    "pinyin": "chūlái",
+    "pos": [],
+    "level": 1,
+    "meaning_ko": "나오다",
+    "example_zh": "你出来一下。",
+    "example_zh_trad": "你出來一下。",
+    "example_pinyin": "Nǐ chūlái yíxià.",
+    "example_ko": "잠깐 나와봐."
+  },
+  {
+    "id": "L1-0050",
+    "simplified": "出去",
+    "traditional": "出去",
+    "pinyin": "chūqù",
+    "pos": [],
+    "level": 1,
+    "meaning_ko": "나가다",
+    "example_zh": "我们出去玩吧。",
+    "example_zh_trad": "我們出去玩吧。",
+    "example_pinyin": "Wǒmen chūqù wán ba.",
+    "example_ko": "우리 나가서 놀자."
+  },
+  {
+    "id": "L1-0051",
+    "simplified": "穿",
+    "traditional": "穿",
+    "pinyin": "chuān",
+    "pos": [
+      "V"
+    ],
+    "level": 1,
+    "meaning_ko": "입다",
+    "example_zh": "我穿衣服。",
+    "example_zh_trad": "我穿衣服。",
+    "example_pinyin": "Wǒ chuān yīfu.",
+    "example_ko": "나는 옷을 입는다."
+  },
+  {
+    "id": "L1-0052",
+    "simplified": "床",
+    "traditional": "床",
+    "pinyin": "chuáng",
+    "pos": [
+      "N"
+    ],
+    "level": 1,
+    "meaning_ko": "침대",
+    "example_zh": "我在床上。",
+    "example_zh_trad": "我在床上。",
+    "example_pinyin": "Wǒ zài chuáng shang.",
+    "example_ko": "나는 침대에 있다."
+  },
+  {
+    "id": "L1-0053",
+    "simplified": "次",
+    "traditional": "次",
+    "pinyin": "cì",
+    "pos": [
+      "M"
+    ],
+    "level": 1,
+    "meaning_ko": "번, 회",
+    "example_zh": "我去过一次。",
+    "example_zh_trad": "我去過一次。",
+    "example_pinyin": "Wǒ qùguo yí cì.",
+    "example_ko": "나는 한 번 가본 적이 있다."
+  },
+  {
+    "id": "L1-0054",
+    "simplified": "从",
+    "traditional": "從",
+    "pinyin": "cóng",
+    "pos": [
+      "Prep"
+    ],
+    "level": 1,
+    "meaning_ko": "~부터, ~에서",
+    "example_zh": "我从家来。",
+    "example_zh_trad": "我從家來。",
+    "example_pinyin": "Wǒ cóng jiā lái.",
+    "example_ko": "나는 집에서 온다."
+  },
+  {
+    "id": "L1-0055",
+    "simplified": "错",
+    "traditional": "錯",
+    "pinyin": "cuò",
+    "pos": [
+      "Adj",
+      "N"
+    ],
+    "level": 1,
+    "meaning_ko": "틀리다, 잘못",
+    "example_zh": "你说错了。",
+    "example_zh_trad": "你說錯了。",
+    "example_pinyin": "Nǐ shuō cuò le.",
+    "example_ko": "네가 잘못 말했어."
+  },
+  {
+    "id": "L1-0056",
+    "simplified": "打",
+    "traditional": "打",
+    "pinyin": "dǎ",
+    "pos": [
+      "V"
+    ],
+    "level": 1,
+    "meaning_ko": "치다, (전화) 걸다",
+    "example_zh": "我打电话。",
+    "example_zh_trad": "我打電話。",
+    "example_pinyin": "Wǒ dǎ diànhuà.",
+    "example_ko": "나는 전화를 건다."
+  },
+  {
+    "id": "L1-0057",
+    "simplified": "打车",
+    "traditional": "打車",
+    "pinyin": "dǎchē",
+    "pos": [],
+    "level": 1,
+    "meaning_ko": "택시를 잡다",
+    "example_zh": "我想打车。",
+    "example_zh_trad": "我想打車。",
+    "example_pinyin": "Wǒ xiǎng dǎchē.",
+    "example_ko": "나는 택시를 타고 싶다."
+  },
+  {
+    "id": "L1-0058",
+    "simplified": "打电话",
+    "traditional": "打電話",
+    "pinyin": "dǎ diànhuà",
+    "pos": [],
+    "level": 1,
+    "meaning_ko": "전화를 걸다",
+    "example_zh": "我给妈妈打电话。",
+    "example_zh_trad": "我給媽媽打電話。",
+    "example_pinyin": "Wǒ gěi māma dǎ diànhuà.",
+    "example_ko": "나는 엄마에게 전화한다."
+  },
+  {
+    "id": "L1-0059",
+    "simplified": "打开",
+    "traditional": "打開",
+    "pinyin": "dǎkāi",
+    "pos": [],
+    "level": 1,
+    "meaning_ko": "열다, 펴다",
+    "example_zh": "请打开书。",
+    "example_zh_trad": "請打開書。",
+    "example_pinyin": "Qǐng dǎkāi shū.",
+    "example_ko": "책을 펴 주세요."
+  },
+  {
+    "id": "L1-0060",
+    "simplified": "打球",
+    "traditional": "打球",
+    "pinyin": "dǎ qiú",
+    "pos": [],
+    "level": 1,
+    "meaning_ko": "공놀이하다",
+    "example_zh": "我们去打球。",
+    "example_zh_trad": "我們去打球。",
+    "example_pinyin": "Wǒmen qù dǎ qiú.",
+    "example_ko": "우리 공놀이하러 가자."
+  },
+  {
+    "id": "L1-0061",
+    "simplified": "大",
+    "traditional": "大",
+    "pinyin": "dà",
+    "pos": [
+      "Adj"
+    ],
+    "level": 1,
+    "meaning_ko": "크다",
+    "example_zh": "这个很大。",
+    "example_zh_trad": "這個很大。",
+    "example_pinyin": "Zhège hěn dà.",
+    "example_ko": "이것은 크다."
+  },
+  {
+    "id": "L1-0062",
+    "simplified": "大学",
+    "traditional": "大學",
+    "pinyin": "dàxué",
+    "pos": [
+      "N"
+    ],
+    "level": 1,
+    "meaning_ko": "대학, 대학교",
+    "example_zh": "她在大学。",
+    "example_zh_trad": "她在大學。",
+    "example_pinyin": "Tā zài dàxué.",
+    "example_ko": "그녀는 대학에 다닌다."
+  },
+  {
+    "id": "L1-0063",
+    "simplified": "大学生",
+    "traditional": "大學生",
+    "pinyin": "dàxuéshēng",
+    "pos": [
+      "N"
+    ],
+    "level": 1,
+    "meaning_ko": "대학생",
+    "example_zh": "他是大学生。",
+    "example_zh_trad": "他是大學生。",
+    "example_pinyin": "Tā shì dàxuéshēng.",
+    "example_ko": "그는 대학생이다."
+  },
+  {
+    "id": "L1-0064",
+    "simplified": "到",
+    "traditional": "到",
+    "pinyin": "dào",
+    "pos": [
+      "V"
+    ],
+    "level": 1,
+    "meaning_ko": "도착하다, ~에 이르다",
+    "example_zh": "我到了。",
+    "example_zh_trad": "我到了。",
+    "example_pinyin": "Wǒ dào le.",
+    "example_ko": "나는 도착했다."
+  },
+  {
+    "id": "L1-0065",
+    "simplified": "得到",
+    "traditional": "得到",
+    "pinyin": "dédào",
+    "pos": [],
+    "level": 1,
+    "meaning_ko": "얻다, 받다",
+    "example_zh": "我得到了礼物。",
+    "example_zh_trad": "我得到了禮物。",
+    "example_pinyin": "Wǒ dédào le lǐwù.",
+    "example_ko": "나는 선물을 받았다."
+  },
+  {
+    "id": "L1-0066",
+    "simplified": "地",
+    "traditional": "地",
+    "pinyin": "de",
+    "pos": [
+      "Aux"
+    ],
+    "level": 1,
+    "meaning_ko": "(부사화 조사) ~하게",
+    "example_zh": "他高兴地笑了。",
+    "example_zh_trad": "他高興地笑了。",
+    "example_pinyin": "Tā gāoxìng de xiào le.",
+    "example_ko": "그는 기쁘게 웃었다."
+  },
+  {
+    "id": "L1-0067",
+    "simplified": "的",
+    "traditional": "的",
+    "pinyin": "de",
+    "pos": [
+      "Aux"
+    ],
+    "level": 1,
+    "meaning_ko": "~의",
+    "example_zh": "这是我的书。",
+    "example_zh_trad": "這是我的書。",
+    "example_pinyin": "Zhè shì wǒ de shū.",
+    "example_ko": "이것은 내 책이다."
+  },
+  {
+    "id": "L1-0068",
+    "simplified": "等",
+    "traditional": "等",
+    "pinyin": "děng",
+    "pos": [
+      "V"
+    ],
+    "level": 1,
+    "meaning_ko": "기다리다",
+    "example_zh": "请等一下。",
+    "example_zh_trad": "請等一下。",
+    "example_pinyin": "Qǐng děng yíxià.",
+    "example_ko": "잠시 기다려 주세요."
+  },
+  {
+    "id": "L1-0069",
+    "simplified": "地",
+    "traditional": "地",
+    "pinyin": "dì",
+    "pos": [
+      "N"
+    ],
+    "level": 1,
+    "meaning_ko": "땅, 바닥",
+    "example_zh": "地很大。",
+    "example_zh_trad": "地很大。",
+    "example_pinyin": "Dì hěn dà.",
+    "example_ko": "땅이 넓다."
+  },
+  {
+    "id": "L1-0070",
+    "simplified": "地点",
+    "traditional": "地點",
+    "pinyin": "dìdiǎn",
+    "pos": [
+      "N"
+    ],
+    "level": 1,
+    "meaning_ko": "장소, 지점",
+    "example_zh": "地点在学校。",
+    "example_zh_trad": "地點在學校。",
+    "example_pinyin": "Dìdiǎn zài xuéxiào.",
+    "example_ko": "장소는 학교다."
+  },
+  {
+    "id": "L1-0071",
+    "simplified": "地方",
+    "traditional": "地方",
+    "pinyin": "dìfang",
+    "pos": [
+      "N"
+    ],
+    "level": 1,
+    "meaning_ko": "곳, 장소",
+    "example_zh": "这个地方很好。",
+    "example_zh_trad": "這個地方很好。",
+    "example_pinyin": "Zhège dìfang hěn hǎo.",
+    "example_ko": "이 곳은 좋다."
+  },
+  {
+    "id": "L1-0072",
+    "simplified": "地上",
+    "traditional": "地上",
+    "pinyin": "dìshang",
+    "pos": [],
+    "level": 1,
+    "meaning_ko": "땅 위, 바닥에",
+    "example_zh": "书在地上。",
+    "example_zh_trad": "書在地上。",
+    "example_pinyin": "Shū zài dì shang.",
+    "example_ko": "책이 바닥에 있다."
+  },
+  {
+    "id": "L1-0073",
+    "simplified": "地图",
+    "traditional": "地圖",
+    "pinyin": "dìtú",
+    "pos": [
+      "N"
+    ],
+    "level": 1,
+    "meaning_ko": "지도",
+    "example_zh": "我有地图。",
+    "example_zh_trad": "我有地圖。",
+    "example_pinyin": "Wǒ yǒu dìtú.",
+    "example_ko": "나는 지도가 있다."
+  },
+  {
+    "id": "L1-0074",
+    "simplified": "弟弟",
+    "traditional": "弟弟",
+    "pinyin": "dìdi",
+    "pos": [
+      "N"
+    ],
+    "level": 1,
+    "meaning_ko": "남동생",
+    "example_zh": "我有一个弟弟。",
+    "example_zh_trad": "我有一個弟弟。",
+    "example_pinyin": "Wǒ yǒu yí gè dìdi.",
+    "example_ko": "나는 남동생이 하나 있다."
+  },
+  {
+    "id": "L1-0075",
+    "simplified": "第（第二）",
+    "traditional": "第（第二）",
+    "pinyin": "dì (dì-èr)",
+    "pos": [
+      "Prefix"
+    ],
+    "level": 1,
+    "meaning_ko": "제~ (서수 접두사)",
+    "example_zh": "我是第二。",
+    "example_zh_trad": "我是第二。",
+    "example_pinyin": "Wǒ shì dì èr.",
+    "example_ko": "나는 두 번째다."
+  },
+  {
+    "id": "L1-0076",
+    "simplified": "点",
+    "traditional": "點",
+    "pinyin": "diǎn",
+    "pos": [
+      "M",
+      "V",
+      "N"
+    ],
+    "level": 1,
+    "meaning_ko": "시 (시각); 점",
+    "example_zh": "现在三点。",
+    "example_zh_trad": "現在三點。",
+    "example_pinyin": "Xiànzài sān diǎn.",
+    "example_ko": "지금 3시다."
+  },
+  {
+    "id": "L1-0077",
+    "simplified": "电",
+    "traditional": "電",
+    "pinyin": "diàn",
+    "pos": [
+      "N"
+    ],
+    "level": 1,
+    "meaning_ko": "전기",
+    "example_zh": "没有电。",
+    "example_zh_trad": "沒有電。",
+    "example_pinyin": "Méiyǒu diàn.",
+    "example_ko": "전기가 없다."
+  },
+  {
+    "id": "L1-0078",
+    "simplified": "电话",
+    "traditional": "電話",
+    "pinyin": "diànhuà",
+    "pos": [
+      "N"
+    ],
+    "level": 1,
+    "meaning_ko": "전화",
+    "example_zh": "这是我的电话。",
+    "example_zh_trad": "這是我的電話。",
+    "example_pinyin": "Zhè shì wǒ de diànhuà.",
+    "example_ko": "이것은 내 전화다."
+  },
+  {
+    "id": "L1-0079",
+    "simplified": "电脑",
+    "traditional": "電腦",
+    "pinyin": "diànnǎo",
+    "pos": [
+      "N"
+    ],
+    "level": 1,
+    "meaning_ko": "컴퓨터",
+    "example_zh": "我有一个电脑。",
+    "example_zh_trad": "我有一個電腦。",
+    "example_pinyin": "Wǒ yǒu yí gè diànnǎo.",
+    "example_ko": "나는 컴퓨터가 하나 있다."
+  },
+  {
+    "id": "L1-0080",
+    "simplified": "电视",
+    "traditional": "電視",
+    "pinyin": "diànshì",
+    "pos": [
+      "N"
+    ],
+    "level": 1,
+    "meaning_ko": "텔레비전",
+    "example_zh": "我看电视。",
+    "example_zh_trad": "我看電視。",
+    "example_pinyin": "Wǒ kàn diànshì.",
+    "example_ko": "나는 TV를 본다."
+  },
+  {
+    "id": "L1-0081",
+    "simplified": "电视机",
+    "traditional": "電視機",
+    "pinyin": "diànshìjī",
+    "pos": [
+      "N"
+    ],
+    "level": 1,
+    "meaning_ko": "TV 수상기",
+    "example_zh": "这个电视机很大。",
+    "example_zh_trad": "這個電視機很大。",
+    "example_pinyin": "Zhège diànshìjī hěn dà.",
+    "example_ko": "이 TV는 크다."
+  },
+  {
+    "id": "L1-0082",
+    "simplified": "电影",
+    "traditional": "電影",
+    "pinyin": "diànyǐng",
+    "pos": [
+      "N"
+    ],
+    "level": 1,
+    "meaning_ko": "영화",
+    "example_zh": "我喜欢看电影。",
+    "example_zh_trad": "我喜歡看電影。",
+    "example_pinyin": "Wǒ xǐhuan kàn diànyǐng.",
+    "example_ko": "나는 영화 보는 것을 좋아한다."
+  },
+  {
+    "id": "L1-0083",
+    "simplified": "电影院",
+    "traditional": "電影院",
+    "pinyin": "diànyǐngyuàn",
+    "pos": [
+      "N"
+    ],
+    "level": 1,
+    "meaning_ko": "영화관",
+    "example_zh": "我在电影院。",
+    "example_zh_trad": "我在電影院。",
+    "example_pinyin": "Wǒ zài diànyǐngyuàn.",
+    "example_ko": "나는 영화관에 있다."
+  },
+  {
+    "id": "L1-0084",
+    "simplified": "东",
+    "traditional": "東",
+    "pinyin": "dōng",
+    "pos": [
+      "N"
+    ],
+    "level": 1,
+    "meaning_ko": "동쪽",
+    "example_zh": "我家在东边。",
+    "example_zh_trad": "我家在東邊。",
+    "example_pinyin": "Wǒ jiā zài dōngbian.",
+    "example_ko": "우리 집은 동쪽에 있다."
+  },
+  {
+    "id": "L1-0085",
+    "simplified": "东边",
+    "traditional": "東邊",
+    "pinyin": "dōngbian",
+    "pos": [
+      "N"
+    ],
+    "level": 1,
+    "meaning_ko": "동쪽",
+    "example_zh": "学校在东边。",
+    "example_zh_trad": "學校在東邊。",
+    "example_pinyin": "Xuéxiào zài dōngbian.",
+    "example_ko": "학교는 동쪽에 있다."
+  },
+  {
+    "id": "L1-0086",
+    "simplified": "东西",
+    "traditional": "東西",
+    "pinyin": "dōngxi",
+    "pos": [
+      "N"
+    ],
+    "level": 1,
+    "meaning_ko": "물건",
+    "example_zh": "我买了东西。",
+    "example_zh_trad": "我買了東西。",
+    "example_pinyin": "Wǒ mǎi le dōngxi.",
+    "example_ko": "나는 물건을 샀다."
+  },
+  {
+    "id": "L1-0087",
+    "simplified": "动",
+    "traditional": "動",
+    "pinyin": "dòng",
+    "pos": [
+      "V"
+    ],
+    "level": 1,
+    "meaning_ko": "움직이다",
+    "example_zh": "别动。",
+    "example_zh_trad": "別動。",
+    "example_pinyin": "Bié dòng.",
+    "example_ko": "움직이지 마."
+  },
+  {
+    "id": "L1-0088",
+    "simplified": "动作",
+    "traditional": "動作",
+    "pinyin": "dòngzuò",
+    "pos": [
+      "N"
+    ],
+    "level": 1,
+    "meaning_ko": "동작, 행동",
+    "example_zh": "他的动作很快。",
+    "example_zh_trad": "他的動作很快。",
+    "example_pinyin": "Tā de dòngzuò hěn kuài.",
+    "example_ko": "그의 동작은 빠르다."
+  },
+  {
+    "id": "L1-0089",
+    "simplified": "都",
+    "traditional": "都",
+    "pinyin": "dōu",
+    "pos": [
+      "Adv"
+    ],
+    "level": 1,
+    "meaning_ko": "모두, 다",
+    "example_zh": "我们都是学生。",
+    "example_zh_trad": "我們都是學生。",
+    "example_pinyin": "Wǒmen dōu shì xuésheng.",
+    "example_ko": "우리는 모두 학생이다."
+  },
+  {
+    "id": "L1-0090",
+    "simplified": "读",
+    "traditional": "讀",
+    "pinyin": "dú",
+    "pos": [
+      "V"
+    ],
+    "level": 1,
+    "meaning_ko": "읽다",
+    "example_zh": "我读书。",
+    "example_zh_trad": "我讀書。",
+    "example_pinyin": "Wǒ dú shū.",
+    "example_ko": "나는 책을 읽는다."
+  },
+  {
+    "id": "L1-0091",
+    "simplified": "读书",
+    "traditional": "讀書",
+    "pinyin": "dúshū",
+    "pos": [],
+    "level": 1,
+    "meaning_ko": "책을 읽다, 공부하다",
+    "example_zh": "我喜欢读书。",
+    "example_zh_trad": "我喜歡讀書。",
+    "example_pinyin": "Wǒ xǐhuan dúshū.",
+    "example_ko": "나는 책 읽는 것을 좋아한다."
+  },
+  {
+    "id": "L1-0092",
+    "simplified": "对",
+    "traditional": "對",
+    "pinyin": "duì",
+    "pos": [
+      "Adj"
+    ],
+    "level": 1,
+    "meaning_ko": "맞다, 옳다",
+    "example_zh": "你说得对。",
+    "example_zh_trad": "你說得對。",
+    "example_pinyin": "Nǐ shuō de duì.",
+    "example_ko": "네 말이 맞아."
+  },
+  {
+    "id": "L1-0093",
+    "simplified": "对不起",
+    "traditional": "對不起",
+    "pinyin": "duìbuqǐ",
+    "pos": [
+      "V"
+    ],
+    "level": 1,
+    "meaning_ko": "미안합니다",
+    "example_zh": "对不起。",
+    "example_zh_trad": "對不起。",
+    "example_pinyin": "Duìbuqǐ.",
+    "example_ko": "미안합니다."
+  },
+  {
+    "id": "L1-0094",
+    "simplified": "多",
+    "traditional": "多",
+    "pinyin": "duō",
+    "pos": [
+      "Adj",
+      "Pron"
+    ],
+    "level": 1,
+    "meaning_ko": "많다",
+    "example_zh": "这里人很多。",
+    "example_zh_trad": "這裡人很多。",
+    "example_pinyin": "Zhèlǐ rén hěn duō.",
+    "example_ko": "여기 사람이 많다."
+  },
+  {
+    "id": "L1-0095",
+    "simplified": "多少",
+    "traditional": "多少",
+    "pinyin": "duōshao",
+    "pos": [
+      "Pron"
+    ],
+    "level": 1,
+    "meaning_ko": "얼마, 얼마나",
+    "example_zh": "多少钱？",
+    "example_zh_trad": "多少錢？",
+    "example_pinyin": "Duōshao qián?",
+    "example_ko": "얼마예요?"
+  },
+  {
+    "id": "L1-0096",
+    "simplified": "饿",
+    "traditional": "餓",
+    "pinyin": "è",
+    "pos": [
+      "Adj",
+      "V"
+    ],
+    "level": 1,
+    "meaning_ko": "배고프다",
+    "example_zh": "我饿了。",
+    "example_zh_trad": "我餓了。",
+    "example_pinyin": "Wǒ è le.",
+    "example_ko": "나는 배고프다."
+  },
+  {
+    "id": "L1-0097",
+    "simplified": "儿子",
+    "traditional": "兒子",
+    "pinyin": "érzi",
+    "pos": [
+      "N"
+    ],
+    "level": 1,
+    "meaning_ko": "아들",
+    "example_zh": "他是我儿子。",
+    "example_zh_trad": "他是我兒子。",
+    "example_pinyin": "Tā shì wǒ érzi.",
+    "example_ko": "그는 내 아들이다."
+  },
+  {
+    "id": "L1-0098",
+    "simplified": "二",
+    "traditional": "二",
+    "pinyin": "èr",
+    "pos": [
+      "Num"
+    ],
+    "level": 1,
+    "meaning_ko": "2, 둘",
+    "example_zh": "二月很冷。",
+    "example_zh_trad": "二月很冷。",
+    "example_pinyin": "Èr yuè hěn lěng.",
+    "example_ko": "2월은 춥다."
+  },
+  {
+    "id": "L1-0099",
+    "simplified": "饭",
+    "traditional": "飯",
+    "pinyin": "fàn",
+    "pos": [
+      "N"
+    ],
+    "level": 1,
+    "meaning_ko": "밥, 식사",
+    "example_zh": "我吃饭。",
+    "example_zh_trad": "我吃飯。",
+    "example_pinyin": "Wǒ chī fàn.",
+    "example_ko": "나는 밥을 먹는다."
+  },
+  {
+    "id": "L1-0100",
+    "simplified": "饭店",
+    "traditional": "飯店",
+    "pinyin": "fàndiàn",
+    "pos": [
+      "N"
+    ],
+    "level": 1,
+    "meaning_ko": "식당, 호텔",
+    "example_zh": "我去饭店。",
+    "example_zh_trad": "我去飯店。",
+    "example_pinyin": "Wǒ qù fàndiàn.",
+    "example_ko": "나는 식당에 간다."
+  },
+  {
+    "id": "L1-0101",
+    "simplified": "房间",
+    "traditional": "房間",
+    "pinyin": "fángjiān",
+    "pos": [
+      "N"
+    ],
+    "level": 1,
+    "meaning_ko": "방",
+    "example_zh": "这是我的房间。",
+    "example_zh_trad": "這是我的房間。",
+    "example_pinyin": "Zhè shì wǒ de fángjiān.",
+    "example_ko": "이곳은 내 방이다."
+  },
+  {
+    "id": "L1-0102",
+    "simplified": "房子",
+    "traditional": "房子",
+    "pinyin": "fángzi",
+    "pos": [
+      "N"
+    ],
+    "level": 1,
+    "meaning_ko": "집",
+    "example_zh": "这个房子很大。",
+    "example_zh_trad": "這個房子很大。",
+    "example_pinyin": "Zhège fángzi hěn dà.",
+    "example_ko": "이 집은 크다."
+  },
+  {
+    "id": "L1-0103",
+    "simplified": "放",
+    "traditional": "放",
+    "pinyin": "fàng",
+    "pos": [
+      "V"
+    ],
+    "level": 1,
+    "meaning_ko": "놓다, 두다",
+    "example_zh": "请放在这里。",
+    "example_zh_trad": "請放在這裡。",
+    "example_pinyin": "Qǐng fàng zài zhèlǐ.",
+    "example_ko": "여기에 놓아 주세요."
+  },
+  {
+    "id": "L1-0104",
+    "simplified": "放假",
+    "traditional": "放假",
+    "pinyin": "fàngjià",
+    "pos": [],
+    "level": 1,
+    "meaning_ko": "방학하다, 휴가 가다",
+    "example_zh": "明天放假。",
+    "example_zh_trad": "明天放假。",
+    "example_pinyin": "Míngtiān fàngjià.",
+    "example_ko": "내일 방학이다."
+  },
+  {
+    "id": "L1-0105",
+    "simplified": "放学",
+    "traditional": "放學",
+    "pinyin": "fàngxué",
+    "pos": [],
+    "level": 1,
+    "meaning_ko": "학교가 끝나다",
+    "example_zh": "我放学回家。",
+    "example_zh_trad": "我放學回家。",
+    "example_pinyin": "Wǒ fàngxué huí jiā.",
+    "example_ko": "나는 학교가 끝나고 집에 간다."
+  },
+  {
+    "id": "L1-0106",
+    "simplified": "飞",
+    "traditional": "飛",
+    "pinyin": "fēi",
+    "pos": [
+      "V"
+    ],
+    "level": 1,
+    "meaning_ko": "날다",
+    "example_zh": "飞机在飞。",
+    "example_zh_trad": "飛機在飛。",
+    "example_pinyin": "Fēijī zài fēi.",
+    "example_ko": "비행기가 날고 있다."
+  },
+  {
+    "id": "L1-0107",
+    "simplified": "飞机",
+    "traditional": "飛機",
+    "pinyin": "fēijī",
+    "pos": [
+      "N"
+    ],
+    "level": 1,
+    "meaning_ko": "비행기",
+    "example_zh": "我坐飞机。",
+    "example_zh_trad": "我坐飛機。",
+    "example_pinyin": "Wǒ zuò fēijī.",
+    "example_ko": "나는 비행기를 탄다."
+  },
+  {
+    "id": "L1-0108",
+    "simplified": "非常",
+    "traditional": "非常",
+    "pinyin": "fēicháng",
+    "pos": [
+      "Adv"
+    ],
+    "level": 1,
+    "meaning_ko": "매우, 아주",
+    "example_zh": "这个非常好。",
+    "example_zh_trad": "這個非常好。",
+    "example_pinyin": "Zhège fēicháng hǎo.",
+    "example_ko": "이것은 매우 좋다."
+  },
+  {
+    "id": "L1-0109",
+    "simplified": "分",
+    "traditional": "分",
+    "pinyin": "fēn",
+    "pos": [
+      "N",
+      "M"
+    ],
+    "level": 1,
+    "meaning_ko": "분 (시간); 점수",
+    "example_zh": "现在八点十分。",
+    "example_zh_trad": "現在八點十分。",
+    "example_pinyin": "Xiànzài bā diǎn shí fēn.",
+    "example_ko": "지금 8시 10분이다."
+  },
+  {
+    "id": "L1-0110",
+    "simplified": "风",
+    "traditional": "風",
+    "pinyin": "fēng",
+    "pos": [
+      "N"
+    ],
+    "level": 1,
+    "meaning_ko": "바람",
+    "example_zh": "今天有风。",
+    "example_zh_trad": "今天有風。",
+    "example_pinyin": "Jīntiān yǒu fēng.",
+    "example_ko": "오늘은 바람이 분다."
+  },
+  {
+    "id": "L1-0111",
+    "simplified": "干",
+    "traditional": "乾",
+    "pinyin": "gān",
+    "pos": [
+      "Adj"
+    ],
+    "level": 1,
+    "meaning_ko": "마르다, 건조하다",
+    "example_zh": "我的手很干。",
+    "example_zh_trad": "我的手很乾。",
+    "example_pinyin": "Wǒ de shǒu hěn gān.",
+    "example_ko": "내 손이 건조하다."
+  },
+  {
+    "id": "L1-0112",
+    "simplified": "干净",
+    "traditional": "乾淨",
+    "pinyin": "gānjìng",
+    "pos": [
+      "Adj"
+    ],
+    "level": 1,
+    "meaning_ko": "깨끗하다",
+    "example_zh": "房间很干净。",
+    "example_zh_trad": "房間很乾淨。",
+    "example_pinyin": "Fángjiān hěn gānjìng.",
+    "example_ko": "방이 깨끗하다."
+  },
+  {
+    "id": "L1-0113",
+    "simplified": "干",
+    "traditional": "幹",
+    "pinyin": "gàn",
+    "pos": [
+      "V"
+    ],
+    "level": 1,
+    "meaning_ko": "하다",
+    "example_zh": "你在干什么？",
+    "example_zh_trad": "你在幹什麼？",
+    "example_pinyin": "Nǐ zài gàn shénme?",
+    "example_ko": "너 뭐 하고 있어?"
+  },
+  {
+    "id": "L1-0114",
+    "simplified": "干什么",
+    "traditional": "幹什麼",
+    "pinyin": "gàn shénme",
+    "pos": [],
+    "level": 1,
+    "meaning_ko": "뭐 하다",
+    "example_zh": "你干什么？",
+    "example_zh_trad": "你幹什麼？",
+    "example_pinyin": "Nǐ gàn shénme?",
+    "example_ko": "너 뭐 해?"
+  },
+  {
+    "id": "L1-0115",
+    "simplified": "高",
+    "traditional": "高",
+    "pinyin": "gāo",
+    "pos": [
+      "Adj"
+    ],
+    "level": 1,
+    "meaning_ko": "높다, 키가 크다",
+    "example_zh": "他很高。",
+    "example_zh_trad": "他很高。",
+    "example_pinyin": "Tā hěn gāo.",
+    "example_ko": "그는 키가 크다."
+  },
+  {
+    "id": "L1-0116",
+    "simplified": "高兴",
+    "traditional": "高興",
+    "pinyin": "gāoxìng",
+    "pos": [
+      "Adj"
+    ],
+    "level": 1,
+    "meaning_ko": "기쁘다, 즐겁다",
+    "example_zh": "我很高兴。",
+    "example_zh_trad": "我很高興。",
+    "example_pinyin": "Wǒ hěn gāoxìng.",
+    "example_ko": "나는 매우 기쁘다."
+  },
+  {
+    "id": "L1-0117",
+    "simplified": "告诉",
+    "traditional": "告訴",
+    "pinyin": "gàosu",
+    "pos": [
+      "V"
+    ],
+    "level": 1,
+    "meaning_ko": "알리다, 말하다",
+    "example_zh": "请告诉我。",
+    "example_zh_trad": "請告訴我。",
+    "example_pinyin": "Qǐng gàosu wǒ.",
+    "example_ko": "저에게 말해 주세요."
+  },
+  {
+    "id": "L1-0118",
+    "simplified": "哥哥",
+    "traditional": "哥哥",
+    "pinyin": "gēge",
+    "pos": [
+      "N"
+    ],
+    "level": 1,
+    "meaning_ko": "형, 오빠",
+    "example_zh": "我哥哥很高。",
+    "example_zh_trad": "我哥哥很高。",
+    "example_pinyin": "Wǒ gēge hěn gāo.",
+    "example_ko": "우리 형은 키가 크다."
+  },
+  {
+    "id": "L1-0119",
+    "simplified": "歌",
+    "traditional": "歌",
+    "pinyin": "gē",
+    "pos": [
+      "N"
+    ],
+    "level": 1,
+    "meaning_ko": "노래",
+    "example_zh": "我喜欢听歌。",
+    "example_zh_trad": "我喜歡聽歌。",
+    "example_pinyin": "Wǒ xǐhuan tīng gē.",
+    "example_ko": "나는 노래 듣는 것을 좋아한다."
+  },
+  {
+    "id": "L1-0120",
+    "simplified": "个",
+    "traditional": "個",
+    "pinyin": "gè",
+    "pos": [
+      "M"
+    ],
+    "level": 1,
+    "meaning_ko": "개 (보편 양사)",
+    "example_zh": "一个人。",
+    "example_zh_trad": "一個人。",
+    "example_pinyin": "Yí gè rén.",
+    "example_ko": "한 사람."
+  },
+  {
+    "id": "L1-0121",
+    "simplified": "给",
+    "traditional": "給",
+    "pinyin": "gěi",
+    "pos": [
+      "V",
+      "Prep"
+    ],
+    "level": 1,
+    "meaning_ko": "주다; ~에게",
+    "example_zh": "给我一个。",
+    "example_zh_trad": "給我一個。",
+    "example_pinyin": "Gěi wǒ yí gè.",
+    "example_ko": "하나 주세요."
+  },
+  {
+    "id": "L1-0122",
+    "simplified": "跟",
+    "traditional": "跟",
+    "pinyin": "gēn",
+    "pos": [
+      "Prep",
+      "Conj",
+      "V"
+    ],
+    "level": 1,
+    "meaning_ko": "~와, ~을 따라",
+    "example_zh": "我跟你去。",
+    "example_zh_trad": "我跟你去。",
+    "example_pinyin": "Wǒ gēn nǐ qù.",
+    "example_ko": "나는 너랑 간다."
+  },
+  {
+    "id": "L1-0123",
+    "simplified": "工人",
+    "traditional": "工人",
+    "pinyin": "gōngrén",
+    "pos": [
+      "N"
+    ],
+    "level": 1,
+    "meaning_ko": "노동자, 근로자",
+    "example_zh": "他是工人。",
+    "example_zh_trad": "他是工人。",
+    "example_pinyin": "Tā shì gōngrén.",
+    "example_ko": "그는 노동자다."
+  },
+  {
+    "id": "L1-0124",
+    "simplified": "工作",
+    "traditional": "工作",
+    "pinyin": "gōngzuò",
+    "pos": [
+      "V",
+      "N"
+    ],
+    "level": 1,
+    "meaning_ko": "일하다; 일",
+    "example_zh": "我在工作。",
+    "example_zh_trad": "我在工作。",
+    "example_pinyin": "Wǒ zài gōngzuò.",
+    "example_ko": "나는 일하고 있다."
+  },
+  {
+    "id": "L1-0125",
+    "simplified": "关",
+    "traditional": "關",
+    "pinyin": "guān",
+    "pos": [
+      "V"
+    ],
+    "level": 1,
+    "meaning_ko": "닫다, 끄다",
+    "example_zh": "请关门。",
+    "example_zh_trad": "請關門。",
+    "example_pinyin": "Qǐng guānmén.",
+    "example_ko": "문을 닫아 주세요."
+  },
+  {
+    "id": "L1-0126",
+    "simplified": "关上",
+    "traditional": "關上",
+    "pinyin": "guānshang",
+    "pos": [],
+    "level": 1,
+    "meaning_ko": "닫다",
+    "example_zh": "请关上门。",
+    "example_zh_trad": "請關上門。",
+    "example_pinyin": "Qǐng guānshang mén.",
+    "example_ko": "문을 닫아 주세요."
+  },
+  {
+    "id": "L1-0127",
+    "simplified": "贵",
+    "traditional": "貴",
+    "pinyin": "guì",
+    "pos": [
+      "Adj"
+    ],
+    "level": 1,
+    "meaning_ko": "비싸다",
+    "example_zh": "这个很贵。",
+    "example_zh_trad": "這個很貴。",
+    "example_pinyin": "Zhège hěn guì.",
+    "example_ko": "이것은 비싸다."
+  },
+  {
+    "id": "L1-0128",
+    "simplified": "国",
+    "traditional": "國",
+    "pinyin": "guó",
+    "pos": [
+      "N"
+    ],
+    "level": 1,
+    "meaning_ko": "나라, 국가",
+    "example_zh": "你是哪国人？",
+    "example_zh_trad": "你是哪國人？",
+    "example_pinyin": "Nǐ shì nǎ guó rén?",
+    "example_ko": "너는 어느 나라 사람이니?"
+  },
+  {
+    "id": "L1-0129",
+    "simplified": "国家",
+    "traditional": "國家",
+    "pinyin": "guójiā",
+    "pos": [
+      "N"
+    ],
+    "level": 1,
+    "meaning_ko": "국가, 나라",
+    "example_zh": "这是个大国家。",
+    "example_zh_trad": "這是個大國家。",
+    "example_pinyin": "Zhè shì ge dà guójiā.",
+    "example_ko": "이것은 큰 나라다."
+  },
+  {
+    "id": "L1-0130",
+    "simplified": "国外",
+    "traditional": "國外",
+    "pinyin": "guó wài",
+    "pos": [],
+    "level": 1,
+    "meaning_ko": "해외, 외국",
+    "example_zh": "他在国外。",
+    "example_zh_trad": "他在國外。",
+    "example_pinyin": "Tā zài guówài.",
+    "example_ko": "그는 해외에 있다."
+  },
+  {
+    "id": "L1-0131",
+    "simplified": "过",
+    "traditional": "過",
+    "pinyin": "guò",
+    "pos": [
+      "V"
+    ],
+    "level": 1,
+    "meaning_ko": "지나다, ~해 본 적이 있다",
+    "example_zh": "我去过中国。",
+    "example_zh_trad": "我去過中國。",
+    "example_pinyin": "Wǒ qùguo Zhōngguó.",
+    "example_ko": "나는 중국에 가본 적이 있다."
+  },
+  {
+    "id": "L1-0132",
+    "simplified": "还",
+    "traditional": "還",
+    "pinyin": "hái",
+    "pos": [
+      "Adv"
+    ],
+    "level": 1,
+    "meaning_ko": "아직, 또",
+    "example_zh": "我还没吃。",
+    "example_zh_trad": "我還沒吃。",
+    "example_pinyin": "Wǒ hái méi chī.",
+    "example_ko": "나는 아직 안 먹었다."
+  },
+  {
+    "id": "L1-0133",
+    "simplified": "还是",
+    "traditional": "還是",
+    "pinyin": "háishi",
+    "pos": [
+      "Adv",
+      "Conj"
+    ],
+    "level": 1,
+    "meaning_ko": "아니면, 여전히",
+    "example_zh": "去还是不去？",
+    "example_zh_trad": "去還是不去？",
+    "example_pinyin": "Qù háishi bú qù?",
+    "example_ko": "갈래, 안 갈래?"
+  },
+  {
+    "id": "L1-0134",
+    "simplified": "还有",
+    "traditional": "還有",
+    "pinyin": "hái yǒu",
+    "pos": [],
+    "level": 1,
+    "meaning_ko": "그리고, 또 있다",
+    "example_zh": "还有什么？",
+    "example_zh_trad": "還有什麼？",
+    "example_pinyin": "Hái yǒu shénme?",
+    "example_ko": "또 뭐 있어?"
+  },
+  {
+    "id": "L1-0135",
+    "simplified": "孩子",
+    "traditional": "孩子",
+    "pinyin": "háizi",
+    "pos": [
+      "N"
+    ],
+    "level": 1,
+    "meaning_ko": "아이",
+    "example_zh": "他是个好孩子。",
+    "example_zh_trad": "他是個好孩子。",
+    "example_pinyin": "Tā shì ge hǎo háizi.",
+    "example_ko": "그는 좋은 아이다."
+  },
+  {
+    "id": "L1-0136",
+    "simplified": "汉语",
+    "traditional": "漢語",
+    "pinyin": "Hànyǔ",
+    "pos": [
+      "N"
+    ],
+    "level": 1,
+    "meaning_ko": "중국어 (한어)",
+    "example_zh": "我学汉语。",
+    "example_zh_trad": "我學漢語。",
+    "example_pinyin": "Wǒ xué Hànyǔ.",
+    "example_ko": "나는 중국어를 배운다."
+  },
+  {
+    "id": "L1-0137",
+    "simplified": "汉字",
+    "traditional": "漢字",
+    "pinyin": "Hànzì",
+    "pos": [
+      "N"
+    ],
+    "level": 1,
+    "meaning_ko": "한자",
+    "example_zh": "我写汉字。",
+    "example_zh_trad": "我寫漢字。",
+    "example_pinyin": "Wǒ xiě Hànzì.",
+    "example_ko": "나는 한자를 쓴다."
+  },
+  {
+    "id": "L1-0138",
+    "simplified": "好",
+    "traditional": "好",
+    "pinyin": "hǎo",
+    "pos": [
+      "Adj"
+    ],
+    "level": 1,
+    "meaning_ko": "좋다",
+    "example_zh": "你好。",
+    "example_zh_trad": "你好。",
+    "example_pinyin": "Nǐ hǎo.",
+    "example_ko": "안녕하세요."
+  },
+  {
+    "id": "L1-0139",
+    "simplified": "好吃",
+    "traditional": "好吃",
+    "pinyin": "hǎochī",
+    "pos": [
+      "Adj"
+    ],
+    "level": 1,
+    "meaning_ko": "맛있다",
+    "example_zh": "这个好吃。",
+    "example_zh_trad": "這個好吃。",
+    "example_pinyin": "Zhège hǎochī.",
+    "example_ko": "이것은 맛있다."
+  },
+  {
+    "id": "L1-0140",
+    "simplified": "好看",
+    "traditional": "好看",
+    "pinyin": "hǎokàn",
+    "pos": [
+      "Adj"
+    ],
+    "level": 1,
+    "meaning_ko": "보기 좋다, 예쁘다",
+    "example_zh": "这件衣服好看。",
+    "example_zh_trad": "這件衣服好看。",
+    "example_pinyin": "Zhè jiàn yīfu hǎokàn.",
+    "example_ko": "이 옷은 예쁘다."
+  },
+  {
+    "id": "L1-0141",
+    "simplified": "好听",
+    "traditional": "好聽",
+    "pinyin": "hǎotīng",
+    "pos": [
+      "Adj"
+    ],
+    "level": 1,
+    "meaning_ko": "듣기 좋다",
+    "example_zh": "这首歌好听。",
+    "example_zh_trad": "這首歌好聽。",
+    "example_pinyin": "Zhè shǒu gē hǎotīng.",
+    "example_ko": "이 노래는 듣기 좋다."
+  },
+  {
+    "id": "L1-0142",
+    "simplified": "好玩儿",
+    "traditional": "好玩兒",
+    "pinyin": "hǎowánr",
+    "pos": [
+      "Adj"
+    ],
+    "level": 1,
+    "meaning_ko": "재미있다",
+    "example_zh": "这个很好玩儿。",
+    "example_zh_trad": "這個很好玩兒。",
+    "example_pinyin": "Zhège hěn hǎowánr.",
+    "example_ko": "이것은 재미있다."
+  },
+  {
+    "id": "L1-0143",
+    "simplified": "号",
+    "traditional": "號",
+    "pinyin": "hào",
+    "pos": [
+      "N",
+      "M"
+    ],
+    "level": 1,
+    "meaning_ko": "날짜, 번호",
+    "example_zh": "今天八号。",
+    "example_zh_trad": "今天八號。",
+    "example_pinyin": "Jīntiān bā hào.",
+    "example_ko": "오늘은 8일이다."
+  },
+  {
+    "id": "L1-0144",
+    "simplified": "喝",
+    "traditional": "喝",
+    "pinyin": "hē",
+    "pos": [
+      "V"
+    ],
+    "level": 1,
+    "meaning_ko": "마시다",
+    "example_zh": "我喝水。",
+    "example_zh_trad": "我喝水。",
+    "example_pinyin": "Wǒ hē shuǐ.",
+    "example_ko": "나는 물을 마신다."
+  },
+  {
+    "id": "L1-0145",
+    "simplified": "和",
+    "traditional": "和",
+    "pinyin": "hé",
+    "pos": [
+      "Prep",
+      "Conj"
+    ],
+    "level": 1,
+    "meaning_ko": "~와, 그리고",
+    "example_zh": "我和你。",
+    "example_zh_trad": "我和你。",
+    "example_pinyin": "Wǒ hé nǐ.",
+    "example_ko": "나와 너."
+  },
+  {
+    "id": "L1-0146",
+    "simplified": "很",
+    "traditional": "很",
+    "pinyin": "hěn",
+    "pos": [
+      "Adv"
+    ],
+    "level": 1,
+    "meaning_ko": "매우, 아주",
+    "example_zh": "很好。",
+    "example_zh_trad": "很好。",
+    "example_pinyin": "Hěn hǎo.",
+    "example_ko": "아주 좋다."
+  },
+  {
+    "id": "L1-0147",
+    "simplified": "后",
+    "traditional": "後",
+    "pinyin": "hòu",
+    "pos": [
+      "N"
+    ],
+    "level": 1,
+    "meaning_ko": "뒤, 후",
+    "example_zh": "后面有人。",
+    "example_zh_trad": "後面有人。",
+    "example_pinyin": "Hòumian yǒu rén.",
+    "example_ko": "뒤에 사람이 있다."
+  },
+  {
+    "id": "L1-0148",
+    "simplified": "后边",
+    "traditional": "後邊",
+    "pinyin": "hòubian",
+    "pos": [
+      "N"
+    ],
+    "level": 1,
+    "meaning_ko": "뒤쪽",
+    "example_zh": "学校在后边。",
+    "example_zh_trad": "學校在後邊。",
+    "example_pinyin": "Xuéxiào zài hòubian.",
+    "example_ko": "학교는 뒤쪽에 있다."
+  },
+  {
+    "id": "L1-0149",
+    "simplified": "后天",
+    "traditional": "後天",
+    "pinyin": "hòutiān",
+    "pos": [
+      "N"
+    ],
+    "level": 1,
+    "meaning_ko": "모레",
+    "example_zh": "后天见。",
+    "example_zh_trad": "後天見。",
+    "example_pinyin": "Hòutiān jiàn.",
+    "example_ko": "모레 봐요."
+  },
+  {
+    "id": "L1-0150",
+    "simplified": "花",
+    "traditional": "花",
+    "pinyin": "huā",
+    "pos": [
+      "N"
+    ],
+    "level": 1,
+    "meaning_ko": "꽃",
+    "example_zh": "我喜欢花。",
+    "example_zh_trad": "我喜歡花。",
+    "example_pinyin": "Wǒ xǐhuan huā.",
+    "example_ko": "나는 꽃을 좋아한다."
+  },
+  {
+    "id": "L1-0151",
+    "simplified": "话",
+    "traditional": "話",
+    "pinyin": "huà",
+    "pos": [
+      "N"
+    ],
+    "level": 1,
+    "meaning_ko": "말, 대화",
+    "example_zh": "我听你的话。",
+    "example_zh_trad": "我聽你的話。",
+    "example_pinyin": "Wǒ tīng nǐ de huà.",
+    "example_ko": "나는 네 말을 듣는다."
+  },
+  {
+    "id": "L1-0152",
+    "simplified": "坏",
+    "traditional": "壞",
+    "pinyin": "huài",
+    "pos": [
+      "Adj"
+    ],
+    "level": 1,
+    "meaning_ko": "나쁘다, 고장나다",
+    "example_zh": "这个坏了。",
+    "example_zh_trad": "這個壞了。",
+    "example_pinyin": "Zhège huài le.",
+    "example_ko": "이것은 고장났다."
+  },
+  {
+    "id": "L1-0153",
+    "simplified": "还",
+    "traditional": "還",
+    "pinyin": "huán",
+    "pos": [
+      "V"
+    ],
+    "level": 1,
+    "meaning_ko": "돌려주다",
+    "example_zh": "我还书。",
+    "example_zh_trad": "我還書。",
+    "example_pinyin": "Wǒ huán shū.",
+    "example_ko": "나는 책을 돌려준다."
+  },
+  {
+    "id": "L1-0154",
+    "simplified": "回",
+    "traditional": "回",
+    "pinyin": "huí",
+    "pos": [
+      "V"
+    ],
+    "level": 1,
+    "meaning_ko": "돌아가다, 돌아오다",
+    "example_zh": "我回家。",
+    "example_zh_trad": "我回家。",
+    "example_pinyin": "Wǒ huí jiā.",
+    "example_ko": "나는 집에 간다."
+  },
+  {
+    "id": "L1-0155",
+    "simplified": "回答",
+    "traditional": "回答",
+    "pinyin": "huídá",
+    "pos": [
+      "V",
+      "N"
+    ],
+    "level": 1,
+    "meaning_ko": "대답하다, 대답",
+    "example_zh": "请回答我。",
+    "example_zh_trad": "請回答我。",
+    "example_pinyin": "Qǐng huídá wǒ.",
+    "example_ko": "저에게 답해 주세요."
+  },
+  {
+    "id": "L1-0156",
+    "simplified": "回到",
+    "traditional": "回到",
+    "pinyin": "huídào",
+    "pos": [
+      "V"
+    ],
+    "level": 1,
+    "meaning_ko": "~로 돌아가다/오다",
+    "example_zh": "我回到家了。",
+    "example_zh_trad": "我回到家了。",
+    "example_pinyin": "Wǒ huídào jiā le.",
+    "example_ko": "나는 집에 돌아왔다."
+  },
+  {
+    "id": "L1-0157",
+    "simplified": "回家",
+    "traditional": "回家",
+    "pinyin": "huí jiā",
+    "pos": [],
+    "level": 1,
+    "meaning_ko": "집에 돌아가다",
+    "example_zh": "我要回家。",
+    "example_zh_trad": "我要回家。",
+    "example_pinyin": "Wǒ yào huí jiā.",
+    "example_ko": "나는 집에 가야 한다."
+  },
+  {
+    "id": "L1-0158",
+    "simplified": "回来",
+    "traditional": "回來",
+    "pinyin": "huílái",
+    "pos": [],
+    "level": 1,
+    "meaning_ko": "돌아오다",
+    "example_zh": "他回来了。",
+    "example_zh_trad": "他回來了。",
+    "example_pinyin": "Tā huílái le.",
+    "example_ko": "그가 돌아왔다."
+  },
+  {
+    "id": "L1-0159",
+    "simplified": "回去",
+    "traditional": "回去",
+    "pinyin": "huíqù",
+    "pos": [],
+    "level": 1,
+    "meaning_ko": "돌아가다",
+    "example_zh": "我要回去。",
+    "example_zh_trad": "我要回去。",
+    "example_pinyin": "Wǒ yào huíqù.",
+    "example_ko": "나는 돌아가야 한다."
+  },
+  {
+    "id": "L1-0160",
+    "simplified": "会",
+    "traditional": "會",
+    "pinyin": "huì",
+    "pos": [
+      "V"
+    ],
+    "level": 1,
+    "meaning_ko": "할 수 있다",
+    "example_zh": "我会说中文。",
+    "example_zh_trad": "我會說中文。",
+    "example_pinyin": "Wǒ huì shuō Zhōngwén.",
+    "example_ko": "나는 중국어를 할 줄 안다."
+  },
+  {
+    "id": "L1-0161",
+    "simplified": "火车",
+    "traditional": "火車",
+    "pinyin": "huǒchē",
+    "pos": [
+      "N"
+    ],
+    "level": 1,
+    "meaning_ko": "기차",
+    "example_zh": "我坐火车。",
+    "example_zh_trad": "我坐火車。",
+    "example_pinyin": "Wǒ zuò huǒchē.",
+    "example_ko": "나는 기차를 탄다."
+  },
+  {
+    "id": "L1-0162",
+    "simplified": "机场",
+    "traditional": "機場",
+    "pinyin": "jīchǎng",
+    "pos": [
+      "N"
+    ],
+    "level": 1,
+    "meaning_ko": "공항",
+    "example_zh": "我去机场。",
+    "example_zh_trad": "我去機場。",
+    "example_pinyin": "Wǒ qù jīchǎng.",
+    "example_ko": "나는 공항에 간다."
+  },
+  {
+    "id": "L1-0163",
+    "simplified": "机票",
+    "traditional": "機票",
+    "pinyin": "jīpiào",
+    "pos": [
+      "N"
+    ],
+    "level": 1,
+    "meaning_ko": "항공권",
+    "example_zh": "机票很贵。",
+    "example_zh_trad": "機票很貴。",
+    "example_pinyin": "Jīpiào hěn guì.",
+    "example_ko": "항공권이 비싸다."
+  },
+  {
+    "id": "L1-0164",
+    "simplified": "鸡蛋",
+    "traditional": "雞蛋",
+    "pinyin": "jīdàn",
+    "pos": [
+      "N"
+    ],
+    "level": 1,
+    "meaning_ko": "계란",
+    "example_zh": "我吃鸡蛋。",
+    "example_zh_trad": "我吃雞蛋。",
+    "example_pinyin": "Wǒ chī jīdàn.",
+    "example_ko": "나는 계란을 먹는다."
+  },
+  {
+    "id": "L1-0165",
+    "simplified": "几",
+    "traditional": "幾",
+    "pinyin": "jǐ",
+    "pos": [
+      "Num",
+      "Pron"
+    ],
+    "level": 1,
+    "meaning_ko": "몇",
+    "example_zh": "你几岁？",
+    "example_zh_trad": "你幾歲？",
+    "example_pinyin": "Nǐ jǐ suì?",
+    "example_ko": "너 몇 살이니?"
+  },
+  {
+    "id": "L1-0166",
+    "simplified": "记",
+    "traditional": "記",
+    "pinyin": "jì",
+    "pos": [
+      "V"
+    ],
+    "level": 1,
+    "meaning_ko": "기억하다, 적다",
+    "example_zh": "我记不住。",
+    "example_zh_trad": "我記不住。",
+    "example_pinyin": "Wǒ jì bu zhù.",
+    "example_ko": "나는 기억하지 못한다."
+  },
+  {
+    "id": "L1-0167",
+    "simplified": "记得",
+    "traditional": "記得",
+    "pinyin": "jìde",
+    "pos": [
+      "V"
+    ],
+    "level": 1,
+    "meaning_ko": "기억하다",
+    "example_zh": "我记得你。",
+    "example_zh_trad": "我記得你。",
+    "example_pinyin": "Wǒ jìde nǐ.",
+    "example_ko": "나는 너를 기억한다."
+  },
+  {
+    "id": "L1-0168",
+    "simplified": "记住",
+    "traditional": "記住",
+    "pinyin": "jìzhù",
+    "pos": [],
+    "level": 1,
+    "meaning_ko": "기억해 두다",
+    "example_zh": "请记住这个。",
+    "example_zh_trad": "請記住這個。",
+    "example_pinyin": "Qǐng jìzhù zhège.",
+    "example_ko": "이것을 기억해 두세요."
+  },
+  {
+    "id": "L1-0169",
+    "simplified": "家",
+    "traditional": "家",
+    "pinyin": "jiā",
+    "pos": [
+      "N",
+      "M"
+    ],
+    "level": 1,
+    "meaning_ko": "집",
+    "example_zh": "我在家。",
+    "example_zh_trad": "我在家。",
+    "example_pinyin": "Wǒ zài jiā.",
+    "example_ko": "나는 집에 있다."
+  },
+  {
+    "id": "L1-0170",
+    "simplified": "家里",
+    "traditional": "家裡",
+    "pinyin": "jiā li",
+    "pos": [],
+    "level": 1,
+    "meaning_ko": "집 안에, 집에",
+    "example_zh": "家里没人。",
+    "example_zh_trad": "家裡沒人。",
+    "example_pinyin": "Jiā li méi rén.",
+    "example_ko": "집에 사람이 없다."
+  },
+  {
+    "id": "L1-0171",
+    "simplified": "家人",
+    "traditional": "家人",
+    "pinyin": "jiārén",
+    "pos": [
+      "N"
+    ],
+    "level": 1,
+    "meaning_ko": "가족",
+    "example_zh": "这是我的家人。",
+    "example_zh_trad": "這是我的家人。",
+    "example_pinyin": "Zhè shì wǒ de jiārén.",
+    "example_ko": "이들은 내 가족이다."
+  },
+  {
+    "id": "L1-0172",
+    "simplified": "间",
+    "traditional": "間",
+    "pinyin": "jiān",
+    "pos": [
+      "M"
+    ],
+    "level": 1,
+    "meaning_ko": "칸, 방 (양사)",
+    "example_zh": "一间房。",
+    "example_zh_trad": "一間房。",
+    "example_pinyin": "Yì jiān fáng.",
+    "example_ko": "방 하나."
+  },
+  {
+    "id": "L1-0173",
+    "simplified": "见",
+    "traditional": "見",
+    "pinyin": "jiàn",
+    "pos": [
+      "V"
+    ],
+    "level": 1,
+    "meaning_ko": "보다, 만나다",
+    "example_zh": "明天见。",
+    "example_zh_trad": "明天見。",
+    "example_pinyin": "Míngtiān jiàn.",
+    "example_ko": "내일 봐요."
+  },
+  {
+    "id": "L1-0174",
+    "simplified": "见面",
+    "traditional": "見面",
+    "pinyin": "jiànmiàn",
+    "pos": [],
+    "level": 1,
+    "meaning_ko": "만나다",
+    "example_zh": "我们见面吧。",
+    "example_zh_trad": "我們見面吧。",
+    "example_pinyin": "Wǒmen jiànmiàn ba.",
+    "example_ko": "우리 만나자."
+  },
+  {
+    "id": "L1-0175",
+    "simplified": "教",
+    "traditional": "教",
+    "pinyin": "jiāo",
+    "pos": [
+      "V"
+    ],
+    "level": 1,
+    "meaning_ko": "가르치다",
+    "example_zh": "老师教我们汉语。",
+    "example_zh_trad": "老師教我們漢語。",
+    "example_pinyin": "Lǎoshī jiāo wǒmen Hànyǔ.",
+    "example_ko": "선생님이 우리에게 중국어를 가르치신다."
+  },
+  {
+    "id": "L1-0176",
+    "simplified": "叫",
+    "traditional": "叫",
+    "pinyin": "jiào",
+    "pos": [
+      "V"
+    ],
+    "level": 1,
+    "meaning_ko": "~라고 부르다, 부르다",
+    "example_zh": "我叫小明。",
+    "example_zh_trad": "我叫小明。",
+    "example_pinyin": "Wǒ jiào Xiǎomíng.",
+    "example_ko": "나는 샤오밍이라고 해."
+  },
+  {
+    "id": "L1-0177",
+    "simplified": "教学楼",
+    "traditional": "教學樓",
+    "pinyin": "jiàoxuélóu",
+    "pos": [
+      "N"
+    ],
+    "level": 1,
+    "meaning_ko": "강의동, 교사동",
+    "example_zh": "教学楼很大。",
+    "example_zh_trad": "教學樓很大。",
+    "example_pinyin": "Jiàoxuélóu hěn dà.",
+    "example_ko": "강의동은 크다."
+  },
+  {
+    "id": "L1-0178",
+    "simplified": "姐姐",
+    "traditional": "姐姐",
+    "pinyin": "jiějie",
+    "pos": [
+      "N"
+    ],
+    "level": 1,
+    "meaning_ko": "언니, 누나",
+    "example_zh": "我有一个姐姐。",
+    "example_zh_trad": "我有一個姐姐。",
+    "example_pinyin": "Wǒ yǒu yí gè jiějie.",
+    "example_ko": "나는 언니가 하나 있다."
+  },
+  {
+    "id": "L1-0179",
+    "simplified": "介绍",
+    "traditional": "介紹",
+    "pinyin": "jièshào",
+    "pos": [
+      "V"
+    ],
+    "level": 1,
+    "meaning_ko": "소개하다",
+    "example_zh": "我来介绍一下。",
+    "example_zh_trad": "我來介紹一下。",
+    "example_pinyin": "Wǒ lái jièshào yíxià.",
+    "example_ko": "제가 소개해 드릴게요."
+  },
+  {
+    "id": "L1-0180",
+    "simplified": "今年",
+    "traditional": "今年",
+    "pinyin": "jīnnián",
+    "pos": [
+      "N"
+    ],
+    "level": 1,
+    "meaning_ko": "올해",
+    "example_zh": "今年我十八岁。",
+    "example_zh_trad": "今年我十八歲。",
+    "example_pinyin": "Jīnnián wǒ shíbā suì.",
+    "example_ko": "올해 나는 18살이다."
+  },
+  {
+    "id": "L1-0181",
+    "simplified": "今天",
+    "traditional": "今天",
+    "pinyin": "jīntiān",
+    "pos": [
+      "N"
+    ],
+    "level": 1,
+    "meaning_ko": "오늘",
+    "example_zh": "今天天气好。",
+    "example_zh_trad": "今天天氣好。",
+    "example_pinyin": "Jīntiān tiānqì hǎo.",
+    "example_ko": "오늘 날씨가 좋다."
+  },
+  {
+    "id": "L1-0182",
+    "simplified": "进",
+    "traditional": "進",
+    "pinyin": "jìn",
+    "pos": [
+      "V"
+    ],
+    "level": 1,
+    "meaning_ko": "들어가다",
+    "example_zh": "请进。",
+    "example_zh_trad": "請進。",
+    "example_pinyin": "Qǐng jìn.",
+    "example_ko": "들어오세요."
+  },
+  {
+    "id": "L1-0183",
+    "simplified": "进来",
+    "traditional": "進來",
+    "pinyin": "jìnlái",
+    "pos": [],
+    "level": 1,
+    "meaning_ko": "들어오다",
+    "example_zh": "请进来。",
+    "example_zh_trad": "請進來。",
+    "example_pinyin": "Qǐng jìnlái.",
+    "example_ko": "들어오세요."
+  },
+  {
+    "id": "L1-0184",
+    "simplified": "进去",
+    "traditional": "進去",
+    "pinyin": "jìnqù",
+    "pos": [],
+    "level": 1,
+    "meaning_ko": "들어가다",
+    "example_zh": "我们进去吧。",
+    "example_zh_trad": "我們進去吧。",
+    "example_pinyin": "Wǒmen jìnqù ba.",
+    "example_ko": "우리 들어가자."
+  },
+  {
+    "id": "L1-0185",
+    "simplified": "九",
+    "traditional": "九",
+    "pinyin": "jiǔ",
+    "pos": [
+      "Num"
+    ],
+    "level": 1,
+    "meaning_ko": "9, 아홉",
+    "example_zh": "九月九号。",
+    "example_zh_trad": "九月九號。",
+    "example_pinyin": "Jiǔ yuè jiǔ hào.",
+    "example_ko": "9월 9일."
+  },
+  {
+    "id": "L1-0186",
+    "simplified": "就",
+    "traditional": "就",
+    "pinyin": "jiù",
+    "pos": [
+      "Adv"
+    ],
+    "level": 1,
+    "meaning_ko": "바로, 곧",
+    "example_zh": "我马上就去。",
+    "example_zh_trad": "我馬上就去。",
+    "example_pinyin": "Wǒ mǎshàng jiù qù.",
+    "example_ko": "나는 바로 갈게."
+  },
+  {
+    "id": "L1-0187",
+    "simplified": "觉得",
+    "traditional": "覺得",
+    "pinyin": "juéde",
+    "pos": [
+      "V"
+    ],
+    "level": 1,
+    "meaning_ko": "느끼다, 생각하다",
+    "example_zh": "我觉得很好。",
+    "example_zh_trad": "我覺得很好。",
+    "example_pinyin": "Wǒ juéde hěn hǎo.",
+    "example_ko": "나는 좋다고 생각한다."
+  },
+  {
+    "id": "L1-0188",
+    "simplified": "开",
+    "traditional": "開",
+    "pinyin": "kāi",
+    "pos": [
+      "V"
+    ],
+    "level": 1,
+    "meaning_ko": "열다",
+    "example_zh": "请开门。",
+    "example_zh_trad": "請開門。",
+    "example_pinyin": "Qǐng kāimén.",
+    "example_ko": "문을 열어 주세요."
+  },
+  {
+    "id": "L1-0189",
+    "simplified": "开车",
+    "traditional": "開車",
+    "pinyin": "kāichē",
+    "pos": [],
+    "level": 1,
+    "meaning_ko": "차를 운전하다",
+    "example_zh": "我不会开车。",
+    "example_zh_trad": "我不會開車。",
+    "example_pinyin": "Wǒ bú huì kāichē.",
+    "example_ko": "나는 운전을 못 한다."
+  },
+  {
+    "id": "L1-0190",
+    "simplified": "开会",
+    "traditional": "開會",
+    "pinyin": "kāihuì",
+    "pos": [],
+    "level": 1,
+    "meaning_ko": "회의를 하다",
+    "example_zh": "我们在开会。",
+    "example_zh_trad": "我們在開會。",
+    "example_pinyin": "Wǒmen zài kāihuì.",
+    "example_ko": "우리는 회의 중이다."
+  },
+  {
+    "id": "L1-0191",
+    "simplified": "开玩笑",
+    "traditional": "開玩笑",
+    "pinyin": "kāi wánxiào",
+    "pos": [],
+    "level": 1,
+    "meaning_ko": "농담하다",
+    "example_zh": "他在开玩笑。",
+    "example_zh_trad": "他在開玩笑。",
+    "example_pinyin": "Tā zài kāi wánxiào.",
+    "example_ko": "그는 농담하고 있다."
+  },
+  {
+    "id": "L1-0192",
+    "simplified": "看",
+    "traditional": "看",
+    "pinyin": "kàn",
+    "pos": [
+      "V"
+    ],
+    "level": 1,
+    "meaning_ko": "보다",
+    "example_zh": "我看书。",
+    "example_zh_trad": "我看書。",
+    "example_pinyin": "Wǒ kàn shū.",
+    "example_ko": "나는 책을 본다."
+  },
+  {
+    "id": "L1-0193",
+    "simplified": "看病",
+    "traditional": "看病",
+    "pinyin": "kànbìng",
+    "pos": [],
+    "level": 1,
+    "meaning_ko": "진료받다, 진료하다",
+    "example_zh": "我去医院看病。",
+    "example_zh_trad": "我去醫院看病。",
+    "example_pinyin": "Wǒ qù yīyuàn kànbìng.",
+    "example_ko": "나는 병원에 진료 받으러 간다."
+  },
+  {
+    "id": "L1-0194",
+    "simplified": "看到",
+    "traditional": "看到",
+    "pinyin": "kàndào",
+    "pos": [],
+    "level": 1,
+    "meaning_ko": "보다, 보이다",
+    "example_zh": "我看到了。",
+    "example_zh_trad": "我看到了。",
+    "example_pinyin": "Wǒ kàndào le.",
+    "example_ko": "나는 봤다."
+  },
+  {
+    "id": "L1-0195",
+    "simplified": "看见",
+    "traditional": "看見",
+    "pinyin": "kànjiàn",
+    "pos": [],
+    "level": 1,
+    "meaning_ko": "보이다",
+    "example_zh": "我看见你了。",
+    "example_zh_trad": "我看見你了。",
+    "example_pinyin": "Wǒ kànjiàn nǐ le.",
+    "example_ko": "나는 너를 봤다."
+  },
+  {
+    "id": "L1-0196",
+    "simplified": "考",
+    "traditional": "考",
+    "pinyin": "kǎo",
+    "pos": [
+      "V"
+    ],
+    "level": 1,
+    "meaning_ko": "시험 보다",
+    "example_zh": "明天考试。",
+    "example_zh_trad": "明天考試。",
+    "example_pinyin": "Míngtiān kǎoshì.",
+    "example_ko": "내일 시험이다."
+  },
+  {
+    "id": "L1-0197",
+    "simplified": "考试",
+    "traditional": "考試",
+    "pinyin": "kǎoshì",
+    "pos": [],
+    "level": 1,
+    "meaning_ko": "시험",
+    "example_zh": "考试很难。",
+    "example_zh_trad": "考試很難。",
+    "example_pinyin": "Kǎoshì hěn nán.",
+    "example_ko": "시험이 어렵다."
+  },
+  {
+    "id": "L1-0198",
+    "simplified": "渴",
+    "traditional": "渴",
+    "pinyin": "kě",
+    "pos": [
+      "Adj"
+    ],
+    "level": 1,
+    "meaning_ko": "목마르다",
+    "example_zh": "我渴了。",
+    "example_zh_trad": "我渴了。",
+    "example_pinyin": "Wǒ kě le.",
+    "example_ko": "나는 목마르다."
+  },
+  {
+    "id": "L1-0199",
+    "simplified": "课",
+    "traditional": "課",
+    "pinyin": "kè",
+    "pos": [
+      "N"
+    ],
+    "level": 1,
+    "meaning_ko": "수업",
+    "example_zh": "今天没有课。",
+    "example_zh_trad": "今天沒有課。",
+    "example_pinyin": "Jīntiān méiyǒu kè.",
+    "example_ko": "오늘은 수업이 없다."
+  },
+  {
+    "id": "L1-0200",
+    "simplified": "课本",
+    "traditional": "課本",
+    "pinyin": "kèběn",
+    "pos": [
+      "N"
+    ],
+    "level": 1,
+    "meaning_ko": "교과서",
+    "example_zh": "这是我的课本。",
+    "example_zh_trad": "這是我的課本。",
+    "example_pinyin": "Zhè shì wǒ de kèběn.",
+    "example_ko": "이것은 내 교과서다."
+  },
+  {
+    "id": "L1-0201",
+    "simplified": "课文",
+    "traditional": "課文",
+    "pinyin": "kèwén",
+    "pos": [
+      "N"
+    ],
+    "level": 1,
+    "meaning_ko": "본문",
+    "example_zh": "读课文。",
+    "example_zh_trad": "讀課文。",
+    "example_pinyin": "Dú kèwén.",
+    "example_ko": "본문을 읽다."
+  },
+  {
+    "id": "L1-0202",
+    "simplified": "口",
+    "traditional": "口",
+    "pinyin": "kǒu",
+    "pos": [
+      "M",
+      "N"
+    ],
+    "level": 1,
+    "meaning_ko": "입; 식구 (양사)",
+    "example_zh": "我家有三口人。",
+    "example_zh_trad": "我家有三口人。",
+    "example_pinyin": "Wǒ jiā yǒu sān kǒu rén.",
+    "example_ko": "우리 집은 세 식구다."
+  },
+  {
+    "id": "L1-0203",
+    "simplified": "块",
+    "traditional": "塊",
+    "pinyin": "kuài",
+    "pos": [
+      "N",
+      "M"
+    ],
+    "level": 1,
+    "meaning_ko": "위안 (화폐); 덩이",
+    "example_zh": "五块钱。",
+    "example_zh_trad": "五塊錢。",
+    "example_pinyin": "Wǔ kuài qián.",
+    "example_ko": "5위안."
+  },
+  {
+    "id": "L1-0204",
+    "simplified": "快",
+    "traditional": "快",
+    "pinyin": "kuài",
+    "pos": [
+      "Adj",
+      "Adv"
+    ],
+    "level": 1,
+    "meaning_ko": "빠르다",
+    "example_zh": "他跑得很快。",
+    "example_zh_trad": "他跑得很快。",
+    "example_pinyin": "Tā pǎo de hěn kuài.",
+    "example_ko": "그는 빨리 달린다."
+  },
+  {
+    "id": "L1-0205",
+    "simplified": "来",
+    "traditional": "來",
+    "pinyin": "lái",
+    "pos": [
+      "V"
+    ],
+    "level": 1,
+    "meaning_ko": "오다",
+    "example_zh": "你来了。",
+    "example_zh_trad": "你來了。",
+    "example_pinyin": "Nǐ lái le.",
+    "example_ko": "너 왔구나."
+  },
+  {
+    "id": "L1-0206",
+    "simplified": "来到",
+    "traditional": "來到",
+    "pinyin": "láidào",
+    "pos": [
+      "V"
+    ],
+    "level": 1,
+    "meaning_ko": "~에 오다, 도착하다",
+    "example_zh": "我来到北京。",
+    "example_zh_trad": "我來到北京。",
+    "example_pinyin": "Wǒ láidào Běijīng.",
+    "example_ko": "나는 베이징에 왔다."
+  },
+  {
+    "id": "L1-0207",
+    "simplified": "老",
+    "traditional": "老",
+    "pinyin": "lǎo",
+    "pos": [
+      "Adj"
+    ],
+    "level": 1,
+    "meaning_ko": "늙다, 오래되다",
+    "example_zh": "他很老了。",
+    "example_zh_trad": "他很老了。",
+    "example_pinyin": "Tā hěn lǎo le.",
+    "example_ko": "그는 나이가 많다."
+  },
+  {
+    "id": "L1-0208",
+    "simplified": "老人",
+    "traditional": "老人",
+    "pinyin": "lǎorén",
+    "pos": [
+      "N"
+    ],
+    "level": 1,
+    "meaning_ko": "노인",
+    "example_zh": "那个老人很好。",
+    "example_zh_trad": "那個老人很好。",
+    "example_pinyin": "Nàge lǎorén hěn hǎo.",
+    "example_ko": "그 노인은 좋은 분이다."
+  },
+  {
+    "id": "L1-0209",
+    "simplified": "老师",
+    "traditional": "老師",
+    "pinyin": "lǎoshī",
+    "pos": [
+      "N"
+    ],
+    "level": 1,
+    "meaning_ko": "선생님",
+    "example_zh": "他是我的老师。",
+    "example_zh_trad": "他是我的老師。",
+    "example_pinyin": "Tā shì wǒ de lǎoshī.",
+    "example_ko": "그는 내 선생님이다."
+  },
+  {
+    "id": "L1-0210",
+    "simplified": "了",
+    "traditional": "了",
+    "pinyin": "le",
+    "pos": [
+      "Aux"
+    ],
+    "level": 1,
+    "meaning_ko": "(완료·변화 어조사)",
+    "example_zh": "我吃了。",
+    "example_zh_trad": "我吃了。",
+    "example_pinyin": "Wǒ chī le.",
+    "example_ko": "나는 먹었다."
+  },
+  {
+    "id": "L1-0211",
+    "simplified": "累",
+    "traditional": "累",
+    "pinyin": "lèi",
+    "pos": [
+      "Adj"
+    ],
+    "level": 1,
+    "meaning_ko": "피곤하다",
+    "example_zh": "我累了。",
+    "example_zh_trad": "我累了。",
+    "example_pinyin": "Wǒ lèi le.",
+    "example_ko": "나는 피곤하다."
+  },
+  {
+    "id": "L1-0212",
+    "simplified": "冷",
+    "traditional": "冷",
+    "pinyin": "lěng",
+    "pos": [
+      "Adj"
+    ],
+    "level": 1,
+    "meaning_ko": "춥다",
+    "example_zh": "今天很冷。",
+    "example_zh_trad": "今天很冷。",
+    "example_pinyin": "Jīntiān hěn lěng.",
+    "example_ko": "오늘은 춥다."
+  },
+  {
+    "id": "L1-0213",
+    "simplified": "里",
+    "traditional": "裡",
+    "pinyin": "lǐ",
+    "pos": [
+      "N"
+    ],
+    "level": 1,
+    "meaning_ko": "안, 속",
+    "example_zh": "书在包里。",
+    "example_zh_trad": "書在包裡。",
+    "example_pinyin": "Shū zài bāo li.",
+    "example_ko": "책이 가방 안에 있다."
+  },
+  {
+    "id": "L1-0214",
+    "simplified": "里边",
+    "traditional": "裡邊",
+    "pinyin": "lǐbian",
+    "pos": [
+      "N"
+    ],
+    "level": 1,
+    "meaning_ko": "안쪽",
+    "example_zh": "里边有人。",
+    "example_zh_trad": "裡邊有人。",
+    "example_pinyin": "Lǐbian yǒu rén.",
+    "example_ko": "안에 사람이 있다."
+  },
+  {
+    "id": "L1-0215",
+    "simplified": "两",
+    "traditional": "兩",
+    "pinyin": "liǎng",
+    "pos": [
+      "Num"
+    ],
+    "level": 1,
+    "meaning_ko": "둘, 2",
+    "example_zh": "我有两个。",
+    "example_zh_trad": "我有兩個。",
+    "example_pinyin": "Wǒ yǒu liǎng ge.",
+    "example_ko": "나는 두 개가 있다."
+  },
+  {
+    "id": "L1-0216",
+    "simplified": "零",
+    "traditional": "零",
+    "pinyin": "líng",
+    "pos": [
+      "Num"
+    ],
+    "level": 1,
+    "meaning_ko": "0, 영",
+    "example_zh": "现在零点。",
+    "example_zh_trad": "現在零點。",
+    "example_pinyin": "Xiànzài líng diǎn.",
+    "example_ko": "지금 0시(자정)다."
+  },
+  {
+    "id": "L1-0217",
+    "simplified": "六",
+    "traditional": "六",
+    "pinyin": "liù",
+    "pos": [
+      "Num"
+    ],
+    "level": 1,
+    "meaning_ko": "6, 여섯",
+    "example_zh": "我六点起床。",
+    "example_zh_trad": "我六點起床。",
+    "example_pinyin": "Wǒ liù diǎn qǐchuáng.",
+    "example_ko": "나는 6시에 일어난다."
+  },
+  {
+    "id": "L1-0218",
+    "simplified": "楼",
+    "traditional": "樓",
+    "pinyin": "lóu",
+    "pos": [
+      "N"
+    ],
+    "level": 1,
+    "meaning_ko": "건물, 층",
+    "example_zh": "我住三楼。",
+    "example_zh_trad": "我住三樓。",
+    "example_pinyin": "Wǒ zhù sān lóu.",
+    "example_ko": "나는 3층에 산다."
+  },
+  {
+    "id": "L1-0219",
+    "simplified": "楼上",
+    "traditional": "樓上",
+    "pinyin": "lóu shàng",
+    "pos": [],
+    "level": 1,
+    "meaning_ko": "위층",
+    "example_zh": "他在楼上。",
+    "example_zh_trad": "他在樓上。",
+    "example_pinyin": "Tā zài lóu shàng.",
+    "example_ko": "그는 위층에 있다."
+  },
+  {
+    "id": "L1-0220",
+    "simplified": "楼下",
+    "traditional": "樓下",
+    "pinyin": "lóu xià",
+    "pos": [],
+    "level": 1,
+    "meaning_ko": "아래층",
+    "example_zh": "他在楼下。",
+    "example_zh_trad": "他在樓下。",
+    "example_pinyin": "Tā zài lóu xià.",
+    "example_ko": "그는 아래층에 있다."
+  },
+  {
+    "id": "L1-0221",
+    "simplified": "路",
+    "traditional": "路",
+    "pinyin": "lù",
+    "pos": [
+      "N",
+      "M"
+    ],
+    "level": 1,
+    "meaning_ko": "길",
+    "example_zh": "路上有人。",
+    "example_zh_trad": "路上有人。",
+    "example_pinyin": "Lù shang yǒu rén.",
+    "example_ko": "길에 사람이 있다."
+  },
+  {
+    "id": "L1-0222",
+    "simplified": "路口",
+    "traditional": "路口",
+    "pinyin": "lùkǒu",
+    "pos": [
+      "N"
+    ],
+    "level": 1,
+    "meaning_ko": "교차로, 길목",
+    "example_zh": "路口有车。",
+    "example_zh_trad": "路口有車。",
+    "example_pinyin": "Lùkǒu yǒu chē.",
+    "example_ko": "교차로에 차가 있다."
+  },
+  {
+    "id": "L1-0223",
+    "simplified": "路上",
+    "traditional": "路上",
+    "pinyin": "lùshang",
+    "pos": [
+      "N"
+    ],
+    "level": 1,
+    "meaning_ko": "길에, 도중에",
+    "example_zh": "路上很忙。",
+    "example_zh_trad": "路上很忙。",
+    "example_pinyin": "Lù shang hěn máng.",
+    "example_ko": "길이 혼잡하다."
+  },
+  {
+    "id": "L1-0224",
+    "simplified": "妈妈",
+    "traditional": "媽媽",
+    "pinyin": "māma",
+    "pos": [
+      "N"
+    ],
+    "level": 1,
+    "meaning_ko": "엄마",
+    "example_zh": "我爱妈妈。",
+    "example_zh_trad": "我愛媽媽。",
+    "example_pinyin": "Wǒ ài māma.",
+    "example_ko": "나는 엄마를 사랑한다."
+  },
+  {
+    "id": "L1-0225",
+    "simplified": "马路",
+    "traditional": "馬路",
+    "pinyin": "mǎlù",
+    "pos": [
+      "N"
+    ],
+    "level": 1,
+    "meaning_ko": "큰길, 도로",
+    "example_zh": "马路上有很多车。",
+    "example_zh_trad": "馬路上有很多車。",
+    "example_pinyin": "Mǎlù shang yǒu hěn duō chē.",
+    "example_ko": "도로에 차가 많다."
+  },
+  {
+    "id": "L1-0226",
+    "simplified": "马上",
+    "traditional": "馬上",
+    "pinyin": "mǎshàng",
+    "pos": [
+      "Adv"
+    ],
+    "level": 1,
+    "meaning_ko": "즉시, 곧",
+    "example_zh": "我马上来。",
+    "example_zh_trad": "我馬上來。",
+    "example_pinyin": "Wǒ mǎshàng lái.",
+    "example_ko": "나는 바로 갈게."
+  },
+  {
+    "id": "L1-0227",
+    "simplified": "吗",
+    "traditional": "嗎",
+    "pinyin": "ma",
+    "pos": [
+      "Aux"
+    ],
+    "level": 1,
+    "meaning_ko": "(의문 어조사) ~입니까?",
+    "example_zh": "你好吗？",
+    "example_zh_trad": "你好嗎？",
+    "example_pinyin": "Nǐ hǎo ma?",
+    "example_ko": "잘 지내?"
+  },
+  {
+    "id": "L1-0228",
+    "simplified": "买",
+    "traditional": "買",
+    "pinyin": "mǎi",
+    "pos": [
+      "V"
+    ],
+    "level": 1,
+    "meaning_ko": "사다",
+    "example_zh": "我买水。",
+    "example_zh_trad": "我買水。",
+    "example_pinyin": "Wǒ mǎi shuǐ.",
+    "example_ko": "나는 물을 산다."
+  },
+  {
+    "id": "L1-0229",
+    "simplified": "慢",
+    "traditional": "慢",
+    "pinyin": "màn",
+    "pos": [
+      "Adj"
+    ],
+    "level": 1,
+    "meaning_ko": "느리다",
+    "example_zh": "他说得很慢。",
+    "example_zh_trad": "他說得很慢。",
+    "example_pinyin": "Tā shuō de hěn màn.",
+    "example_ko": "그는 천천히 말한다."
+  },
+  {
+    "id": "L1-0230",
+    "simplified": "忙",
+    "traditional": "忙",
+    "pinyin": "máng",
+    "pos": [
+      "Adj"
+    ],
+    "level": 1,
+    "meaning_ko": "바쁘다",
+    "example_zh": "我很忙。",
+    "example_zh_trad": "我很忙。",
+    "example_pinyin": "Wǒ hěn máng.",
+    "example_ko": "나는 바쁘다."
+  },
+  {
+    "id": "L1-0231",
+    "simplified": "毛",
+    "traditional": "毛",
+    "pinyin": "máo",
+    "pos": [
+      "M"
+    ],
+    "level": 1,
+    "meaning_ko": "마오 (0.1위안)",
+    "example_zh": "五毛钱。",
+    "example_zh_trad": "五毛錢。",
+    "example_pinyin": "Wǔ máo qián.",
+    "example_ko": "5마오 (0.5위안)."
+  },
+  {
+    "id": "L1-0232",
+    "simplified": "没",
+    "traditional": "沒",
+    "pinyin": "méi",
+    "pos": [
+      "Adv",
+      "V"
+    ],
+    "level": 1,
+    "meaning_ko": "없다, 안",
+    "example_zh": "我没钱。",
+    "example_zh_trad": "我沒錢。",
+    "example_pinyin": "Wǒ méi qián.",
+    "example_ko": "나는 돈이 없다."
+  },
+  {
+    "id": "L1-0233",
+    "simplified": "没关系",
+    "traditional": "沒關係",
+    "pinyin": "méi guānxi",
+    "pos": [],
+    "level": 1,
+    "meaning_ko": "괜찮다, 상관없다",
+    "example_zh": "对不起。— 没关系。",
+    "example_zh_trad": "對不起。— 沒關係。",
+    "example_pinyin": "Duìbuqǐ. — Méi guānxi.",
+    "example_ko": "미안해요. — 괜찮아요."
+  },
+  {
+    "id": "L1-0234",
+    "simplified": "没什么",
+    "traditional": "沒什麼",
+    "pinyin": "méi shénme",
+    "pos": [],
+    "level": 1,
+    "meaning_ko": "별거 아니다, 괜찮다",
+    "example_zh": "没什么事。",
+    "example_zh_trad": "沒什麼事。",
+    "example_pinyin": "Méi shénme shì.",
+    "example_ko": "별일 없다."
+  },
+  {
+    "id": "L1-0235",
+    "simplified": "没事儿",
+    "traditional": "沒事兒",
+    "pinyin": "méishìr",
+    "pos": [],
+    "level": 1,
+    "meaning_ko": "괜찮다, 별일 없다",
+    "example_zh": "没事儿。",
+    "example_zh_trad": "沒事兒。",
+    "example_pinyin": "Méishìr.",
+    "example_ko": "괜찮아."
+  },
+  {
+    "id": "L1-0236",
+    "simplified": "没有",
+    "traditional": "沒有",
+    "pinyin": "méiyǒu",
+    "pos": [
+      "V",
+      "Adv"
+    ],
+    "level": 1,
+    "meaning_ko": "없다; 안 했다",
+    "example_zh": "我没有时间。",
+    "example_zh_trad": "我沒有時間。",
+    "example_pinyin": "Wǒ méiyǒu shíjiān.",
+    "example_ko": "나는 시간이 없다."
+  },
+  {
+    "id": "L1-0237",
+    "simplified": "妹妹",
+    "traditional": "妹妹",
+    "pinyin": "mèimei",
+    "pos": [
+      "N"
+    ],
+    "level": 1,
+    "meaning_ko": "여동생",
+    "example_zh": "我有一个妹妹。",
+    "example_zh_trad": "我有一個妹妹。",
+    "example_pinyin": "Wǒ yǒu yí gè mèimei.",
+    "example_ko": "나는 여동생이 하나 있다."
+  },
+  {
+    "id": "L1-0238",
+    "simplified": "门",
+    "traditional": "門",
+    "pinyin": "mén",
+    "pos": [
+      "N",
+      "M"
+    ],
+    "level": 1,
+    "meaning_ko": "문",
+    "example_zh": "门开着。",
+    "example_zh_trad": "門開著。",
+    "example_pinyin": "Mén kāi zhe.",
+    "example_ko": "문이 열려 있다."
+  },
+  {
+    "id": "L1-0239",
+    "simplified": "门口",
+    "traditional": "門口",
+    "pinyin": "ménkǒu",
+    "pos": [
+      "N"
+    ],
+    "level": 1,
+    "meaning_ko": "입구",
+    "example_zh": "门口有人。",
+    "example_zh_trad": "門口有人。",
+    "example_pinyin": "Ménkǒu yǒu rén.",
+    "example_ko": "입구에 사람이 있다."
+  },
+  {
+    "id": "L1-0240",
+    "simplified": "门票",
+    "traditional": "門票",
+    "pinyin": "ménpiào",
+    "pos": [
+      "N"
+    ],
+    "level": 1,
+    "meaning_ko": "입장권",
+    "example_zh": "门票多少钱？",
+    "example_zh_trad": "門票多少錢？",
+    "example_pinyin": "Ménpiào duōshao qián?",
+    "example_ko": "입장권이 얼마인가요?"
+  },
+  {
+    "id": "L1-0241",
+    "simplified": "们（朋友们）",
+    "traditional": "們（朋友們）",
+    "pinyin": "men (péngyoumen)",
+    "pos": [
+      "Suffix"
+    ],
+    "level": 1,
+    "meaning_ko": "~들 (복수 접미사)",
+    "example_zh": "朋友们，你们好！",
+    "example_zh_trad": "朋友們，你們好！",
+    "example_pinyin": "Péngyoumen, nǐmen hǎo!",
+    "example_ko": "친구들, 안녕하세요!"
+  },
+  {
+    "id": "L1-0242",
+    "simplified": "米饭",
+    "traditional": "米飯",
+    "pinyin": "mǐfàn",
+    "pos": [
+      "N"
+    ],
+    "level": 1,
+    "meaning_ko": "밥, 쌀밥",
+    "example_zh": "我吃米饭。",
+    "example_zh_trad": "我吃米飯。",
+    "example_pinyin": "Wǒ chī mǐfàn.",
+    "example_ko": "나는 쌀밥을 먹는다."
+  },
+  {
+    "id": "L1-0243",
+    "simplified": "面包",
+    "traditional": "麵包",
+    "pinyin": "miànbāo",
+    "pos": [
+      "N"
+    ],
+    "level": 1,
+    "meaning_ko": "빵",
+    "example_zh": "我买面包。",
+    "example_zh_trad": "我買麵包。",
+    "example_pinyin": "Wǒ mǎi miànbāo.",
+    "example_ko": "나는 빵을 산다."
+  },
+  {
+    "id": "L1-0244",
+    "simplified": "面条儿",
+    "traditional": "麵條兒",
+    "pinyin": "miàntiáor",
+    "pos": [
+      "N"
+    ],
+    "level": 1,
+    "meaning_ko": "국수",
+    "example_zh": "我想吃面条儿。",
+    "example_zh_trad": "我想吃麵條兒。",
+    "example_pinyin": "Wǒ xiǎng chī miàntiáor.",
+    "example_ko": "나는 국수를 먹고 싶다."
+  },
+  {
+    "id": "L1-0245",
+    "simplified": "名字",
+    "traditional": "名字",
+    "pinyin": "míngzi",
+    "pos": [
+      "N"
+    ],
+    "level": 1,
+    "meaning_ko": "이름",
+    "example_zh": "你叫什么名字？",
+    "example_zh_trad": "你叫什麼名字？",
+    "example_pinyin": "Nǐ jiào shénme míngzi?",
+    "example_ko": "너 이름이 뭐니?"
+  },
+  {
+    "id": "L1-0246",
+    "simplified": "明白",
+    "traditional": "明白",
+    "pinyin": "míngbai",
+    "pos": [
+      "Adj",
+      "V"
+    ],
+    "level": 1,
+    "meaning_ko": "이해하다, 알다",
+    "example_zh": "我明白了。",
+    "example_zh_trad": "我明白了。",
+    "example_pinyin": "Wǒ míngbai le.",
+    "example_ko": "나는 이해했다."
+  },
+  {
+    "id": "L1-0247",
+    "simplified": "明年",
+    "traditional": "明年",
+    "pinyin": "míngnián",
+    "pos": [
+      "N"
+    ],
+    "level": 1,
+    "meaning_ko": "내년",
+    "example_zh": "明年我去中国。",
+    "example_zh_trad": "明年我去中國。",
+    "example_pinyin": "Míngnián wǒ qù Zhōngguó.",
+    "example_ko": "내년에 나는 중국에 간다."
+  },
+  {
+    "id": "L1-0248",
+    "simplified": "明天",
+    "traditional": "明天",
+    "pinyin": "míngtiān",
+    "pos": [
+      "N"
+    ],
+    "level": 1,
+    "meaning_ko": "내일",
+    "example_zh": "明天见。",
+    "example_zh_trad": "明天見。",
+    "example_pinyin": "Míngtiān jiàn.",
+    "example_ko": "내일 만나."
+  },
+  {
+    "id": "L1-0249",
+    "simplified": "拿",
+    "traditional": "拿",
+    "pinyin": "ná",
+    "pos": [
+      "V"
+    ],
+    "level": 1,
+    "meaning_ko": "들다, 가지다",
+    "example_zh": "请拿一下。",
+    "example_zh_trad": "請拿一下。",
+    "example_pinyin": "Qǐng ná yíxià.",
+    "example_ko": "좀 들어 주세요."
+  },
+  {
+    "id": "L1-0250",
+    "simplified": "哪",
+    "traditional": "哪",
+    "pinyin": "nǎ",
+    "pos": [
+      "Pron"
+    ],
+    "level": 1,
+    "meaning_ko": "어느",
+    "example_zh": "你是哪国人？",
+    "example_zh_trad": "你是哪國人？",
+    "example_pinyin": "Nǐ shì nǎ guó rén?",
+    "example_ko": "너는 어느 나라 사람이니?"
+  },
+  {
+    "id": "L1-0251",
+    "simplified": "哪里",
+    "traditional": "哪裡",
+    "pinyin": "nǎlǐ",
+    "pos": [
+      "Pron"
+    ],
+    "level": 1,
+    "meaning_ko": "어디",
+    "example_zh": "你在哪里？",
+    "example_zh_trad": "你在哪裡？",
+    "example_pinyin": "Nǐ zài nǎlǐ?",
+    "example_ko": "너 어디에 있어?"
+  },
+  {
+    "id": "L1-0252",
+    "simplified": "哪儿",
+    "traditional": "哪兒",
+    "pinyin": "nǎr",
+    "pos": [
+      "Pron"
+    ],
+    "level": 1,
+    "meaning_ko": "어디",
+    "example_zh": "你去哪儿？",
+    "example_zh_trad": "你去哪兒？",
+    "example_pinyin": "Nǐ qù nǎr?",
+    "example_ko": "너 어디 가?"
+  },
+  {
+    "id": "L1-0253",
+    "simplified": "哪些",
+    "traditional": "哪些",
+    "pinyin": "nǎxiē",
+    "pos": [
+      "Pron"
+    ],
+    "level": 1,
+    "meaning_ko": "어느 것들",
+    "example_zh": "哪些是你的？",
+    "example_zh_trad": "哪些是你的？",
+    "example_pinyin": "Nǎxiē shì nǐ de?",
+    "example_ko": "어느 것들이 네 거야?"
+  },
+  {
+    "id": "L1-0254",
+    "simplified": "那",
+    "traditional": "那",
+    "pinyin": "nà",
+    "pos": [
+      "Pron"
+    ],
+    "level": 1,
+    "meaning_ko": "그, 저",
+    "example_zh": "那是什么？",
+    "example_zh_trad": "那是什麼？",
+    "example_pinyin": "Nà shì shénme?",
+    "example_ko": "저건 뭐야?"
+  },
+  {
+    "id": "L1-0255",
+    "simplified": "那边",
+    "traditional": "那邊",
+    "pinyin": "nàbiān",
+    "pos": [
+      "Pron"
+    ],
+    "level": 1,
+    "meaning_ko": "저쪽",
+    "example_zh": "他在那边。",
+    "example_zh_trad": "他在那邊。",
+    "example_pinyin": "Tā zài nàbiān.",
+    "example_ko": "그는 저쪽에 있다."
+  },
+  {
+    "id": "L1-0256",
+    "simplified": "那里",
+    "traditional": "那裡",
+    "pinyin": "nàlǐ",
+    "pos": [
+      "Pron"
+    ],
+    "level": 1,
+    "meaning_ko": "거기, 저기",
+    "example_zh": "我去那里。",
+    "example_zh_trad": "我去那裡。",
+    "example_pinyin": "Wǒ qù nàlǐ.",
+    "example_ko": "나는 거기 간다."
+  },
+  {
+    "id": "L1-0257",
+    "simplified": "那儿",
+    "traditional": "那兒",
+    "pinyin": "nàr",
+    "pos": [
+      "Pron"
+    ],
+    "level": 1,
+    "meaning_ko": "거기",
+    "example_zh": "他在那儿。",
+    "example_zh_trad": "他在那兒。",
+    "example_pinyin": "Tā zài nàr.",
+    "example_ko": "그는 거기 있다."
+  },
+  {
+    "id": "L1-0258",
+    "simplified": "那些",
+    "traditional": "那些",
+    "pinyin": "nàxiē",
+    "pos": [
+      "Pron"
+    ],
+    "level": 1,
+    "meaning_ko": "저것들",
+    "example_zh": "那些是我的。",
+    "example_zh_trad": "那些是我的。",
+    "example_pinyin": "Nàxiē shì wǒ de.",
+    "example_ko": "저것들은 내 거다."
+  },
+  {
+    "id": "L1-0259",
+    "simplified": "奶",
+    "traditional": "奶",
+    "pinyin": "nǎi",
+    "pos": [
+      "N"
+    ],
+    "level": 1,
+    "meaning_ko": "우유; 가슴",
+    "example_zh": "我喝奶。",
+    "example_zh_trad": "我喝奶。",
+    "example_pinyin": "Wǒ hē nǎi.",
+    "example_ko": "나는 우유를 마신다."
+  },
+  {
+    "id": "L1-0260",
+    "simplified": "奶奶",
+    "traditional": "奶奶",
+    "pinyin": "nǎinai",
+    "pos": [
+      "N"
+    ],
+    "level": 1,
+    "meaning_ko": "할머니 (친)",
+    "example_zh": "我奶奶很老。",
+    "example_zh_trad": "我奶奶很老。",
+    "example_pinyin": "Wǒ nǎinai hěn lǎo.",
+    "example_ko": "우리 할머니는 연세가 많으시다."
+  },
+  {
+    "id": "L1-0261",
+    "simplified": "男",
+    "traditional": "男",
+    "pinyin": "nán",
+    "pos": [
+      "Adj"
+    ],
+    "level": 1,
+    "meaning_ko": "남자",
+    "example_zh": "他是男的。",
+    "example_zh_trad": "他是男的。",
+    "example_pinyin": "Tā shì nán de.",
+    "example_ko": "그는 남자다."
+  },
+  {
+    "id": "L1-0262",
+    "simplified": "男孩儿",
+    "traditional": "男孩兒",
+    "pinyin": "nánháir",
+    "pos": [
+      "N"
+    ],
+    "level": 1,
+    "meaning_ko": "남자아이",
+    "example_zh": "那个男孩儿很高。",
+    "example_zh_trad": "那個男孩兒很高。",
+    "example_pinyin": "Nàge nánháir hěn gāo.",
+    "example_ko": "저 남자아이는 키가 크다."
+  },
+  {
+    "id": "L1-0263",
+    "simplified": "男朋友",
+    "traditional": "男朋友",
+    "pinyin": "nánpéngyou",
+    "pos": [
+      "N"
+    ],
+    "level": 1,
+    "meaning_ko": "남자친구",
+    "example_zh": "她有男朋友。",
+    "example_zh_trad": "她有男朋友。",
+    "example_pinyin": "Tā yǒu nánpéngyou.",
+    "example_ko": "그녀는 남자친구가 있다."
+  },
+  {
+    "id": "L1-0264",
+    "simplified": "男人",
+    "traditional": "男人",
+    "pinyin": "nánrén",
+    "pos": [
+      "N"
+    ],
+    "level": 1,
+    "meaning_ko": "남자",
+    "example_zh": "他是个好男人。",
+    "example_zh_trad": "他是個好男人。",
+    "example_pinyin": "Tā shì ge hǎo nánrén.",
+    "example_ko": "그는 좋은 남자다."
+  },
+  {
+    "id": "L1-0265",
+    "simplified": "男生",
+    "traditional": "男生",
+    "pinyin": "nánshēng",
+    "pos": [
+      "N"
+    ],
+    "level": 1,
+    "meaning_ko": "남학생",
+    "example_zh": "我们班有二十个男生。",
+    "example_zh_trad": "我們班有二十個男生。",
+    "example_pinyin": "Wǒmen bān yǒu èrshí ge nánshēng.",
+    "example_ko": "우리 반에 남학생이 20명 있다."
+  },
+  {
+    "id": "L1-0266",
+    "simplified": "南",
+    "traditional": "南",
+    "pinyin": "nán",
+    "pos": [
+      "N"
+    ],
+    "level": 1,
+    "meaning_ko": "남쪽",
+    "example_zh": "我家在南边。",
+    "example_zh_trad": "我家在南邊。",
+    "example_pinyin": "Wǒ jiā zài nánbian.",
+    "example_ko": "우리 집은 남쪽에 있다."
+  },
+  {
+    "id": "L1-0267",
+    "simplified": "南边",
+    "traditional": "南邊",
+    "pinyin": "nánbian",
+    "pos": [
+      "N"
+    ],
+    "level": 1,
+    "meaning_ko": "남쪽",
+    "example_zh": "学校在南边。",
+    "example_zh_trad": "學校在南邊。",
+    "example_pinyin": "Xuéxiào zài nánbian.",
+    "example_ko": "학교는 남쪽에 있다."
+  },
+  {
+    "id": "L1-0268",
+    "simplified": "难",
+    "traditional": "難",
+    "pinyin": "nán",
+    "pos": [
+      "Adj"
+    ],
+    "level": 1,
+    "meaning_ko": "어렵다",
+    "example_zh": "这个很难。",
+    "example_zh_trad": "這個很難。",
+    "example_pinyin": "Zhège hěn nán.",
+    "example_ko": "이것은 어렵다."
+  },
+  {
+    "id": "L1-0269",
+    "simplified": "呢",
+    "traditional": "呢",
+    "pinyin": "ne",
+    "pos": [
+      "Aux"
+    ],
+    "level": 1,
+    "meaning_ko": "~는요? (의문 어조사)",
+    "example_zh": "你呢？",
+    "example_zh_trad": "你呢？",
+    "example_pinyin": "Nǐ ne?",
+    "example_ko": "너는?"
+  },
+  {
+    "id": "L1-0270",
+    "simplified": "能",
+    "traditional": "能",
+    "pinyin": "néng",
+    "pos": [
+      "V"
+    ],
+    "level": 1,
+    "meaning_ko": "~할 수 있다",
+    "example_zh": "我能做。",
+    "example_zh_trad": "我能做。",
+    "example_pinyin": "Wǒ néng zuò.",
+    "example_ko": "나는 할 수 있다."
+  },
+  {
+    "id": "L1-0271",
+    "simplified": "你",
+    "traditional": "你",
+    "pinyin": "nǐ",
+    "pos": [
+      "Pron"
+    ],
+    "level": 1,
+    "meaning_ko": "너",
+    "example_zh": "你好。",
+    "example_zh_trad": "你好。",
+    "example_pinyin": "Nǐ hǎo.",
+    "example_ko": "안녕."
+  },
+  {
+    "id": "L1-0272",
+    "simplified": "你们",
+    "traditional": "你們",
+    "pinyin": "nǐmen",
+    "pos": [
+      "Pron"
+    ],
+    "level": 1,
+    "meaning_ko": "너희",
+    "example_zh": "你们好。",
+    "example_zh_trad": "你們好。",
+    "example_pinyin": "Nǐmen hǎo.",
+    "example_ko": "여러분 안녕하세요."
+  },
+  {
+    "id": "L1-0273",
+    "simplified": "年",
+    "traditional": "年",
+    "pinyin": "nián",
+    "pos": [
+      "M"
+    ],
+    "level": 1,
+    "meaning_ko": "년, 해",
+    "example_zh": "今年是二零二六年。",
+    "example_zh_trad": "今年是二零二六年。",
+    "example_pinyin": "Jīnnián shì èr líng èr liù nián.",
+    "example_ko": "올해는 2026년이다."
+  },
+  {
+    "id": "L1-0274",
+    "simplified": "您",
+    "traditional": "您",
+    "pinyin": "nín",
+    "pos": [
+      "Pron"
+    ],
+    "level": 1,
+    "meaning_ko": "당신 (존댓말)",
+    "example_zh": "您好。",
+    "example_zh_trad": "您好。",
+    "example_pinyin": "Nín hǎo.",
+    "example_ko": "안녕하십니까."
+  },
+  {
+    "id": "L1-0275",
+    "simplified": "牛奶",
+    "traditional": "牛奶",
+    "pinyin": "niúnǎi",
+    "pos": [
+      "N"
+    ],
+    "level": 1,
+    "meaning_ko": "우유",
+    "example_zh": "我喝牛奶。",
+    "example_zh_trad": "我喝牛奶。",
+    "example_pinyin": "Wǒ hē niúnǎi.",
+    "example_ko": "나는 우유를 마신다."
+  },
+  {
+    "id": "L1-0276",
+    "simplified": "女",
+    "traditional": "女",
+    "pinyin": "nǚ",
+    "pos": [
+      "Adj"
+    ],
+    "level": 1,
+    "meaning_ko": "여자",
+    "example_zh": "她是女的。",
+    "example_zh_trad": "她是女的。",
+    "example_pinyin": "Tā shì nǚ de.",
+    "example_ko": "그녀는 여자다."
+  },
+  {
+    "id": "L1-0277",
+    "simplified": "女儿",
+    "traditional": "女兒",
+    "pinyin": "nǚ'ér",
+    "pos": [
+      "N"
+    ],
+    "level": 1,
+    "meaning_ko": "딸",
+    "example_zh": "她是我女儿。",
+    "example_zh_trad": "她是我女兒。",
+    "example_pinyin": "Tā shì wǒ nǚ'ér.",
+    "example_ko": "그녀는 내 딸이다."
+  },
+  {
+    "id": "L1-0278",
+    "simplified": "女孩儿",
+    "traditional": "女孩兒",
+    "pinyin": "nǚháir",
+    "pos": [
+      "N"
+    ],
+    "level": 1,
+    "meaning_ko": "여자아이",
+    "example_zh": "那个女孩儿很好看。",
+    "example_zh_trad": "那個女孩兒很好看。",
+    "example_pinyin": "Nàge nǚháir hěn hǎokàn.",
+    "example_ko": "저 여자아이는 예쁘다."
+  },
+  {
+    "id": "L1-0279",
+    "simplified": "女朋友",
+    "traditional": "女朋友",
+    "pinyin": "nǚpéngyou",
+    "pos": [
+      "N"
+    ],
+    "level": 1,
+    "meaning_ko": "여자친구",
+    "example_zh": "他有女朋友。",
+    "example_zh_trad": "他有女朋友。",
+    "example_pinyin": "Tā yǒu nǚpéngyou.",
+    "example_ko": "그는 여자친구가 있다."
+  },
+  {
+    "id": "L1-0280",
+    "simplified": "女人",
+    "traditional": "女人",
+    "pinyin": "nǚrén",
+    "pos": [
+      "N"
+    ],
+    "level": 1,
+    "meaning_ko": "여자",
+    "example_zh": "她是个好女人。",
+    "example_zh_trad": "她是個好女人。",
+    "example_pinyin": "Tā shì ge hǎo nǚrén.",
+    "example_ko": "그녀는 좋은 여자다."
+  },
+  {
+    "id": "L1-0281",
+    "simplified": "女生",
+    "traditional": "女生",
+    "pinyin": "nǚshēng",
+    "pos": [
+      "N"
+    ],
+    "level": 1,
+    "meaning_ko": "여학생",
+    "example_zh": "我们班有十个女生。",
+    "example_zh_trad": "我們班有十個女生。",
+    "example_pinyin": "Wǒmen bān yǒu shí ge nǚshēng.",
+    "example_ko": "우리 반에 여학생이 10명 있다."
+  },
+  {
+    "id": "L1-0282",
+    "simplified": "旁边",
+    "traditional": "旁邊",
+    "pinyin": "pángbiān",
+    "pos": [
+      "N"
+    ],
+    "level": 1,
+    "meaning_ko": "옆",
+    "example_zh": "她在我旁边。",
+    "example_zh_trad": "她在我旁邊。",
+    "example_pinyin": "Tā zài wǒ pángbiān.",
+    "example_ko": "그녀는 내 옆에 있다."
+  },
+  {
+    "id": "L1-0283",
+    "simplified": "跑",
+    "traditional": "跑",
+    "pinyin": "pǎo",
+    "pos": [
+      "V"
+    ],
+    "level": 1,
+    "meaning_ko": "달리다",
+    "example_zh": "他跑得快。",
+    "example_zh_trad": "他跑得快。",
+    "example_pinyin": "Tā pǎo de kuài.",
+    "example_ko": "그는 빨리 달린다."
+  },
+  {
+    "id": "L1-0284",
+    "simplified": "朋友",
+    "traditional": "朋友",
+    "pinyin": "péngyou",
+    "pos": [
+      "N"
+    ],
+    "level": 1,
+    "meaning_ko": "친구",
+    "example_zh": "他是我的朋友。",
+    "example_zh_trad": "他是我的朋友。",
+    "example_pinyin": "Tā shì wǒ de péngyou.",
+    "example_ko": "그는 내 친구다."
+  },
+  {
+    "id": "L1-0285",
+    "simplified": "票",
+    "traditional": "票",
+    "pinyin": "piào",
+    "pos": [
+      "N"
+    ],
+    "level": 1,
+    "meaning_ko": "표",
+    "example_zh": "这是我的票。",
+    "example_zh_trad": "這是我的票。",
+    "example_pinyin": "Zhè shì wǒ de piào.",
+    "example_ko": "이것은 내 표다."
+  },
+  {
+    "id": "L1-0286",
+    "simplified": "七",
+    "traditional": "七",
+    "pinyin": "qī",
+    "pos": [
+      "Num"
+    ],
+    "level": 1,
+    "meaning_ko": "7, 일곱",
+    "example_zh": "七点起床。",
+    "example_zh_trad": "七點起床。",
+    "example_pinyin": "Qī diǎn qǐchuáng.",
+    "example_ko": "7시에 일어난다."
+  },
+  {
+    "id": "L1-0287",
+    "simplified": "起",
+    "traditional": "起",
+    "pinyin": "qǐ",
+    "pos": [
+      "V"
+    ],
+    "level": 1,
+    "meaning_ko": "일어나다",
+    "example_zh": "我起来。",
+    "example_zh_trad": "我起來。",
+    "example_pinyin": "Wǒ qǐlái.",
+    "example_ko": "나는 일어난다."
+  },
+  {
+    "id": "L1-0288",
+    "simplified": "起床",
+    "traditional": "起床",
+    "pinyin": "qǐchuáng",
+    "pos": [],
+    "level": 1,
+    "meaning_ko": "기상하다, 일어나다",
+    "example_zh": "我早上七点起床。",
+    "example_zh_trad": "我早上七點起床。",
+    "example_pinyin": "Wǒ zǎoshang qī diǎn qǐchuáng.",
+    "example_ko": "나는 아침 7시에 일어난다."
+  },
+  {
+    "id": "L1-0289",
+    "simplified": "起来",
+    "traditional": "起來",
+    "pinyin": "qǐlái",
+    "pos": [],
+    "level": 1,
+    "meaning_ko": "일어나다",
+    "example_zh": "起来吧。",
+    "example_zh_trad": "起來吧。",
+    "example_pinyin": "Qǐlái ba.",
+    "example_ko": "일어나자."
+  },
+  {
+    "id": "L1-0290",
+    "simplified": "汽车",
+    "traditional": "汽車",
+    "pinyin": "qìchē",
+    "pos": [
+      "N"
+    ],
+    "level": 1,
+    "meaning_ko": "자동차",
+    "example_zh": "我有汽车。",
+    "example_zh_trad": "我有汽車。",
+    "example_pinyin": "Wǒ yǒu qìchē.",
+    "example_ko": "나는 자동차가 있다."
+  },
+  {
+    "id": "L1-0291",
+    "simplified": "前",
+    "traditional": "前",
+    "pinyin": "qián",
+    "pos": [
+      "N"
+    ],
+    "level": 1,
+    "meaning_ko": "앞",
+    "example_zh": "前面有人。",
+    "example_zh_trad": "前面有人。",
+    "example_pinyin": "Qiánmiàn yǒu rén.",
+    "example_ko": "앞에 사람이 있다."
+  },
+  {
+    "id": "L1-0292",
+    "simplified": "前边",
+    "traditional": "前邊",
+    "pinyin": "qiánbian",
+    "pos": [
+      "N"
+    ],
+    "level": 1,
+    "meaning_ko": "앞쪽",
+    "example_zh": "商店在前边。",
+    "example_zh_trad": "商店在前邊。",
+    "example_pinyin": "Shāngdiàn zài qiánbian.",
+    "example_ko": "가게가 앞쪽에 있다."
+  },
+  {
+    "id": "L1-0293",
+    "simplified": "前天",
+    "traditional": "前天",
+    "pinyin": "qiántiān",
+    "pos": [
+      "N"
+    ],
+    "level": 1,
+    "meaning_ko": "그저께",
+    "example_zh": "前天我在家。",
+    "example_zh_trad": "前天我在家。",
+    "example_pinyin": "Qiántiān wǒ zài jiā.",
+    "example_ko": "그저께 나는 집에 있었다."
+  },
+  {
+    "id": "L1-0294",
+    "simplified": "钱",
+    "traditional": "錢",
+    "pinyin": "qián",
+    "pos": [
+      "N"
+    ],
+    "level": 1,
+    "meaning_ko": "돈",
+    "example_zh": "我没有钱。",
+    "example_zh_trad": "我沒有錢。",
+    "example_pinyin": "Wǒ méiyǒu qián.",
+    "example_ko": "나는 돈이 없다."
+  },
+  {
+    "id": "L1-0295",
+    "simplified": "钱包",
+    "traditional": "錢包",
+    "pinyin": "qiánbāo",
+    "pos": [
+      "N"
+    ],
+    "level": 1,
+    "meaning_ko": "지갑",
+    "example_zh": "我的钱包在家里。",
+    "example_zh_trad": "我的錢包在家裡。",
+    "example_pinyin": "Wǒ de qiánbāo zài jiā li.",
+    "example_ko": "내 지갑은 집에 있다."
+  },
+  {
+    "id": "L1-0296",
+    "simplified": "请",
+    "traditional": "請",
+    "pinyin": "qǐng",
+    "pos": [
+      "V"
+    ],
+    "level": 1,
+    "meaning_ko": "청하다, ~해 주세요",
+    "example_zh": "请坐。",
+    "example_zh_trad": "請坐。",
+    "example_pinyin": "Qǐng zuò.",
+    "example_ko": "앉으세요."
+  },
+  {
+    "id": "L1-0297",
+    "simplified": "请假",
+    "traditional": "請假",
+    "pinyin": "qǐngjià",
+    "pos": [],
+    "level": 1,
+    "meaning_ko": "휴가를 내다, 조퇴하다",
+    "example_zh": "今天我请假。",
+    "example_zh_trad": "今天我請假。",
+    "example_pinyin": "Jīntiān wǒ qǐngjià.",
+    "example_ko": "오늘 저는 휴가입니다."
+  },
+  {
+    "id": "L1-0298",
+    "simplified": "请进",
+    "traditional": "請進",
+    "pinyin": "qǐng jìn",
+    "pos": [],
+    "level": 1,
+    "meaning_ko": "들어오세요",
+    "example_zh": "请进。",
+    "example_zh_trad": "請進。",
+    "example_pinyin": "Qǐng jìn.",
+    "example_ko": "들어오세요."
+  },
+  {
+    "id": "L1-0299",
+    "simplified": "请问",
+    "traditional": "請問",
+    "pinyin": "qǐngwèn",
+    "pos": [
+      "V"
+    ],
+    "level": 1,
+    "meaning_ko": "실례지만 (질문 시작)",
+    "example_zh": "请问，你叫什么？",
+    "example_zh_trad": "請問，你叫什麼？",
+    "example_pinyin": "Qǐngwèn, nǐ jiào shénme?",
+    "example_ko": "실례지만, 이름이 어떻게 되세요?"
+  },
+  {
+    "id": "L1-0300",
+    "simplified": "请坐",
+    "traditional": "請坐",
+    "pinyin": "qǐng zuò",
+    "pos": [],
+    "level": 1,
+    "meaning_ko": "앉으세요",
+    "example_zh": "请坐。",
+    "example_zh_trad": "請坐。",
+    "example_pinyin": "Qǐng zuò.",
+    "example_ko": "앉으세요."
+  },
+  {
+    "id": "L1-0301",
+    "simplified": "球",
+    "traditional": "球",
+    "pinyin": "qiú",
+    "pos": [
+      "N"
+    ],
+    "level": 1,
+    "meaning_ko": "공",
+    "example_zh": "这是一个球。",
+    "example_zh_trad": "這是一個球。",
+    "example_pinyin": "Zhè shì yí gè qiú.",
+    "example_ko": "이것은 공이다."
+  },
+  {
+    "id": "L1-0302",
+    "simplified": "去",
+    "traditional": "去",
+    "pinyin": "qù",
+    "pos": [
+      "V"
+    ],
+    "level": 1,
+    "meaning_ko": "가다",
+    "example_zh": "我去学校。",
+    "example_zh_trad": "我去學校。",
+    "example_pinyin": "Wǒ qù xuéxiào.",
+    "example_ko": "나는 학교에 간다."
+  },
+  {
+    "id": "L1-0303",
+    "simplified": "去年",
+    "traditional": "去年",
+    "pinyin": "qùnián",
+    "pos": [
+      "N"
+    ],
+    "level": 1,
+    "meaning_ko": "작년",
+    "example_zh": "去年我去了中国。",
+    "example_zh_trad": "去年我去了中國。",
+    "example_pinyin": "Qùnián wǒ qù le Zhōngguó.",
+    "example_ko": "작년에 나는 중국에 갔다."
+  },
+  {
+    "id": "L1-0304",
+    "simplified": "热",
+    "traditional": "熱",
+    "pinyin": "rè",
+    "pos": [
+      "Adj",
+      "V"
+    ],
+    "level": 1,
+    "meaning_ko": "덥다, 뜨겁다",
+    "example_zh": "今天很热。",
+    "example_zh_trad": "今天很熱。",
+    "example_pinyin": "Jīntiān hěn rè.",
+    "example_ko": "오늘은 덥다."
+  },
+  {
+    "id": "L1-0305",
+    "simplified": "人",
+    "traditional": "人",
+    "pinyin": "rén",
+    "pos": [
+      "N"
+    ],
+    "level": 1,
+    "meaning_ko": "사람",
+    "example_zh": "这里有人。",
+    "example_zh_trad": "這裡有人。",
+    "example_pinyin": "Zhèlǐ yǒu rén.",
+    "example_ko": "여기 사람이 있다."
+  },
+  {
+    "id": "L1-0306",
+    "simplified": "认识",
+    "traditional": "認識",
+    "pinyin": "rènshi",
+    "pos": [
+      "V",
+      "N"
+    ],
+    "level": 1,
+    "meaning_ko": "알다, 안면이 있다",
+    "example_zh": "我认识他。",
+    "example_zh_trad": "我認識他。",
+    "example_pinyin": "Wǒ rènshi tā.",
+    "example_ko": "나는 그를 안다."
+  },
+  {
+    "id": "L1-0307",
+    "simplified": "认真",
+    "traditional": "認真",
+    "pinyin": "rènzhēn",
+    "pos": [
+      "Adj"
+    ],
+    "level": 1,
+    "meaning_ko": "진지하다, 성실하다",
+    "example_zh": "他学习很认真。",
+    "example_zh_trad": "他學習很認真。",
+    "example_pinyin": "Tā xuéxí hěn rènzhēn.",
+    "example_ko": "그는 성실하게 공부한다."
+  },
+  {
+    "id": "L1-0308",
+    "simplified": "日",
+    "traditional": "日",
+    "pinyin": "rì",
+    "pos": [
+      "N"
+    ],
+    "level": 1,
+    "meaning_ko": "일, 날",
+    "example_zh": "今天是八日。",
+    "example_zh_trad": "今天是八日。",
+    "example_pinyin": "Jīntiān shì bā rì.",
+    "example_ko": "오늘은 8일이다."
+  },
+  {
+    "id": "L1-0309",
+    "simplified": "日期",
+    "traditional": "日期",
+    "pinyin": "rìqī",
+    "pos": [
+      "N"
+    ],
+    "level": 1,
+    "meaning_ko": "날짜",
+    "example_zh": "今天的日期是八月八号。",
+    "example_zh_trad": "今天的日期是八月八號。",
+    "example_pinyin": "Jīntiān de rìqī shì bā yuè bā hào.",
+    "example_ko": "오늘 날짜는 8월 8일이다."
+  },
+  {
+    "id": "L1-0310",
+    "simplified": "肉",
+    "traditional": "肉",
+    "pinyin": "ròu",
+    "pos": [
+      "N"
+    ],
+    "level": 1,
+    "meaning_ko": "고기",
+    "example_zh": "我喜欢吃肉。",
+    "example_zh_trad": "我喜歡吃肉。",
+    "example_pinyin": "Wǒ xǐhuan chī ròu.",
+    "example_ko": "나는 고기를 좋아한다."
+  },
+  {
+    "id": "L1-0311",
+    "simplified": "三",
+    "traditional": "三",
+    "pinyin": "sān",
+    "pos": [
+      "Num"
+    ],
+    "level": 1,
+    "meaning_ko": "3, 셋",
+    "example_zh": "我有三个。",
+    "example_zh_trad": "我有三個。",
+    "example_pinyin": "Wǒ yǒu sān ge.",
+    "example_ko": "나는 3개가 있다."
+  },
+  {
+    "id": "L1-0312",
+    "simplified": "山",
+    "traditional": "山",
+    "pinyin": "shān",
+    "pos": [
+      "N"
+    ],
+    "level": 1,
+    "meaning_ko": "산",
+    "example_zh": "山很高。",
+    "example_zh_trad": "山很高。",
+    "example_pinyin": "Shān hěn gāo.",
+    "example_ko": "산이 높다."
+  },
+  {
+    "id": "L1-0313",
+    "simplified": "商场",
+    "traditional": "商場",
+    "pinyin": "shāngchǎng",
+    "pos": [
+      "N"
+    ],
+    "level": 1,
+    "meaning_ko": "쇼핑몰, 상점가",
+    "example_zh": "我去商场买东西。",
+    "example_zh_trad": "我去商場買東西。",
+    "example_pinyin": "Wǒ qù shāngchǎng mǎi dōngxi.",
+    "example_ko": "나는 쇼핑몰에 물건을 사러 간다."
+  },
+  {
+    "id": "L1-0314",
+    "simplified": "商店",
+    "traditional": "商店",
+    "pinyin": "shāngdiàn",
+    "pos": [
+      "N"
+    ],
+    "level": 1,
+    "meaning_ko": "상점, 가게",
+    "example_zh": "商店关门了。",
+    "example_zh_trad": "商店關門了。",
+    "example_pinyin": "Shāngdiàn guānmén le.",
+    "example_ko": "가게가 문을 닫았다."
+  },
+  {
+    "id": "L1-0315",
+    "simplified": "上",
+    "traditional": "上",
+    "pinyin": "shàng",
+    "pos": [
+      "N",
+      "V"
+    ],
+    "level": 1,
+    "meaning_ko": "위; 오르다",
+    "example_zh": "书在桌子上。",
+    "example_zh_trad": "書在桌子上。",
+    "example_pinyin": "Shū zài zhuōzi shang.",
+    "example_ko": "책이 탁자 위에 있다."
+  },
+  {
+    "id": "L1-0316",
+    "simplified": "上班",
+    "traditional": "上班",
+    "pinyin": "shàngbān",
+    "pos": [],
+    "level": 1,
+    "meaning_ko": "출근하다",
+    "example_zh": "我去上班。",
+    "example_zh_trad": "我去上班。",
+    "example_pinyin": "Wǒ qù shàngbān.",
+    "example_ko": "나는 출근하러 간다."
+  },
+  {
+    "id": "L1-0317",
+    "simplified": "上边",
+    "traditional": "上邊",
+    "pinyin": "shàngbian",
+    "pos": [
+      "N"
+    ],
+    "level": 1,
+    "meaning_ko": "위쪽",
+    "example_zh": "书在上边。",
+    "example_zh_trad": "書在上邊。",
+    "example_pinyin": "Shū zài shàngbian.",
+    "example_ko": "책이 위에 있다."
+  },
+  {
+    "id": "L1-0318",
+    "simplified": "上车",
+    "traditional": "上車",
+    "pinyin": "shàng chē",
+    "pos": [],
+    "level": 1,
+    "meaning_ko": "차에 타다",
+    "example_zh": "请上车。",
+    "example_zh_trad": "請上車。",
+    "example_pinyin": "Qǐng shàng chē.",
+    "example_ko": "차에 타세요."
+  },
+  {
+    "id": "L1-0319",
+    "simplified": "上次",
+    "traditional": "上次",
+    "pinyin": "shàng cì",
+    "pos": [],
+    "level": 1,
+    "meaning_ko": "지난번",
+    "example_zh": "上次我去北京。",
+    "example_zh_trad": "上次我去北京。",
+    "example_pinyin": "Shàng cì wǒ qù Běijīng.",
+    "example_ko": "지난번에 나는 베이징에 갔다."
+  },
+  {
+    "id": "L1-0320",
+    "simplified": "上课",
+    "traditional": "上課",
+    "pinyin": "shàngkè",
+    "pos": [],
+    "level": 1,
+    "meaning_ko": "수업하다",
+    "example_zh": "我们现在上课。",
+    "example_zh_trad": "我們現在上課。",
+    "example_pinyin": "Wǒmen xiànzài shàngkè.",
+    "example_ko": "우리는 지금 수업한다."
+  },
+  {
+    "id": "L1-0321",
+    "simplified": "上网",
+    "traditional": "上網",
+    "pinyin": "shàngwǎng",
+    "pos": [],
+    "level": 1,
+    "meaning_ko": "인터넷을 하다",
+    "example_zh": "我喜欢上网。",
+    "example_zh_trad": "我喜歡上網。",
+    "example_pinyin": "Wǒ xǐhuan shàngwǎng.",
+    "example_ko": "나는 인터넷 하는 것을 좋아한다."
+  },
+  {
+    "id": "L1-0322",
+    "simplified": "上午",
+    "traditional": "上午",
+    "pinyin": "shàngwǔ",
+    "pos": [
+      "N"
+    ],
+    "level": 1,
+    "meaning_ko": "오전",
+    "example_zh": "上午我有课。",
+    "example_zh_trad": "上午我有課。",
+    "example_pinyin": "Shàngwǔ wǒ yǒu kè.",
+    "example_ko": "오전에 나는 수업이 있다."
+  },
+  {
+    "id": "L1-0323",
+    "simplified": "上学",
+    "traditional": "上學",
+    "pinyin": "shàngxué",
+    "pos": [],
+    "level": 1,
+    "meaning_ko": "학교 가다",
+    "example_zh": "我去上学。",
+    "example_zh_trad": "我去上學。",
+    "example_pinyin": "Wǒ qù shàngxué.",
+    "example_ko": "나는 학교에 간다."
+  },
+  {
+    "id": "L1-0324",
+    "simplified": "少",
+    "traditional": "少",
+    "pinyin": "shǎo",
+    "pos": [
+      "Adj",
+      "V"
+    ],
+    "level": 1,
+    "meaning_ko": "적다",
+    "example_zh": "我的钱很少。",
+    "example_zh_trad": "我的錢很少。",
+    "example_pinyin": "Wǒ de qián hěn shǎo.",
+    "example_ko": "내 돈은 적다."
+  },
+  {
+    "id": "L1-0325",
+    "simplified": "谁",
+    "traditional": "誰",
+    "pinyin": "shéi/shuí",
+    "pos": [
+      "Pron"
+    ],
+    "level": 1,
+    "meaning_ko": "누구",
+    "example_zh": "他是谁？",
+    "example_zh_trad": "他是誰？",
+    "example_pinyin": "Tā shì shéi?",
+    "example_ko": "그는 누구야?"
+  },
+  {
+    "id": "L1-0326",
+    "simplified": "身上",
+    "traditional": "身上",
+    "pinyin": "shēnshang",
+    "pos": [
+      "N"
+    ],
+    "level": 1,
+    "meaning_ko": "몸에, 몸 위",
+    "example_zh": "我身上没有钱。",
+    "example_zh_trad": "我身上沒有錢。",
+    "example_pinyin": "Wǒ shēnshang méiyǒu qián.",
+    "example_ko": "나는 지금 돈이 없다."
+  },
+  {
+    "id": "L1-0327",
+    "simplified": "身体",
+    "traditional": "身體",
+    "pinyin": "shēntǐ",
+    "pos": [
+      "N"
+    ],
+    "level": 1,
+    "meaning_ko": "몸, 건강",
+    "example_zh": "身体很好。",
+    "example_zh_trad": "身體很好。",
+    "example_pinyin": "Shēntǐ hěn hǎo.",
+    "example_ko": "건강이 좋다."
+  },
+  {
+    "id": "L1-0328",
+    "simplified": "什么",
+    "traditional": "什麼",
+    "pinyin": "shénme",
+    "pos": [
+      "Pron"
+    ],
+    "level": 1,
+    "meaning_ko": "무엇",
+    "example_zh": "这是什么？",
+    "example_zh_trad": "這是什麼？",
+    "example_pinyin": "Zhè shì shénme?",
+    "example_ko": "이게 뭐야?"
+  },
+  {
+    "id": "L1-0329",
+    "simplified": "生病",
+    "traditional": "生病",
+    "pinyin": "shēngbìng",
+    "pos": [],
+    "level": 1,
+    "meaning_ko": "병이 나다",
+    "example_zh": "我生病了。",
+    "example_zh_trad": "我生病了。",
+    "example_pinyin": "Wǒ shēngbìng le.",
+    "example_ko": "나는 병이 났다."
+  },
+  {
+    "id": "L1-0330",
+    "simplified": "生气",
+    "traditional": "生氣",
+    "pinyin": "shēngqì",
+    "pos": [],
+    "level": 1,
+    "meaning_ko": "화내다",
+    "example_zh": "我很生气。",
+    "example_zh_trad": "我很生氣。",
+    "example_pinyin": "Wǒ hěn shēngqì.",
+    "example_ko": "나는 매우 화났다."
+  },
+  {
+    "id": "L1-0331",
+    "simplified": "生日",
+    "traditional": "生日",
+    "pinyin": "shēngrì",
+    "pos": [
+      "N"
+    ],
+    "level": 1,
+    "meaning_ko": "생일",
+    "example_zh": "今天是我生日。",
+    "example_zh_trad": "今天是我生日。",
+    "example_pinyin": "Jīntiān shì wǒ shēngrì.",
+    "example_ko": "오늘은 내 생일이다."
+  },
+  {
+    "id": "L1-0332",
+    "simplified": "十",
+    "traditional": "十",
+    "pinyin": "shí",
+    "pos": [
+      "Num"
+    ],
+    "level": 1,
+    "meaning_ko": "10, 열",
+    "example_zh": "我有十块钱。",
+    "example_zh_trad": "我有十塊錢。",
+    "example_pinyin": "Wǒ yǒu shí kuài qián.",
+    "example_ko": "나는 10위안이 있다."
+  },
+  {
+    "id": "L1-0333",
+    "simplified": "时候",
+    "traditional": "時候",
+    "pinyin": "shíhou",
+    "pos": [
+      "N"
+    ],
+    "level": 1,
+    "meaning_ko": "때, 시기",
+    "example_zh": "什么时候见面？",
+    "example_zh_trad": "什麼時候見面？",
+    "example_pinyin": "Shénme shíhou jiànmiàn?",
+    "example_ko": "언제 만날까?"
+  },
+  {
+    "id": "L1-0334",
+    "simplified": "时间",
+    "traditional": "時間",
+    "pinyin": "shíjiān",
+    "pos": [
+      "N"
+    ],
+    "level": 1,
+    "meaning_ko": "시간",
+    "example_zh": "我没有时间。",
+    "example_zh_trad": "我沒有時間。",
+    "example_pinyin": "Wǒ méiyǒu shíjiān.",
+    "example_ko": "나는 시간이 없다."
+  },
+  {
+    "id": "L1-0335",
+    "simplified": "事",
+    "traditional": "事",
+    "pinyin": "shì",
+    "pos": [
+      "N"
+    ],
+    "level": 1,
+    "meaning_ko": "일",
+    "example_zh": "我有事。",
+    "example_zh_trad": "我有事。",
+    "example_pinyin": "Wǒ yǒu shì.",
+    "example_ko": "나는 일이 있다."
+  },
+  {
+    "id": "L1-0336",
+    "simplified": "试",
+    "traditional": "試",
+    "pinyin": "shì",
+    "pos": [
+      "V"
+    ],
+    "level": 1,
+    "meaning_ko": "시도하다, 써 보다",
+    "example_zh": "我试一下。",
+    "example_zh_trad": "我試一下。",
+    "example_pinyin": "Wǒ shì yíxià.",
+    "example_ko": "내가 한번 해볼게."
+  },
+  {
+    "id": "L1-0337",
+    "simplified": "是",
+    "traditional": "是",
+    "pinyin": "shì",
+    "pos": [
+      "V"
+    ],
+    "level": 1,
+    "meaning_ko": "~이다",
+    "example_zh": "我是学生。",
+    "example_zh_trad": "我是學生。",
+    "example_pinyin": "Wǒ shì xuésheng.",
+    "example_ko": "나는 학생이다."
+  },
+  {
+    "id": "L1-0338",
+    "simplified": "是不是",
+    "traditional": "是不是",
+    "pinyin": "shì bu shì",
+    "pos": [],
+    "level": 1,
+    "meaning_ko": "~이지 않나요?",
+    "example_zh": "他是不是中国人？",
+    "example_zh_trad": "他是不是中國人？",
+    "example_pinyin": "Tā shì bu shì Zhōngguó rén?",
+    "example_ko": "그는 중국인이죠?"
+  },
+  {
+    "id": "L1-0339",
+    "simplified": "手",
+    "traditional": "手",
+    "pinyin": "shǒu",
+    "pos": [
+      "N"
+    ],
+    "level": 1,
+    "meaning_ko": "손",
+    "example_zh": "洗手。",
+    "example_zh_trad": "洗手。",
+    "example_pinyin": "Xǐ shǒu.",
+    "example_ko": "손을 씻다."
+  },
+  {
+    "id": "L1-0340",
+    "simplified": "手机",
+    "traditional": "手機",
+    "pinyin": "shǒujī",
+    "pos": [
+      "N"
+    ],
+    "level": 1,
+    "meaning_ko": "휴대폰",
+    "example_zh": "我的手机在家里。",
+    "example_zh_trad": "我的手機在家裡。",
+    "example_pinyin": "Wǒ de shǒujī zài jiā li.",
+    "example_ko": "내 휴대폰은 집에 있다."
+  },
+  {
+    "id": "L1-0341",
+    "simplified": "书",
+    "traditional": "書",
+    "pinyin": "shū",
+    "pos": [
+      "N"
+    ],
+    "level": 1,
+    "meaning_ko": "책",
+    "example_zh": "我看书。",
+    "example_zh_trad": "我看書。",
+    "example_pinyin": "Wǒ kàn shū.",
+    "example_ko": "나는 책을 본다."
+  },
+  {
+    "id": "L1-0342",
+    "simplified": "书包",
+    "traditional": "書包",
+    "pinyin": "shūbāo",
+    "pos": [
+      "N"
+    ],
+    "level": 1,
+    "meaning_ko": "책가방",
+    "example_zh": "这是我的书包。",
+    "example_zh_trad": "這是我的書包。",
+    "example_pinyin": "Zhè shì wǒ de shūbāo.",
+    "example_ko": "이것은 내 책가방이다."
+  },
+  {
+    "id": "L1-0343",
+    "simplified": "书店",
+    "traditional": "書店",
+    "pinyin": "shūdiàn",
+    "pos": [
+      "N"
+    ],
+    "level": 1,
+    "meaning_ko": "서점",
+    "example_zh": "我去书店。",
+    "example_zh_trad": "我去書店。",
+    "example_pinyin": "Wǒ qù shūdiàn.",
+    "example_ko": "나는 서점에 간다."
+  },
+  {
+    "id": "L1-0344",
+    "simplified": "树",
+    "traditional": "樹",
+    "pinyin": "shù",
+    "pos": [
+      "N"
+    ],
+    "level": 1,
+    "meaning_ko": "나무",
+    "example_zh": "树很大。",
+    "example_zh_trad": "樹很大。",
+    "example_pinyin": "Shù hěn dà.",
+    "example_ko": "나무가 크다."
+  },
+  {
+    "id": "L1-0345",
+    "simplified": "水",
+    "traditional": "水",
+    "pinyin": "shuǐ",
+    "pos": [
+      "N"
+    ],
+    "level": 1,
+    "meaning_ko": "물",
+    "example_zh": "我喝水。",
+    "example_zh_trad": "我喝水。",
+    "example_pinyin": "Wǒ hē shuǐ.",
+    "example_ko": "나는 물을 마신다."
+  },
+  {
+    "id": "L1-0346",
+    "simplified": "水果",
+    "traditional": "水果",
+    "pinyin": "shuǐguǒ",
+    "pos": [
+      "N"
+    ],
+    "level": 1,
+    "meaning_ko": "과일",
+    "example_zh": "我喜欢吃水果。",
+    "example_zh_trad": "我喜歡吃水果。",
+    "example_pinyin": "Wǒ xǐhuan chī shuǐguǒ.",
+    "example_ko": "나는 과일을 좋아한다."
+  },
+  {
+    "id": "L1-0347",
+    "simplified": "睡",
+    "traditional": "睡",
+    "pinyin": "shuì",
+    "pos": [
+      "V"
+    ],
+    "level": 1,
+    "meaning_ko": "자다",
+    "example_zh": "我要睡了。",
+    "example_zh_trad": "我要睡了。",
+    "example_pinyin": "Wǒ yào shuì le.",
+    "example_ko": "나는 자야 한다."
+  },
+  {
+    "id": "L1-0348",
+    "simplified": "睡觉",
+    "traditional": "睡覺",
+    "pinyin": "shuìjiào",
+    "pos": [],
+    "level": 1,
+    "meaning_ko": "잠을 자다",
+    "example_zh": "晚上我睡觉。",
+    "example_zh_trad": "晚上我睡覺。",
+    "example_pinyin": "Wǎnshang wǒ shuìjiào.",
+    "example_ko": "밤에 나는 잠을 잔다."
+  },
+  {
+    "id": "L1-0349",
+    "simplified": "说",
+    "traditional": "說",
+    "pinyin": "shuō",
+    "pos": [
+      "V"
+    ],
+    "level": 1,
+    "meaning_ko": "말하다",
+    "example_zh": "我说中文。",
+    "example_zh_trad": "我說中文。",
+    "example_pinyin": "Wǒ shuō Zhōngwén.",
+    "example_ko": "나는 중국어를 말한다."
+  },
+  {
+    "id": "L1-0350",
+    "simplified": "说话",
+    "traditional": "說話",
+    "pinyin": "shuōhuà",
+    "pos": [],
+    "level": 1,
+    "meaning_ko": "말을 하다",
+    "example_zh": "他在说话。",
+    "example_zh_trad": "他在說話。",
+    "example_pinyin": "Tā zài shuōhuà.",
+    "example_ko": "그는 말하고 있다."
+  },
+  {
+    "id": "L1-0351",
+    "simplified": "四",
+    "traditional": "四",
+    "pinyin": "sì",
+    "pos": [
+      "Num"
+    ],
+    "level": 1,
+    "meaning_ko": "4, 넷",
+    "example_zh": "我有四本书。",
+    "example_zh_trad": "我有四本書。",
+    "example_pinyin": "Wǒ yǒu sì běn shū.",
+    "example_ko": "나는 책 4권이 있다."
+  },
+  {
+    "id": "L1-0352",
+    "simplified": "送",
+    "traditional": "送",
+    "pinyin": "sòng",
+    "pos": [
+      "V"
+    ],
+    "level": 1,
+    "meaning_ko": "보내다, 선물하다, 데려다주다",
+    "example_zh": "我送你回家。",
+    "example_zh_trad": "我送你回家。",
+    "example_pinyin": "Wǒ sòng nǐ huí jiā.",
+    "example_ko": "내가 너를 집까지 바래다줄게."
+  },
+  {
+    "id": "L1-0353",
+    "simplified": "岁",
+    "traditional": "歲",
+    "pinyin": "suì",
+    "pos": [
+      "M"
+    ],
+    "level": 1,
+    "meaning_ko": "살, 세 (나이)",
+    "example_zh": "我二十岁。",
+    "example_zh_trad": "我二十歲。",
+    "example_pinyin": "Wǒ èrshí suì.",
+    "example_ko": "나는 20살이다."
+  },
+  {
+    "id": "L1-0354",
+    "simplified": "他",
+    "traditional": "他",
+    "pinyin": "tā",
+    "pos": [
+      "Pron"
+    ],
+    "level": 1,
+    "meaning_ko": "그 (3인칭 남성)",
+    "example_zh": "他是学生。",
+    "example_zh_trad": "他是學生。",
+    "example_pinyin": "Tā shì xuésheng.",
+    "example_ko": "그는 학생이다."
+  },
+  {
+    "id": "L1-0355",
+    "simplified": "他们",
+    "traditional": "他們",
+    "pinyin": "tāmen",
+    "pos": [
+      "Pron"
+    ],
+    "level": 1,
+    "meaning_ko": "그들",
+    "example_zh": "他们是朋友。",
+    "example_zh_trad": "他們是朋友。",
+    "example_pinyin": "Tāmen shì péngyou.",
+    "example_ko": "그들은 친구다."
+  },
+  {
+    "id": "L1-0356",
+    "simplified": "她",
+    "traditional": "她",
+    "pinyin": "tā",
+    "pos": [
+      "Pron"
+    ],
+    "level": 1,
+    "meaning_ko": "그녀",
+    "example_zh": "她是我妈妈。",
+    "example_zh_trad": "她是我媽媽。",
+    "example_pinyin": "Tā shì wǒ māma.",
+    "example_ko": "그녀는 우리 엄마다."
+  },
+  {
+    "id": "L1-0357",
+    "simplified": "她们",
+    "traditional": "她們",
+    "pinyin": "tāmen",
+    "pos": [
+      "Pron"
+    ],
+    "level": 1,
+    "meaning_ko": "그녀들",
+    "example_zh": "她们在说话。",
+    "example_zh_trad": "她們在說話。",
+    "example_pinyin": "Tāmen zài shuōhuà.",
+    "example_ko": "그녀들은 말하고 있다."
+  },
+  {
+    "id": "L1-0358",
+    "simplified": "太",
+    "traditional": "太",
+    "pinyin": "tài",
+    "pos": [
+      "Adv"
+    ],
+    "level": 1,
+    "meaning_ko": "너무, 매우",
+    "example_zh": "太好了。",
+    "example_zh_trad": "太好了。",
+    "example_pinyin": "Tài hǎo le.",
+    "example_ko": "너무 좋다."
+  },
+  {
+    "id": "L1-0359",
+    "simplified": "天",
+    "traditional": "天",
+    "pinyin": "tiān",
+    "pos": [
+      "N",
+      "M"
+    ],
+    "level": 1,
+    "meaning_ko": "하늘, 날",
+    "example_zh": "今天天气好。",
+    "example_zh_trad": "今天天氣好。",
+    "example_pinyin": "Jīntiān tiānqì hǎo.",
+    "example_ko": "오늘 날씨가 좋다."
+  },
+  {
+    "id": "L1-0360",
+    "simplified": "天气",
+    "traditional": "天氣",
+    "pinyin": "tiānqì",
+    "pos": [
+      "N"
+    ],
+    "level": 1,
+    "meaning_ko": "날씨",
+    "example_zh": "今天天气好。",
+    "example_zh_trad": "今天天氣好。",
+    "example_pinyin": "Jīntiān tiānqì hǎo.",
+    "example_ko": "오늘 날씨가 좋다."
+  },
+  {
+    "id": "L1-0361",
+    "simplified": "听",
+    "traditional": "聽",
+    "pinyin": "tīng",
+    "pos": [
+      "V"
+    ],
+    "level": 1,
+    "meaning_ko": "듣다",
+    "example_zh": "我听歌。",
+    "example_zh_trad": "我聽歌。",
+    "example_pinyin": "Wǒ tīng gē.",
+    "example_ko": "나는 노래를 듣는다."
+  },
+  {
+    "id": "L1-0362",
+    "simplified": "听到",
+    "traditional": "聽到",
+    "pinyin": "tīngdào",
+    "pos": [],
+    "level": 1,
+    "meaning_ko": "듣다, 들려오다",
+    "example_zh": "我听到了。",
+    "example_zh_trad": "我聽到了。",
+    "example_pinyin": "Wǒ tīngdào le.",
+    "example_ko": "나는 들었다."
+  },
+  {
+    "id": "L1-0363",
+    "simplified": "听见",
+    "traditional": "聽見",
+    "pinyin": "tīngjiàn",
+    "pos": [],
+    "level": 1,
+    "meaning_ko": "듣다, 들리다",
+    "example_zh": "我听见你了。",
+    "example_zh_trad": "我聽見你了。",
+    "example_pinyin": "Wǒ tīngjiàn nǐ le.",
+    "example_ko": "나는 네 소리가 들렸다."
+  },
+  {
+    "id": "L1-0364",
+    "simplified": "听写",
+    "traditional": "聽寫",
+    "pinyin": "tīngxiě",
+    "pos": [
+      "V"
+    ],
+    "level": 1,
+    "meaning_ko": "받아쓰기",
+    "example_zh": "我们听写。",
+    "example_zh_trad": "我們聽寫。",
+    "example_pinyin": "Wǒmen tīngxiě.",
+    "example_ko": "우리는 받아쓰기를 한다."
+  },
+  {
+    "id": "L1-0365",
+    "simplified": "同学",
+    "traditional": "同學",
+    "pinyin": "tóngxué",
+    "pos": [
+      "N"
+    ],
+    "level": 1,
+    "meaning_ko": "동급생, 학우",
+    "example_zh": "他是我同学。",
+    "example_zh_trad": "他是我同學。",
+    "example_pinyin": "Tā shì wǒ tóngxué.",
+    "example_ko": "그는 내 학우다."
+  },
+  {
+    "id": "L1-0366",
+    "simplified": "图书馆",
+    "traditional": "圖書館",
+    "pinyin": "túshūguǎn",
+    "pos": [
+      "N"
+    ],
+    "level": 1,
+    "meaning_ko": "도서관",
+    "example_zh": "我去图书馆。",
+    "example_zh_trad": "我去圖書館。",
+    "example_pinyin": "Wǒ qù túshūguǎn.",
+    "example_ko": "나는 도서관에 간다."
+  },
+  {
+    "id": "L1-0367",
+    "simplified": "外",
+    "traditional": "外",
+    "pinyin": "wài",
+    "pos": [
+      "N"
+    ],
+    "level": 1,
+    "meaning_ko": "바깥, 외",
+    "example_zh": "门外有人。",
+    "example_zh_trad": "門外有人。",
+    "example_pinyin": "Mén wài yǒu rén.",
+    "example_ko": "문 밖에 사람이 있다."
+  },
+  {
+    "id": "L1-0368",
+    "simplified": "外边",
+    "traditional": "外邊",
+    "pinyin": "wàibian",
+    "pos": [
+      "N"
+    ],
+    "level": 1,
+    "meaning_ko": "바깥쪽",
+    "example_zh": "外边很冷。",
+    "example_zh_trad": "外邊很冷。",
+    "example_pinyin": "Wàibian hěn lěng.",
+    "example_ko": "밖이 춥다."
+  },
+  {
+    "id": "L1-0369",
+    "simplified": "外国",
+    "traditional": "外國",
+    "pinyin": "wàiguó",
+    "pos": [
+      "N"
+    ],
+    "level": 1,
+    "meaning_ko": "외국",
+    "example_zh": "他是外国人。",
+    "example_zh_trad": "他是外國人。",
+    "example_pinyin": "Tā shì wàiguó rén.",
+    "example_ko": "그는 외국인이다."
+  },
+  {
+    "id": "L1-0370",
+    "simplified": "外语",
+    "traditional": "外語",
+    "pinyin": "wàiyǔ",
+    "pos": [
+      "N"
+    ],
+    "level": 1,
+    "meaning_ko": "외국어",
+    "example_zh": "我学外语。",
+    "example_zh_trad": "我學外語。",
+    "example_pinyin": "Wǒ xué wàiyǔ.",
+    "example_ko": "나는 외국어를 배운다."
+  },
+  {
+    "id": "L1-0371",
+    "simplified": "玩儿",
+    "traditional": "玩兒",
+    "pinyin": "wánr",
+    "pos": [
+      "V"
+    ],
+    "level": 1,
+    "meaning_ko": "놀다",
+    "example_zh": "我们去玩儿。",
+    "example_zh_trad": "我們去玩兒。",
+    "example_pinyin": "Wǒmen qù wánr.",
+    "example_ko": "우리 놀러 가자."
+  },
+  {
+    "id": "L1-0372",
+    "simplified": "晚",
+    "traditional": "晚",
+    "pinyin": "wǎn",
+    "pos": [
+      "Adj"
+    ],
+    "level": 1,
+    "meaning_ko": "늦다",
+    "example_zh": "你来晚了。",
+    "example_zh_trad": "你來晚了。",
+    "example_pinyin": "Nǐ lái wǎn le.",
+    "example_ko": "너 늦게 왔어."
+  },
+  {
+    "id": "L1-0373",
+    "simplified": "晚饭",
+    "traditional": "晚飯",
+    "pinyin": "wǎnfàn",
+    "pos": [
+      "N"
+    ],
+    "level": 1,
+    "meaning_ko": "저녁 식사",
+    "example_zh": "晚饭吃什么？",
+    "example_zh_trad": "晚飯吃什麼？",
+    "example_pinyin": "Wǎnfàn chī shénme?",
+    "example_ko": "저녁에 뭐 먹지?"
+  },
+  {
+    "id": "L1-0374",
+    "simplified": "晚上",
+    "traditional": "晚上",
+    "pinyin": "wǎnshang",
+    "pos": [
+      "N"
+    ],
+    "level": 1,
+    "meaning_ko": "저녁, 밤",
+    "example_zh": "晚上见。",
+    "example_zh_trad": "晚上見。",
+    "example_pinyin": "Wǎnshang jiàn.",
+    "example_ko": "저녁에 봐요."
+  },
+  {
+    "id": "L1-0375",
+    "simplified": "网上",
+    "traditional": "網上",
+    "pinyin": "wǎng shang",
+    "pos": [],
+    "level": 1,
+    "meaning_ko": "인터넷에서, 온라인",
+    "example_zh": "我在网上买东西。",
+    "example_zh_trad": "我在網上買東西。",
+    "example_pinyin": "Wǒ zài wǎng shang mǎi dōngxi.",
+    "example_ko": "나는 인터넷에서 물건을 산다."
+  },
+  {
+    "id": "L1-0376",
+    "simplified": "网友",
+    "traditional": "網友",
+    "pinyin": "wǎngyǒu",
+    "pos": [
+      "N"
+    ],
+    "level": 1,
+    "meaning_ko": "인터넷 친구",
+    "example_zh": "他是我的网友。",
+    "example_zh_trad": "他是我的網友。",
+    "example_pinyin": "Tā shì wǒ de wǎngyǒu.",
+    "example_ko": "그는 내 인터넷 친구다."
+  },
+  {
+    "id": "L1-0377",
+    "simplified": "忘",
+    "traditional": "忘",
+    "pinyin": "wàng",
+    "pos": [
+      "V"
+    ],
+    "level": 1,
+    "meaning_ko": "잊다",
+    "example_zh": "我忘了。",
+    "example_zh_trad": "我忘了。",
+    "example_pinyin": "Wǒ wàng le.",
+    "example_ko": "나는 잊어버렸다."
+  },
+  {
+    "id": "L1-0378",
+    "simplified": "忘记",
+    "traditional": "忘記",
+    "pinyin": "wàngjì",
+    "pos": [
+      "V"
+    ],
+    "level": 1,
+    "meaning_ko": "잊다, 망각하다",
+    "example_zh": "我忘记了。",
+    "example_zh_trad": "我忘記了。",
+    "example_pinyin": "Wǒ wàngjì le.",
+    "example_ko": "나는 잊어버렸다."
+  },
+  {
+    "id": "L1-0379",
+    "simplified": "问",
+    "traditional": "問",
+    "pinyin": "wèn",
+    "pos": [
+      "V"
+    ],
+    "level": 1,
+    "meaning_ko": "묻다",
+    "example_zh": "我问你。",
+    "example_zh_trad": "我問你。",
+    "example_pinyin": "Wǒ wèn nǐ.",
+    "example_ko": "내가 너한테 물을게."
+  },
+  {
+    "id": "L1-0380",
+    "simplified": "我",
+    "traditional": "我",
+    "pinyin": "wǒ",
+    "pos": [
+      "Pron"
+    ],
+    "level": 1,
+    "meaning_ko": "나",
+    "example_zh": "我是学生。",
+    "example_zh_trad": "我是學生。",
+    "example_pinyin": "Wǒ shì xuésheng.",
+    "example_ko": "나는 학생이다."
+  },
+  {
+    "id": "L1-0381",
+    "simplified": "我们",
+    "traditional": "我們",
+    "pinyin": "wǒmen",
+    "pos": [
+      "Pron"
+    ],
+    "level": 1,
+    "meaning_ko": "우리",
+    "example_zh": "我们是朋友。",
+    "example_zh_trad": "我們是朋友。",
+    "example_pinyin": "Wǒmen shì péngyou.",
+    "example_ko": "우리는 친구다."
+  },
+  {
+    "id": "L1-0382",
+    "simplified": "五",
+    "traditional": "五",
+    "pinyin": "wǔ",
+    "pos": [
+      "Num"
+    ],
+    "level": 1,
+    "meaning_ko": "5, 다섯",
+    "example_zh": "他五十岁。",
+    "example_zh_trad": "他五十歲。",
+    "example_pinyin": "Tā wǔshí suì.",
+    "example_ko": "그는 50살이다."
+  },
+  {
+    "id": "L1-0383",
+    "simplified": "午饭",
+    "traditional": "午飯",
+    "pinyin": "wǔfàn",
+    "pos": [
+      "N"
+    ],
+    "level": 1,
+    "meaning_ko": "점심 식사",
+    "example_zh": "午饭我吃米饭。",
+    "example_zh_trad": "午飯我吃米飯。",
+    "example_pinyin": "Wǔfàn wǒ chī mǐfàn.",
+    "example_ko": "점심에 나는 쌀밥을 먹는다."
+  },
+  {
+    "id": "L1-0384",
+    "simplified": "西",
+    "traditional": "西",
+    "pinyin": "xī",
+    "pos": [
+      "N"
+    ],
+    "level": 1,
+    "meaning_ko": "서쪽",
+    "example_zh": "我家在西边。",
+    "example_zh_trad": "我家在西邊。",
+    "example_pinyin": "Wǒ jiā zài xībian.",
+    "example_ko": "우리 집은 서쪽에 있다."
+  },
+  {
+    "id": "L1-0385",
+    "simplified": "西边",
+    "traditional": "西邊",
+    "pinyin": "xībian",
+    "pos": [
+      "N"
+    ],
+    "level": 1,
+    "meaning_ko": "서쪽",
+    "example_zh": "学校在西边。",
+    "example_zh_trad": "學校在西邊。",
+    "example_pinyin": "Xuéxiào zài xībian.",
+    "example_ko": "학교는 서쪽에 있다."
+  },
+  {
+    "id": "L1-0386",
+    "simplified": "洗",
+    "traditional": "洗",
+    "pinyin": "xǐ",
+    "pos": [
+      "V"
+    ],
+    "level": 1,
+    "meaning_ko": "씻다",
+    "example_zh": "我洗手。",
+    "example_zh_trad": "我洗手。",
+    "example_pinyin": "Wǒ xǐ shǒu.",
+    "example_ko": "나는 손을 씻는다."
+  },
+  {
+    "id": "L1-0387",
+    "simplified": "洗手间",
+    "traditional": "洗手間",
+    "pinyin": "xǐshǒujiān",
+    "pos": [
+      "N"
+    ],
+    "level": 1,
+    "meaning_ko": "화장실",
+    "example_zh": "洗手间在哪儿？",
+    "example_zh_trad": "洗手間在哪兒？",
+    "example_pinyin": "Xǐshǒujiān zài nǎr?",
+    "example_ko": "화장실이 어디에요?"
+  },
+  {
+    "id": "L1-0388",
+    "simplified": "喜欢",
+    "traditional": "喜歡",
+    "pinyin": "xǐhuan",
+    "pos": [
+      "V"
+    ],
+    "level": 1,
+    "meaning_ko": "좋아하다",
+    "example_zh": "我喜欢你。",
+    "example_zh_trad": "我喜歡你。",
+    "example_pinyin": "Wǒ xǐhuan nǐ.",
+    "example_ko": "나는 너를 좋아한다."
+  },
+  {
+    "id": "L1-0389",
+    "simplified": "下",
+    "traditional": "下",
+    "pinyin": "xià",
+    "pos": [
+      "N",
+      "V"
+    ],
+    "level": 1,
+    "meaning_ko": "아래; 내려가다",
+    "example_zh": "下雨了。",
+    "example_zh_trad": "下雨了。",
+    "example_pinyin": "Xià yǔ le.",
+    "example_ko": "비가 온다."
+  },
+  {
+    "id": "L1-0390",
+    "simplified": "下班",
+    "traditional": "下班",
+    "pinyin": "xiàbān",
+    "pos": [],
+    "level": 1,
+    "meaning_ko": "퇴근하다",
+    "example_zh": "我六点下班。",
+    "example_zh_trad": "我六點下班。",
+    "example_pinyin": "Wǒ liù diǎn xiàbān.",
+    "example_ko": "나는 6시에 퇴근한다."
+  },
+  {
+    "id": "L1-0391",
+    "simplified": "下边",
+    "traditional": "下邊",
+    "pinyin": "xiàbian",
+    "pos": [
+      "N"
+    ],
+    "level": 1,
+    "meaning_ko": "아래쪽",
+    "example_zh": "书在下边。",
+    "example_zh_trad": "書在下邊。",
+    "example_pinyin": "Shū zài xiàbian.",
+    "example_ko": "책이 아래에 있다."
+  },
+  {
+    "id": "L1-0392",
+    "simplified": "下车",
+    "traditional": "下車",
+    "pinyin": "xià chē",
+    "pos": [],
+    "level": 1,
+    "meaning_ko": "차에서 내리다",
+    "example_zh": "我下车了。",
+    "example_zh_trad": "我下車了。",
+    "example_pinyin": "Wǒ xià chē le.",
+    "example_ko": "나는 차에서 내렸다."
+  },
+  {
+    "id": "L1-0393",
+    "simplified": "下次",
+    "traditional": "下次",
+    "pinyin": "xià cì",
+    "pos": [],
+    "level": 1,
+    "meaning_ko": "다음번",
+    "example_zh": "下次再来。",
+    "example_zh_trad": "下次再來。",
+    "example_pinyin": "Xià cì zài lái.",
+    "example_ko": "다음에 또 와."
+  },
+  {
+    "id": "L1-0394",
+    "simplified": "下课",
+    "traditional": "下課",
+    "pinyin": "xiàkè",
+    "pos": [],
+    "level": 1,
+    "meaning_ko": "수업이 끝나다",
+    "example_zh": "我们下课了。",
+    "example_zh_trad": "我們下課了。",
+    "example_pinyin": "Wǒmen xiàkè le.",
+    "example_ko": "우리는 수업이 끝났다."
+  },
+  {
+    "id": "L1-0395",
+    "simplified": "下午",
+    "traditional": "下午",
+    "pinyin": "xiàwǔ",
+    "pos": [
+      "N"
+    ],
+    "level": 1,
+    "meaning_ko": "오후",
+    "example_zh": "下午我有课。",
+    "example_zh_trad": "下午我有課。",
+    "example_pinyin": "Xiàwǔ wǒ yǒu kè.",
+    "example_ko": "오후에 나는 수업이 있다."
+  },
+  {
+    "id": "L1-0396",
+    "simplified": "下雨",
+    "traditional": "下雨",
+    "pinyin": "xià yǔ",
+    "pos": [],
+    "level": 1,
+    "meaning_ko": "비가 오다",
+    "example_zh": "外边下雨了。",
+    "example_zh_trad": "外邊下雨了。",
+    "example_pinyin": "Wàibian xià yǔ le.",
+    "example_ko": "밖에 비가 온다."
+  },
+  {
+    "id": "L1-0397",
+    "simplified": "先",
+    "traditional": "先",
+    "pinyin": "xiān",
+    "pos": [
+      "Adv"
+    ],
+    "level": 1,
+    "meaning_ko": "먼저",
+    "example_zh": "你先走。",
+    "example_zh_trad": "你先走。",
+    "example_pinyin": "Nǐ xiān zǒu.",
+    "example_ko": "너 먼저 가."
+  },
+  {
+    "id": "L1-0398",
+    "simplified": "先生",
+    "traditional": "先生",
+    "pinyin": "xiānsheng",
+    "pos": [
+      "N"
+    ],
+    "level": 1,
+    "meaning_ko": "선생, ~씨 (남성 호칭)",
+    "example_zh": "王先生好。",
+    "example_zh_trad": "王先生好。",
+    "example_pinyin": "Wáng xiānsheng hǎo.",
+    "example_ko": "왕 선생님 안녕하세요."
+  },
+  {
+    "id": "L1-0399",
+    "simplified": "现在",
+    "traditional": "現在",
+    "pinyin": "xiànzài",
+    "pos": [
+      "N"
+    ],
+    "level": 1,
+    "meaning_ko": "지금, 현재",
+    "example_zh": "现在几点？",
+    "example_zh_trad": "現在幾點？",
+    "example_pinyin": "Xiànzài jǐ diǎn?",
+    "example_ko": "지금 몇 시야?"
+  },
+  {
+    "id": "L1-0400",
+    "simplified": "想",
+    "traditional": "想",
+    "pinyin": "xiǎng",
+    "pos": [
+      "V"
+    ],
+    "level": 1,
+    "meaning_ko": "생각하다, ~하고 싶다",
+    "example_zh": "我想吃饭。",
+    "example_zh_trad": "我想吃飯。",
+    "example_pinyin": "Wǒ xiǎng chī fàn.",
+    "example_ko": "나는 밥을 먹고 싶다."
+  },
+  {
+    "id": "L1-0401",
+    "simplified": "小",
+    "traditional": "小",
+    "pinyin": "xiǎo",
+    "pos": [
+      "Adj"
+    ],
+    "level": 1,
+    "meaning_ko": "작다",
+    "example_zh": "这个很小。",
+    "example_zh_trad": "這個很小。",
+    "example_pinyin": "Zhège hěn xiǎo.",
+    "example_ko": "이것은 작다."
+  },
+  {
+    "id": "L1-0402",
+    "simplified": "小孩儿",
+    "traditional": "小孩兒",
+    "pinyin": "xiǎoháir",
+    "pos": [
+      "N"
+    ],
+    "level": 1,
+    "meaning_ko": "아이, 꼬마",
+    "example_zh": "她是小孩儿。",
+    "example_zh_trad": "她是小孩兒。",
+    "example_pinyin": "Tā shì xiǎoháir.",
+    "example_ko": "그녀는 아이다."
+  },
+  {
+    "id": "L1-0403",
+    "simplified": "小姐",
+    "traditional": "小姐",
+    "pinyin": "xiǎojiě",
+    "pos": [
+      "N"
+    ],
+    "level": 1,
+    "meaning_ko": "아가씨, ~씨 (여성 호칭)",
+    "example_zh": "王小姐好。",
+    "example_zh_trad": "王小姐好。",
+    "example_pinyin": "Wáng xiǎojiě hǎo.",
+    "example_ko": "왕 씨 안녕하세요."
+  },
+  {
+    "id": "L1-0404",
+    "simplified": "小朋友",
+    "traditional": "小朋友",
+    "pinyin": "xiǎopéngyǒu",
+    "pos": [
+      "N"
+    ],
+    "level": 1,
+    "meaning_ko": "어린이, 꼬마 친구",
+    "example_zh": "小朋友，你好！",
+    "example_zh_trad": "小朋友，你好！",
+    "example_pinyin": "Xiǎopéngyǒu, nǐ hǎo!",
+    "example_ko": "꼬마야, 안녕!"
+  },
+  {
+    "id": "L1-0405",
+    "simplified": "小时",
+    "traditional": "小時",
+    "pinyin": "xiǎoshí",
+    "pos": [
+      "N"
+    ],
+    "level": 1,
+    "meaning_ko": "시간 (경과)",
+    "example_zh": "一个小时。",
+    "example_zh_trad": "一個小時。",
+    "example_pinyin": "Yí gè xiǎoshí.",
+    "example_ko": "한 시간."
+  },
+  {
+    "id": "L1-0406",
+    "simplified": "小学",
+    "traditional": "小學",
+    "pinyin": "xiǎoxué",
+    "pos": [
+      "N"
+    ],
+    "level": 1,
+    "meaning_ko": "초등학교",
+    "example_zh": "她上小学。",
+    "example_zh_trad": "她上小學。",
+    "example_pinyin": "Tā shàng xiǎoxué.",
+    "example_ko": "그녀는 초등학교에 다닌다."
+  },
+  {
+    "id": "L1-0407",
+    "simplified": "小学生",
+    "traditional": "小學生",
+    "pinyin": "xiǎoxuéshēng",
+    "pos": [
+      "N"
+    ],
+    "level": 1,
+    "meaning_ko": "초등학생",
+    "example_zh": "他是小学生。",
+    "example_zh_trad": "他是小學生。",
+    "example_pinyin": "Tā shì xiǎoxuéshēng.",
+    "example_ko": "그는 초등학생이다."
+  },
+  {
+    "id": "L1-0408",
+    "simplified": "笑",
+    "traditional": "笑",
+    "pinyin": "xiào",
+    "pos": [
+      "V"
+    ],
+    "level": 1,
+    "meaning_ko": "웃다",
+    "example_zh": "她在笑。",
+    "example_zh_trad": "她在笑。",
+    "example_pinyin": "Tā zài xiào.",
+    "example_ko": "그녀는 웃고 있다."
+  },
+  {
+    "id": "L1-0409",
+    "simplified": "写",
+    "traditional": "寫",
+    "pinyin": "xiě",
+    "pos": [
+      "V"
+    ],
+    "level": 1,
+    "meaning_ko": "쓰다",
+    "example_zh": "我写汉字。",
+    "example_zh_trad": "我寫漢字。",
+    "example_pinyin": "Wǒ xiě Hànzì.",
+    "example_ko": "나는 한자를 쓴다."
+  },
+  {
+    "id": "L1-0410",
+    "simplified": "谢谢",
+    "traditional": "謝謝",
+    "pinyin": "xièxie",
+    "pos": [
+      "V"
+    ],
+    "level": 1,
+    "meaning_ko": "감사하다",
+    "example_zh": "谢谢你。",
+    "example_zh_trad": "謝謝你。",
+    "example_pinyin": "Xièxie nǐ.",
+    "example_ko": "고마워요."
+  },
+  {
+    "id": "L1-0411",
+    "simplified": "新",
+    "traditional": "新",
+    "pinyin": "xīn",
+    "pos": [
+      "Adj"
+    ],
+    "level": 1,
+    "meaning_ko": "새롭다",
+    "example_zh": "这是新的。",
+    "example_zh_trad": "這是新的。",
+    "example_pinyin": "Zhè shì xīn de.",
+    "example_ko": "이것은 새것이다."
+  },
+  {
+    "id": "L1-0412",
+    "simplified": "新年",
+    "traditional": "新年",
+    "pinyin": "xīnnián",
+    "pos": [
+      "N"
+    ],
+    "level": 1,
+    "meaning_ko": "새해",
+    "example_zh": "新年好。",
+    "example_zh_trad": "新年好。",
+    "example_pinyin": "Xīnnián hǎo.",
+    "example_ko": "새해 복 많이 받으세요."
+  },
+  {
+    "id": "L1-0413",
+    "simplified": "星期",
+    "traditional": "星期",
+    "pinyin": "xīngqī",
+    "pos": [
+      "N"
+    ],
+    "level": 1,
+    "meaning_ko": "주, 요일",
+    "example_zh": "今天星期几？",
+    "example_zh_trad": "今天星期幾？",
+    "example_pinyin": "Jīntiān xīngqī jǐ?",
+    "example_ko": "오늘 무슨 요일이야?"
+  },
+  {
+    "id": "L1-0414",
+    "simplified": "星期日",
+    "traditional": "星期日",
+    "pinyin": "xīngqīrì",
+    "pos": [
+      "N"
+    ],
+    "level": 1,
+    "meaning_ko": "일요일",
+    "example_zh": "今天是星期日。",
+    "example_zh_trad": "今天是星期日。",
+    "example_pinyin": "Jīntiān shì xīngqīrì.",
+    "example_ko": "오늘은 일요일이다."
+  },
+  {
+    "id": "L1-0415",
+    "simplified": "星期天",
+    "traditional": "星期天",
+    "pinyin": "xīngqītiān",
+    "pos": [
+      "N"
+    ],
+    "level": 1,
+    "meaning_ko": "일요일",
+    "example_zh": "星期天我休息。",
+    "example_zh_trad": "星期天我休息。",
+    "example_pinyin": "Xīngqītiān wǒ xiūxi.",
+    "example_ko": "일요일에 나는 쉰다."
+  },
+  {
+    "id": "L1-0416",
+    "simplified": "行",
+    "traditional": "行",
+    "pinyin": "xíng",
+    "pos": [
+      "V",
+      "Adj"
+    ],
+    "level": 1,
+    "meaning_ko": "되다, 가능하다",
+    "example_zh": "这样行吗？",
+    "example_zh_trad": "這樣行嗎？",
+    "example_pinyin": "Zhèyàng xíng ma?",
+    "example_ko": "이렇게 괜찮아?"
+  },
+  {
+    "id": "L1-0417",
+    "simplified": "休息",
+    "traditional": "休息",
+    "pinyin": "xiūxi",
+    "pos": [
+      "V"
+    ],
+    "level": 1,
+    "meaning_ko": "쉬다",
+    "example_zh": "我在家休息。",
+    "example_zh_trad": "我在家休息。",
+    "example_pinyin": "Wǒ zài jiā xiūxi.",
+    "example_ko": "나는 집에서 쉰다."
+  },
+  {
+    "id": "L1-0418",
+    "simplified": "学",
+    "traditional": "學",
+    "pinyin": "xué",
+    "pos": [
+      "V"
+    ],
+    "level": 1,
+    "meaning_ko": "배우다",
+    "example_zh": "我学中文。",
+    "example_zh_trad": "我學中文。",
+    "example_pinyin": "Wǒ xué Zhōngwén.",
+    "example_ko": "나는 중국어를 배운다."
+  },
+  {
+    "id": "L1-0419",
+    "simplified": "学生",
+    "traditional": "學生",
+    "pinyin": "xuéshēng",
+    "pos": [
+      "N"
+    ],
+    "level": 1,
+    "meaning_ko": "학생",
+    "example_zh": "他是学生。",
+    "example_zh_trad": "他是學生。",
+    "example_pinyin": "Tā shì xuésheng.",
+    "example_ko": "그는 학생이다."
+  },
+  {
+    "id": "L1-0420",
+    "simplified": "学习",
+    "traditional": "學習",
+    "pinyin": "xuéxí",
+    "pos": [
+      "V"
+    ],
+    "level": 1,
+    "meaning_ko": "공부하다",
+    "example_zh": "我喜欢学习。",
+    "example_zh_trad": "我喜歡學習。",
+    "example_pinyin": "Wǒ xǐhuan xuéxí.",
+    "example_ko": "나는 공부하는 것을 좋아한다."
+  },
+  {
+    "id": "L1-0421",
+    "simplified": "学校",
+    "traditional": "學校",
+    "pinyin": "xuéxiào",
+    "pos": [
+      "N"
+    ],
+    "level": 1,
+    "meaning_ko": "학교",
+    "example_zh": "我去学校。",
+    "example_zh_trad": "我去學校。",
+    "example_pinyin": "Wǒ qù xuéxiào.",
+    "example_ko": "나는 학교에 간다."
+  },
+  {
+    "id": "L1-0422",
+    "simplified": "学院",
+    "traditional": "學院",
+    "pinyin": "xuéyuàn",
+    "pos": [
+      "N"
+    ],
+    "level": 1,
+    "meaning_ko": "학원, 단과대학",
+    "example_zh": "这是外语学院。",
+    "example_zh_trad": "這是外語學院。",
+    "example_pinyin": "Zhè shì wàiyǔ xuéyuàn.",
+    "example_ko": "이곳은 외국어 대학이다."
+  },
+  {
+    "id": "L1-0423",
+    "simplified": "要",
+    "traditional": "要",
+    "pinyin": "yào",
+    "pos": [
+      "V"
+    ],
+    "level": 1,
+    "meaning_ko": "원하다, ~하려고 하다",
+    "example_zh": "我要水。",
+    "example_zh_trad": "我要水。",
+    "example_pinyin": "Wǒ yào shuǐ.",
+    "example_ko": "나는 물을 원한다."
+  },
+  {
+    "id": "L1-0424",
+    "simplified": "爷爷",
+    "traditional": "爺爺",
+    "pinyin": "yéye",
+    "pos": [
+      "N"
+    ],
+    "level": 1,
+    "meaning_ko": "할아버지 (친)",
+    "example_zh": "我爷爷很老。",
+    "example_zh_trad": "我爺爺很老。",
+    "example_pinyin": "Wǒ yéye hěn lǎo.",
+    "example_ko": "우리 할아버지는 연세가 많으시다."
+  },
+  {
+    "id": "L1-0425",
+    "simplified": "也",
+    "traditional": "也",
+    "pinyin": "yě",
+    "pos": [
+      "Adv"
+    ],
+    "level": 1,
+    "meaning_ko": "또한, ~도",
+    "example_zh": "我也是。",
+    "example_zh_trad": "我也是。",
+    "example_pinyin": "Wǒ yě shì.",
+    "example_ko": "나도 그래."
+  },
+  {
+    "id": "L1-0426",
+    "simplified": "页",
+    "traditional": "頁",
+    "pinyin": "yè",
+    "pos": [
+      "M"
+    ],
+    "level": 1,
+    "meaning_ko": "쪽, 페이지 (양사)",
+    "example_zh": "打开第五页。",
+    "example_zh_trad": "打開第五頁。",
+    "example_pinyin": "Dǎkāi dì wǔ yè.",
+    "example_ko": "5페이지를 펴세요."
+  },
+  {
+    "id": "L1-0427",
+    "simplified": "一",
+    "traditional": "一",
+    "pinyin": "yī",
+    "pos": [
+      "Num"
+    ],
+    "level": 1,
+    "meaning_ko": "1, 하나",
+    "example_zh": "我有一本书。",
+    "example_zh_trad": "我有一本書。",
+    "example_pinyin": "Wǒ yǒu yì běn shū.",
+    "example_ko": "나는 책 한 권이 있다."
+  },
+  {
+    "id": "L1-0428",
+    "simplified": "衣服",
+    "traditional": "衣服",
+    "pinyin": "yīfu",
+    "pos": [
+      "N"
+    ],
+    "level": 1,
+    "meaning_ko": "옷",
+    "example_zh": "这件衣服很好看。",
+    "example_zh_trad": "這件衣服很好看。",
+    "example_pinyin": "Zhè jiàn yīfu hěn hǎokàn.",
+    "example_ko": "이 옷은 예쁘다."
+  },
+  {
+    "id": "L1-0429",
+    "simplified": "医生",
+    "traditional": "醫生",
+    "pinyin": "yīshēng",
+    "pos": [
+      "N"
+    ],
+    "level": 1,
+    "meaning_ko": "의사",
+    "example_zh": "他是医生。",
+    "example_zh_trad": "他是醫生。",
+    "example_pinyin": "Tā shì yīshēng.",
+    "example_ko": "그는 의사다."
+  },
+  {
+    "id": "L1-0430",
+    "simplified": "医院",
+    "traditional": "醫院",
+    "pinyin": "yīyuàn",
+    "pos": [
+      "N"
+    ],
+    "level": 1,
+    "meaning_ko": "병원",
+    "example_zh": "我去医院。",
+    "example_zh_trad": "我去醫院。",
+    "example_pinyin": "Wǒ qù yīyuàn.",
+    "example_ko": "나는 병원에 간다."
+  },
+  {
+    "id": "L1-0431",
+    "simplified": "一半",
+    "traditional": "一半",
+    "pinyin": "yībàn",
+    "pos": [
+      "Num"
+    ],
+    "level": 1,
+    "meaning_ko": "절반",
+    "example_zh": "一半给你。",
+    "example_zh_trad": "一半給你。",
+    "example_pinyin": "Yíbàn gěi nǐ.",
+    "example_ko": "절반은 너 줄게."
+  },
+  {
+    "id": "L1-0432",
+    "simplified": "一会儿",
+    "traditional": "一會兒",
+    "pinyin": "yīhuìr",
+    "pos": [],
+    "level": 1,
+    "meaning_ko": "잠시, 잠깐",
+    "example_zh": "等我一会儿。",
+    "example_zh_trad": "等我一會兒。",
+    "example_pinyin": "Děng wǒ yíhuìr.",
+    "example_ko": "잠깐 기다려."
+  },
+  {
+    "id": "L1-0433",
+    "simplified": "一块儿",
+    "traditional": "一塊兒",
+    "pinyin": "yīkuàir",
+    "pos": [
+      "N",
+      "Adv"
+    ],
+    "level": 1,
+    "meaning_ko": "함께, 같이",
+    "example_zh": "我们一块儿去。",
+    "example_zh_trad": "我們一塊兒去。",
+    "example_pinyin": "Wǒmen yíkuàir qù.",
+    "example_ko": "우리 같이 가자."
+  },
+  {
+    "id": "L1-0434",
+    "simplified": "一下儿",
+    "traditional": "一下兒",
+    "pinyin": "yīxiàr",
+    "pos": [],
+    "level": 1,
+    "meaning_ko": "한번, 잠깐",
+    "example_zh": "等一下儿。",
+    "example_zh_trad": "等一下兒。",
+    "example_pinyin": "Děng yíxiàr.",
+    "example_ko": "잠시 기다려."
+  },
+  {
+    "id": "L1-0435",
+    "simplified": "一样",
+    "traditional": "一樣",
+    "pinyin": "yīyàng",
+    "pos": [
+      "Adj"
+    ],
+    "level": 1,
+    "meaning_ko": "똑같다",
+    "example_zh": "我们一样。",
+    "example_zh_trad": "我們一樣。",
+    "example_pinyin": "Wǒmen yíyàng.",
+    "example_ko": "우리는 똑같다."
+  },
+  {
+    "id": "L1-0436",
+    "simplified": "一边",
+    "traditional": "一邊",
+    "pinyin": "yībiān",
+    "pos": [
+      "N",
+      "Adv"
+    ],
+    "level": 1,
+    "meaning_ko": "한편, 한쪽",
+    "example_zh": "我一边走一边看。",
+    "example_zh_trad": "我一邊走一邊看。",
+    "example_pinyin": "Wǒ yìbiān zǒu yìbiān kàn.",
+    "example_ko": "나는 걸으면서 본다."
+  },
+  {
+    "id": "L1-0437",
+    "simplified": "一点儿",
+    "traditional": "一點兒",
+    "pinyin": "yīdiǎnr",
+    "pos": [],
+    "level": 1,
+    "meaning_ko": "약간, 조금",
+    "example_zh": "我吃一点儿。",
+    "example_zh_trad": "我吃一點兒。",
+    "example_pinyin": "Wǒ chī yìdiǎnr.",
+    "example_ko": "나는 조금 먹는다."
+  },
+  {
+    "id": "L1-0438",
+    "simplified": "一起",
+    "traditional": "一起",
+    "pinyin": "yīqǐ",
+    "pos": [
+      "Adv",
+      "N"
+    ],
+    "level": 1,
+    "meaning_ko": "함께, 같이",
+    "example_zh": "我们一起走。",
+    "example_zh_trad": "我們一起走。",
+    "example_pinyin": "Wǒmen yìqǐ zǒu.",
+    "example_ko": "우리 같이 가자."
+  },
+  {
+    "id": "L1-0439",
+    "simplified": "一些",
+    "traditional": "一些",
+    "pinyin": "yīxiē",
+    "pos": [],
+    "level": 1,
+    "meaning_ko": "약간, 일부",
+    "example_zh": "我买了一些水果。",
+    "example_zh_trad": "我買了一些水果。",
+    "example_pinyin": "Wǒ mǎi le yìxiē shuǐguǒ.",
+    "example_ko": "나는 과일을 좀 샀다."
+  },
+  {
+    "id": "L1-0440",
+    "simplified": "用",
+    "traditional": "用",
+    "pinyin": "yòng",
+    "pos": [
+      "V"
+    ],
+    "level": 1,
+    "meaning_ko": "사용하다, 쓰다",
+    "example_zh": "我用手机。",
+    "example_zh_trad": "我用手機。",
+    "example_pinyin": "Wǒ yòng shǒujī.",
+    "example_ko": "나는 휴대폰을 쓴다."
+  },
+  {
+    "id": "L1-0441",
+    "simplified": "有",
+    "traditional": "有",
+    "pinyin": "yǒu",
+    "pos": [
+      "V"
+    ],
+    "level": 1,
+    "meaning_ko": "있다, 가지다",
+    "example_zh": "我有书。",
+    "example_zh_trad": "我有書。",
+    "example_pinyin": "Wǒ yǒu shū.",
+    "example_ko": "나는 책이 있다."
+  },
+  {
+    "id": "L1-0442",
+    "simplified": "有的",
+    "traditional": "有的",
+    "pinyin": "yǒude",
+    "pos": [
+      "Pron"
+    ],
+    "level": 1,
+    "meaning_ko": "어떤 것, 일부",
+    "example_zh": "有的人喜欢。",
+    "example_zh_trad": "有的人喜歡。",
+    "example_pinyin": "Yǒude rén xǐhuan.",
+    "example_ko": "어떤 사람은 좋아한다."
+  },
+  {
+    "id": "L1-0443",
+    "simplified": "有名",
+    "traditional": "有名",
+    "pinyin": "yǒumíng",
+    "pos": [],
+    "level": 1,
+    "meaning_ko": "유명하다",
+    "example_zh": "他很有名。",
+    "example_zh_trad": "他很有名。",
+    "example_pinyin": "Tā hěn yǒumíng.",
+    "example_ko": "그는 유명하다."
+  },
+  {
+    "id": "L1-0444",
+    "simplified": "有时候",
+    "traditional": "有時候",
+    "pinyin": "yǒushíhou",
+    "pos": [
+      "Adv"
+    ],
+    "level": 1,
+    "meaning_ko": "때때로, 가끔",
+    "example_zh": "我有时候去那里。",
+    "example_zh_trad": "我有時候去那裡。",
+    "example_pinyin": "Wǒ yǒushíhou qù nàlǐ.",
+    "example_ko": "나는 가끔 거기에 간다."
+  },
+  {
+    "id": "L1-0445",
+    "simplified": "有（一）些",
+    "traditional": "有（一）些",
+    "pinyin": "yǒu(yī)xiē",
+    "pos": [
+      "Pron"
+    ],
+    "level": 1,
+    "meaning_ko": "약간, 조금 있다",
+    "example_zh": "有些人不来。",
+    "example_zh_trad": "有些人不來。",
+    "example_pinyin": "Yǒuxiē rén bù lái.",
+    "example_ko": "어떤 사람들은 안 온다."
+  },
+  {
+    "id": "L1-0446",
+    "simplified": "有用",
+    "traditional": "有用",
+    "pinyin": "yǒuyòng",
+    "pos": [
+      "V"
+    ],
+    "level": 1,
+    "meaning_ko": "쓸모 있다, 유용하다",
+    "example_zh": "这个很有用。",
+    "example_zh_trad": "這個很有用。",
+    "example_pinyin": "Zhège hěn yǒuyòng.",
+    "example_ko": "이것은 유용하다."
+  },
+  {
+    "id": "L1-0447",
+    "simplified": "右",
+    "traditional": "右",
+    "pinyin": "yòu",
+    "pos": [
+      "N"
+    ],
+    "level": 1,
+    "meaning_ko": "오른쪽",
+    "example_zh": "右边是书店。",
+    "example_zh_trad": "右邊是書店。",
+    "example_pinyin": "Yòubian shì shūdiàn.",
+    "example_ko": "오른쪽은 서점이다."
+  },
+  {
+    "id": "L1-0448",
+    "simplified": "右边",
+    "traditional": "右邊",
+    "pinyin": "yòubian",
+    "pos": [
+      "N"
+    ],
+    "level": 1,
+    "meaning_ko": "오른쪽",
+    "example_zh": "商店在右边。",
+    "example_zh_trad": "商店在右邊。",
+    "example_pinyin": "Shāngdiàn zài yòubian.",
+    "example_ko": "상점은 오른쪽에 있다."
+  },
+  {
+    "id": "L1-0449",
+    "simplified": "雨",
+    "traditional": "雨",
+    "pinyin": "yǔ",
+    "pos": [
+      "N"
+    ],
+    "level": 1,
+    "meaning_ko": "비",
+    "example_zh": "今天有雨。",
+    "example_zh_trad": "今天有雨。",
+    "example_pinyin": "Jīntiān yǒu yǔ.",
+    "example_ko": "오늘 비가 온다."
+  },
+  {
+    "id": "L1-0450",
+    "simplified": "元",
+    "traditional": "元",
+    "pinyin": "yuán",
+    "pos": [
+      "M"
+    ],
+    "level": 1,
+    "meaning_ko": "위안 (화폐)",
+    "example_zh": "一百元。",
+    "example_zh_trad": "一百元。",
+    "example_pinyin": "Yì bǎi yuán.",
+    "example_ko": "100위안."
+  },
+  {
+    "id": "L1-0451",
+    "simplified": "远",
+    "traditional": "遠",
+    "pinyin": "yuǎn",
+    "pos": [
+      "Adj"
+    ],
+    "level": 1,
+    "meaning_ko": "멀다",
+    "example_zh": "这里很远。",
+    "example_zh_trad": "這裡很遠。",
+    "example_pinyin": "Zhèlǐ hěn yuǎn.",
+    "example_ko": "여기는 멀다."
+  },
+  {
+    "id": "L1-0452",
+    "simplified": "月",
+    "traditional": "月",
+    "pinyin": "yuè",
+    "pos": [
+      "N"
+    ],
+    "level": 1,
+    "meaning_ko": "월, 달",
+    "example_zh": "这个月我很忙。",
+    "example_zh_trad": "這個月我很忙。",
+    "example_pinyin": "Zhège yuè wǒ hěn máng.",
+    "example_ko": "이번 달 나는 바쁘다."
+  },
+  {
+    "id": "L1-0453",
+    "simplified": "再",
+    "traditional": "再",
+    "pinyin": "zài",
+    "pos": [
+      "Adv"
+    ],
+    "level": 1,
+    "meaning_ko": "다시, 또",
+    "example_zh": "再来一次。",
+    "example_zh_trad": "再來一次。",
+    "example_pinyin": "Zài lái yí cì.",
+    "example_ko": "다시 한번."
+  },
+  {
+    "id": "L1-0454",
+    "simplified": "再见",
+    "traditional": "再見",
+    "pinyin": "zàijiàn",
+    "pos": [
+      "V"
+    ],
+    "level": 1,
+    "meaning_ko": "안녕 (작별 인사)",
+    "example_zh": "再见。",
+    "example_zh_trad": "再見。",
+    "example_pinyin": "Zàijiàn.",
+    "example_ko": "안녕히 가세요."
+  },
+  {
+    "id": "L1-0455",
+    "simplified": "在",
+    "traditional": "在",
+    "pinyin": "zài",
+    "pos": [
+      "V",
+      "Prep",
+      "Adv"
+    ],
+    "level": 1,
+    "meaning_ko": "~에 있다; ~에서; ~하는 중",
+    "example_zh": "我在家。",
+    "example_zh_trad": "我在家。",
+    "example_pinyin": "Wǒ zài jiā.",
+    "example_ko": "나는 집에 있다."
+  },
+  {
+    "id": "L1-0456",
+    "simplified": "在家",
+    "traditional": "在家",
+    "pinyin": "zàijiā",
+    "pos": [
+      "V"
+    ],
+    "level": 1,
+    "meaning_ko": "집에 있다",
+    "example_zh": "他在家吗？",
+    "example_zh_trad": "他在家嗎？",
+    "example_pinyin": "Tā zài jiā ma?",
+    "example_ko": "그는 집에 있니?"
+  },
+  {
+    "id": "L1-0457",
+    "simplified": "早",
+    "traditional": "早",
+    "pinyin": "zǎo",
+    "pos": [
+      "Adj"
+    ],
+    "level": 1,
+    "meaning_ko": "이르다",
+    "example_zh": "你来得很早。",
+    "example_zh_trad": "你來得很早。",
+    "example_pinyin": "Nǐ lái de hěn zǎo.",
+    "example_ko": "너 일찍 왔다."
+  },
+  {
+    "id": "L1-0458",
+    "simplified": "早饭",
+    "traditional": "早飯",
+    "pinyin": "zǎofàn",
+    "pos": [
+      "N"
+    ],
+    "level": 1,
+    "meaning_ko": "아침 식사",
+    "example_zh": "我吃早饭。",
+    "example_zh_trad": "我吃早飯。",
+    "example_pinyin": "Wǒ chī zǎofàn.",
+    "example_ko": "나는 아침을 먹는다."
+  },
+  {
+    "id": "L1-0459",
+    "simplified": "早上",
+    "traditional": "早上",
+    "pinyin": "zǎoshang",
+    "pos": [
+      "N"
+    ],
+    "level": 1,
+    "meaning_ko": "아침",
+    "example_zh": "早上好。",
+    "example_zh_trad": "早上好。",
+    "example_pinyin": "Zǎoshang hǎo.",
+    "example_ko": "아침 인사, 안녕하세요."
+  },
+  {
+    "id": "L1-0460",
+    "simplified": "怎么",
+    "traditional": "怎麼",
+    "pinyin": "zěnme",
+    "pos": [
+      "Pron"
+    ],
+    "level": 1,
+    "meaning_ko": "어떻게",
+    "example_zh": "怎么去？",
+    "example_zh_trad": "怎麼去？",
+    "example_pinyin": "Zěnme qù?",
+    "example_ko": "어떻게 가?"
+  },
+  {
+    "id": "L1-0461",
+    "simplified": "站",
+    "traditional": "站",
+    "pinyin": "zhàn",
+    "pos": [
+      "N"
+    ],
+    "level": 1,
+    "meaning_ko": "역, 정류장",
+    "example_zh": "这是车站。",
+    "example_zh_trad": "這是車站。",
+    "example_pinyin": "Zhè shì chēzhàn.",
+    "example_ko": "이것은 정류장이다."
+  },
+  {
+    "id": "L1-0462",
+    "simplified": "找",
+    "traditional": "找",
+    "pinyin": "zhǎo",
+    "pos": [
+      "V"
+    ],
+    "level": 1,
+    "meaning_ko": "찾다",
+    "example_zh": "我找你。",
+    "example_zh_trad": "我找你。",
+    "example_pinyin": "Wǒ zhǎo nǐ.",
+    "example_ko": "나는 너를 찾는다."
+  },
+  {
+    "id": "L1-0463",
+    "simplified": "找到",
+    "traditional": "找到",
+    "pinyin": "zhǎodào",
+    "pos": [],
+    "level": 1,
+    "meaning_ko": "찾다, 발견하다",
+    "example_zh": "我找到了。",
+    "example_zh_trad": "我找到了。",
+    "example_pinyin": "Wǒ zhǎodào le.",
+    "example_ko": "나는 찾았다."
+  },
+  {
+    "id": "L1-0464",
+    "simplified": "这",
+    "traditional": "這",
+    "pinyin": "zhè",
+    "pos": [
+      "Pron"
+    ],
+    "level": 1,
+    "meaning_ko": "이, 이것",
+    "example_zh": "这是书。",
+    "example_zh_trad": "這是書。",
+    "example_pinyin": "Zhè shì shū.",
+    "example_ko": "이것은 책이다."
+  },
+  {
+    "id": "L1-0465",
+    "simplified": "这边",
+    "traditional": "這邊",
+    "pinyin": "zhèbiān",
+    "pos": [
+      "Pron"
+    ],
+    "level": 1,
+    "meaning_ko": "이쪽",
+    "example_zh": "请这边来。",
+    "example_zh_trad": "請這邊來。",
+    "example_pinyin": "Qǐng zhèbiān lái.",
+    "example_ko": "이쪽으로 오세요."
+  },
+  {
+    "id": "L1-0466",
+    "simplified": "这里",
+    "traditional": "這裡",
+    "pinyin": "zhèlǐ",
+    "pos": [
+      "Pron"
+    ],
+    "level": 1,
+    "meaning_ko": "여기",
+    "example_zh": "我在这里。",
+    "example_zh_trad": "我在這裡。",
+    "example_pinyin": "Wǒ zài zhèlǐ.",
+    "example_ko": "나는 여기 있다."
+  },
+  {
+    "id": "L1-0467",
+    "simplified": "这儿",
+    "traditional": "這兒",
+    "pinyin": "zhèr",
+    "pos": [
+      "Pron"
+    ],
+    "level": 1,
+    "meaning_ko": "여기",
+    "example_zh": "请到这儿。",
+    "example_zh_trad": "請到這兒。",
+    "example_pinyin": "Qǐng dào zhèr.",
+    "example_ko": "여기로 오세요."
+  },
+  {
+    "id": "L1-0468",
+    "simplified": "这些",
+    "traditional": "這些",
+    "pinyin": "zhèxiē",
+    "pos": [
+      "Pron"
+    ],
+    "level": 1,
+    "meaning_ko": "이것들",
+    "example_zh": "这些是我的。",
+    "example_zh_trad": "這些是我的。",
+    "example_pinyin": "Zhèxiē shì wǒ de.",
+    "example_ko": "이것들은 내 거다."
+  },
+  {
+    "id": "L1-0469",
+    "simplified": "着",
+    "traditional": "著",
+    "pinyin": "zhe",
+    "pos": [
+      "Aux"
+    ],
+    "level": 1,
+    "meaning_ko": "~하고 있다 (지속)",
+    "example_zh": "他站着。",
+    "example_zh_trad": "他站著。",
+    "example_pinyin": "Tā zhàn zhe.",
+    "example_ko": "그는 서 있다."
+  },
+  {
+    "id": "L1-0470",
+    "simplified": "真",
+    "traditional": "真",
+    "pinyin": "zhēn",
+    "pos": [
+      "Adv",
+      "Adj"
+    ],
+    "level": 1,
+    "meaning_ko": "정말, 참으로",
+    "example_zh": "真好。",
+    "example_zh_trad": "真好。",
+    "example_pinyin": "Zhēn hǎo.",
+    "example_ko": "정말 좋다."
+  },
+  {
+    "id": "L1-0471",
+    "simplified": "真的",
+    "traditional": "真的",
+    "pinyin": "zhēn de",
+    "pos": [],
+    "level": 1,
+    "meaning_ko": "정말로, 진짜",
+    "example_zh": "这是真的。",
+    "example_zh_trad": "這是真的。",
+    "example_pinyin": "Zhè shì zhēn de.",
+    "example_ko": "이것은 진짜다."
+  },
+  {
+    "id": "L1-0472",
+    "simplified": "正",
+    "traditional": "正",
+    "pinyin": "zhèng",
+    "pos": [
+      "Adv"
+    ],
+    "level": 1,
+    "meaning_ko": "마침, 한창",
+    "example_zh": "他正在看书。",
+    "example_zh_trad": "他正在看書。",
+    "example_pinyin": "Tā zhèng zài kàn shū.",
+    "example_ko": "그는 한창 책을 보고 있다."
+  },
+  {
+    "id": "L1-0473",
+    "simplified": "正在",
+    "traditional": "正在",
+    "pinyin": "zhèngzài",
+    "pos": [
+      "Adv"
+    ],
+    "level": 1,
+    "meaning_ko": "~하는 중이다",
+    "example_zh": "我正在吃饭。",
+    "example_zh_trad": "我正在吃飯。",
+    "example_pinyin": "Wǒ zhèngzài chī fàn.",
+    "example_ko": "나는 밥을 먹고 있다."
+  },
+  {
+    "id": "L1-0474",
+    "simplified": "知道",
+    "traditional": "知道",
+    "pinyin": "zhīdào",
+    "pos": [
+      "V"
+    ],
+    "level": 1,
+    "meaning_ko": "알다",
+    "example_zh": "我知道。",
+    "example_zh_trad": "我知道。",
+    "example_pinyin": "Wǒ zhīdào.",
+    "example_ko": "나는 안다."
+  },
+  {
+    "id": "L1-0475",
+    "simplified": "知识",
+    "traditional": "知識",
+    "pinyin": "zhīshi",
+    "pos": [
+      "N"
+    ],
+    "level": 1,
+    "meaning_ko": "지식",
+    "example_zh": "知识很重要。",
+    "example_zh_trad": "知識很重要。",
+    "example_pinyin": "Zhīshi hěn zhòngyào.",
+    "example_ko": "지식은 중요하다."
+  },
+  {
+    "id": "L1-0476",
+    "simplified": "中",
+    "traditional": "中",
+    "pinyin": "zhōng",
+    "pos": [
+      "N"
+    ],
+    "level": 1,
+    "meaning_ko": "중간, 가운데",
+    "example_zh": "水在杯子中。",
+    "example_zh_trad": "水在杯子中。",
+    "example_pinyin": "Shuǐ zài bēizi zhōng.",
+    "example_ko": "물이 컵 안에 있다."
+  },
+  {
+    "id": "L1-0477",
+    "simplified": "中国",
+    "traditional": "中國",
+    "pinyin": "Zhōngguó",
+    "pos": [
+      "N"
+    ],
+    "level": 1,
+    "meaning_ko": "중국",
+    "example_zh": "我想去中国。",
+    "example_zh_trad": "我想去中國。",
+    "example_pinyin": "Wǒ xiǎng qù Zhōngguó.",
+    "example_ko": "나는 중국에 가고 싶다."
+  },
+  {
+    "id": "L1-0478",
+    "simplified": "中间",
+    "traditional": "中間",
+    "pinyin": "zhōngjiān",
+    "pos": [
+      "N"
+    ],
+    "level": 1,
+    "meaning_ko": "중간, 가운데",
+    "example_zh": "他坐在中间。",
+    "example_zh_trad": "他坐在中間。",
+    "example_pinyin": "Tā zuò zài zhōngjiān.",
+    "example_ko": "그는 가운데에 앉아 있다."
+  },
+  {
+    "id": "L1-0479",
+    "simplified": "中文",
+    "traditional": "中文",
+    "pinyin": "Zhōngwén",
+    "pos": [
+      "N"
+    ],
+    "level": 1,
+    "meaning_ko": "중국어",
+    "example_zh": "我学中文。",
+    "example_zh_trad": "我學中文。",
+    "example_pinyin": "Wǒ xué Zhōngwén.",
+    "example_ko": "나는 중국어를 배운다."
+  },
+  {
+    "id": "L1-0480",
+    "simplified": "中午",
+    "traditional": "中午",
+    "pinyin": "zhōngwǔ",
+    "pos": [
+      "N"
+    ],
+    "level": 1,
+    "meaning_ko": "정오, 점심",
+    "example_zh": "中午吃饭。",
+    "example_zh_trad": "中午吃飯。",
+    "example_pinyin": "Zhōngwǔ chī fàn.",
+    "example_ko": "점심에 밥을 먹는다."
+  },
+  {
+    "id": "L1-0481",
+    "simplified": "中学",
+    "traditional": "中學",
+    "pinyin": "zhōngxué",
+    "pos": [
+      "N"
+    ],
+    "level": 1,
+    "meaning_ko": "중고등학교",
+    "example_zh": "她上中学。",
+    "example_zh_trad": "她上中學。",
+    "example_pinyin": "Tā shàng zhōngxué.",
+    "example_ko": "그녀는 중학교에 다닌다."
+  },
+  {
+    "id": "L1-0482",
+    "simplified": "中学生",
+    "traditional": "中學生",
+    "pinyin": "zhōngxuéshēng",
+    "pos": [
+      "N"
+    ],
+    "level": 1,
+    "meaning_ko": "중고생",
+    "example_zh": "他是中学生。",
+    "example_zh_trad": "他是中學生。",
+    "example_pinyin": "Tā shì zhōngxuéshēng.",
+    "example_ko": "그는 중학생이다."
+  },
+  {
+    "id": "L1-0483",
+    "simplified": "重",
+    "traditional": "重",
+    "pinyin": "zhòng",
+    "pos": [
+      "Adj"
+    ],
+    "level": 1,
+    "meaning_ko": "무겁다",
+    "example_zh": "这个很重。",
+    "example_zh_trad": "這個很重。",
+    "example_pinyin": "Zhège hěn zhòng.",
+    "example_ko": "이것은 무겁다."
+  },
+  {
+    "id": "L1-0484",
+    "simplified": "重要",
+    "traditional": "重要",
+    "pinyin": "zhòngyào",
+    "pos": [
+      "Adj"
+    ],
+    "level": 1,
+    "meaning_ko": "중요하다",
+    "example_zh": "这很重要。",
+    "example_zh_trad": "這很重要。",
+    "example_pinyin": "Zhè hěn zhòngyào.",
+    "example_ko": "이건 중요하다."
+  },
+  {
+    "id": "L1-0485",
+    "simplified": "住",
+    "traditional": "住",
+    "pinyin": "zhù",
+    "pos": [
+      "V"
+    ],
+    "level": 1,
+    "meaning_ko": "살다, 거주하다",
+    "example_zh": "我住在北京。",
+    "example_zh_trad": "我住在北京。",
+    "example_pinyin": "Wǒ zhù zài Běijīng.",
+    "example_ko": "나는 베이징에 산다."
+  },
+  {
+    "id": "L1-0486",
+    "simplified": "准备",
+    "traditional": "準備",
+    "pinyin": "zhǔnbèi",
+    "pos": [
+      "V"
+    ],
+    "level": 1,
+    "meaning_ko": "준비하다",
+    "example_zh": "我准备好了。",
+    "example_zh_trad": "我準備好了。",
+    "example_pinyin": "Wǒ zhǔnbèi hǎo le.",
+    "example_ko": "나는 준비가 됐다."
+  },
+  {
+    "id": "L1-0487",
+    "simplified": "桌子",
+    "traditional": "桌子",
+    "pinyin": "zhuōzi",
+    "pos": [
+      "N"
+    ],
+    "level": 1,
+    "meaning_ko": "탁자",
+    "example_zh": "书在桌子上。",
+    "example_zh_trad": "書在桌子上。",
+    "example_pinyin": "Shū zài zhuōzi shang.",
+    "example_ko": "책이 탁자 위에 있다."
+  },
+  {
+    "id": "L1-0488",
+    "simplified": "字",
+    "traditional": "字",
+    "pinyin": "zì",
+    "pos": [
+      "N"
+    ],
+    "level": 1,
+    "meaning_ko": "글자",
+    "example_zh": "这个字是什么？",
+    "example_zh_trad": "這個字是什麼？",
+    "example_pinyin": "Zhège zì shì shénme?",
+    "example_ko": "이 글자는 뭐야?"
+  },
+  {
+    "id": "L1-0489",
+    "simplified": "子（桌子）",
+    "traditional": "子（桌子）",
+    "pinyin": "zi (zhuōzi)",
+    "pos": [
+      "Suffix"
+    ],
+    "level": 1,
+    "meaning_ko": "(명사 접미사)",
+    "example_zh": "桌子上有书。",
+    "example_zh_trad": "桌子上有書。",
+    "example_pinyin": "Zhuōzi shang yǒu shū.",
+    "example_ko": "탁자 위에 책이 있다."
+  },
+  {
+    "id": "L1-0490",
+    "simplified": "走",
+    "traditional": "走",
+    "pinyin": "zǒu",
+    "pos": [
+      "V"
+    ],
+    "level": 1,
+    "meaning_ko": "걷다, 가다",
+    "example_zh": "我走了。",
+    "example_zh_trad": "我走了。",
+    "example_pinyin": "Wǒ zǒu le.",
+    "example_ko": "나는 간다."
+  },
+  {
+    "id": "L1-0491",
+    "simplified": "走路",
+    "traditional": "走路",
+    "pinyin": "zǒulù",
+    "pos": [],
+    "level": 1,
+    "meaning_ko": "걷다",
+    "example_zh": "我走路去学校。",
+    "example_zh_trad": "我走路去學校。",
+    "example_pinyin": "Wǒ zǒulù qù xuéxiào.",
+    "example_ko": "나는 걸어서 학교에 간다."
+  },
+  {
+    "id": "L1-0492",
+    "simplified": "最",
+    "traditional": "最",
+    "pinyin": "zuì",
+    "pos": [
+      "Adv"
+    ],
+    "level": 1,
+    "meaning_ko": "가장, 제일",
+    "example_zh": "最好的。",
+    "example_zh_trad": "最好的。",
+    "example_pinyin": "Zuì hǎo de.",
+    "example_ko": "가장 좋은 것."
+  },
+  {
+    "id": "L1-0493",
+    "simplified": "最好",
+    "traditional": "最好",
+    "pinyin": "zuìhǎo",
+    "pos": [
+      "Adv"
+    ],
+    "level": 1,
+    "meaning_ko": "가장 좋다, ~하는 것이 좋겠다",
+    "example_zh": "这个最好。",
+    "example_zh_trad": "這個最好。",
+    "example_pinyin": "Zhège zuìhǎo.",
+    "example_ko": "이것이 가장 좋다."
+  },
+  {
+    "id": "L1-0494",
+    "simplified": "最后",
+    "traditional": "最後",
+    "pinyin": "zuìhòu",
+    "pos": [
+      "N"
+    ],
+    "level": 1,
+    "meaning_ko": "마지막",
+    "example_zh": "最后我们见面了。",
+    "example_zh_trad": "最後我們見面了。",
+    "example_pinyin": "Zuìhòu wǒmen jiànmiàn le.",
+    "example_ko": "마지막에 우리는 만났다."
+  },
+  {
+    "id": "L1-0495",
+    "simplified": "昨天",
+    "traditional": "昨天",
+    "pinyin": "zuótiān",
+    "pos": [
+      "N"
+    ],
+    "level": 1,
+    "meaning_ko": "어제",
+    "example_zh": "昨天我在家。",
+    "example_zh_trad": "昨天我在家。",
+    "example_pinyin": "Zuótiān wǒ zài jiā.",
+    "example_ko": "어제 나는 집에 있었다."
+  },
+  {
+    "id": "L1-0496",
+    "simplified": "左",
+    "traditional": "左",
+    "pinyin": "zuǒ",
+    "pos": [
+      "N"
+    ],
+    "level": 1,
+    "meaning_ko": "왼쪽",
+    "example_zh": "左边有书店。",
+    "example_zh_trad": "左邊有書店。",
+    "example_pinyin": "Zuǒbian yǒu shūdiàn.",
+    "example_ko": "왼쪽에 서점이 있다."
+  },
+  {
+    "id": "L1-0497",
+    "simplified": "左边",
+    "traditional": "左邊",
+    "pinyin": "zuǒbian",
+    "pos": [
+      "N"
+    ],
+    "level": 1,
+    "meaning_ko": "왼쪽",
+    "example_zh": "商店在左边。",
+    "example_zh_trad": "商店在左邊。",
+    "example_pinyin": "Shāngdiàn zài zuǒbian.",
+    "example_ko": "상점은 왼쪽에 있다."
+  },
+  {
+    "id": "L1-0498",
+    "simplified": "坐",
+    "traditional": "坐",
+    "pinyin": "zuò",
+    "pos": [
+      "V"
+    ],
+    "level": 1,
+    "meaning_ko": "앉다; 타다",
+    "example_zh": "请坐。",
+    "example_zh_trad": "請坐。",
+    "example_pinyin": "Qǐng zuò.",
+    "example_ko": "앉으세요."
+  },
+  {
+    "id": "L1-0499",
+    "simplified": "坐下",
+    "traditional": "坐下",
+    "pinyin": "zuò xia",
+    "pos": [],
+    "level": 1,
+    "meaning_ko": "앉다",
+    "example_zh": "请坐下。",
+    "example_zh_trad": "請坐下。",
+    "example_pinyin": "Qǐng zuò xia.",
+    "example_ko": "앉으세요."
+  },
+  {
+    "id": "L1-0500",
+    "simplified": "做",
+    "traditional": "做",
+    "pinyin": "zuò",
+    "pos": [
+      "V"
+    ],
+    "level": 1,
+    "meaning_ko": "만들다, 하다",
+    "example_zh": "我做饭。",
+    "example_zh_trad": "我做飯。",
+    "example_pinyin": "Wǒ zuò fàn.",
+    "example_ko": "나는 요리한다."
+  }
+]

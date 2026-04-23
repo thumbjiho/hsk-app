@@ -1,0 +1,34 @@
+{
+  "levels": [
+    {
+      "level": 1,
+      "count": 500,
+      "translated": 500,
+      "file": "hsk-1.json"
+    },
+    {
+      "level": 2,
+      "count": 772,
+      "translated": 0,
+      "file": "hsk-2.json"
+    },
+    {
+      "level": 3,
+      "count": 973,
+      "translated": 0,
+      "file": "hsk-3.json"
+    },
+    {
+      "level": 4,
+      "count": 1000,
+      "translated": 0,
+      "file": "hsk-4.json"
+    },
+    {
+      "level": 5,
+      "count": 1071,
+      "translated": 0,
+      "file": "hsk-5.json"
+    }
+  ]
+}

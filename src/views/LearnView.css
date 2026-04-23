@@ -1,0 +1,342 @@
+.learn-view {
+  width: min(480px, 100%);
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  height: 100dvh;
+}
+.learn-loading {
+  align-items: center;
+  justify-content: center;
+  color: var(--text-dim);
+  font-size: 14px;
+}
+
+/* --- preload screen ---------------------------------------------------- */
+
+.preload-screen {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 40px 24px;
+  text-align: center;
+  gap: 12px;
+}
+.preload-glyph {
+  font-family: var(--serif-zh);
+  font-size: 72px;
+  color: var(--gold);
+  line-height: 1;
+  margin-bottom: 12px;
+  animation: preload-pulse 1.6s ease-in-out infinite;
+}
+@keyframes preload-pulse {
+  0%, 100% { opacity: 0.6; }
+  50%      { opacity: 1; }
+}
+.preload-title {
+  font-size: 18px;
+  font-weight: 700;
+}
+.preload-sub {
+  font-size: 13px;
+  color: var(--text-dim);
+  max-width: 280px;
+  line-height: 1.5;
+  margin-bottom: 12px;
+}
+.preload-bar {
+  width: min(320px, 80%);
+  height: 6px;
+  background: var(--bg-elev);
+  border-radius: 3px;
+  overflow: hidden;
+}
+.preload-fill {
+  height: 100%;
+  background: linear-gradient(90deg, var(--gold), #e0b383);
+  border-radius: 3px;
+  transition: width 0.2s linear;
+}
+.preload-count {
+  font-family: var(--sans-latin);
+  font-size: 12px;
+  color: var(--text-dim);
+}
+
+/* --- navbar ------------------------------------------------------------- */
+
+/* 3-column grid with equal 1fr sides guarantees the title stays dead-centered
+   regardless of the left/right button widths. */
+.navbar {
+  display: grid;
+  grid-template-columns: 1fr auto 1fr;
+  align-items: center;
+  padding: 16px 20px 12px;
+  flex-shrink: 0;
+}
+.navbar > :first-child { justify-self: start; }
+.navbar > :last-child { justify-self: end; }
+.navbar-title {
+  font-weight: 600;
+  font-size: 16px;
+}
+.nav-btn {
+  width: 40px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 10px;
+  color: var(--text);
+  transition: background 0.15s;
+}
+.nav-btn:hover { background: var(--bg-elev); }
+
+.shuffle-btn {
+  width: 40px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 10px;
+  color: var(--text-dim);
+  transition: background 0.15s, color 0.15s;
+}
+.shuffle-btn:hover { background: var(--bg-elev); color: var(--text); }
+.shuffle-btn.active {
+  color: var(--accent);
+  background: var(--accent-soft);
+}
+
+/* --- progress ----------------------------------------------------------- */
+
+.progress-row {
+  padding: 4px 20px 14px;
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  font-family: var(--sans-latin);
+  flex-shrink: 0;
+}
+.progress-count {
+  font-size: 14px;
+  font-weight: 600;
+  min-width: 52px;
+}
+.progress-bar {
+  flex: 1;
+  height: 6px;
+  background: var(--bg-elev);
+  border-radius: 3px;
+  position: relative;
+}
+.progress-fill {
+  position: absolute;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  background: linear-gradient(90deg, var(--gold), #e0b383);
+  border-radius: 3px;
+  transition: width 0.4s cubic-bezier(0.2, 0.8, 0.2, 1);
+}
+.progress-dot {
+  position: absolute;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background: var(--gold);
+  box-shadow: 0 0 10px rgba(212, 165, 116, 0.7);
+  transition: left 0.4s cubic-bezier(0.2, 0.8, 0.2, 1);
+}
+
+/* --- action bar (undo / [again / know] / autoplay) --------------------- */
+
+.action-bar {
+  display: flex;
+  gap: 12px;
+  padding: 12px 16px 20px;
+  flex-shrink: 0;
+  align-items: center;
+}
+
+/* The two answer pills sit in a flex group; undo and autoplay are visually
+   detached circular icon buttons on either side. */
+.action-pills {
+  flex: 1;
+  display: flex;
+  gap: 8px;
+  align-items: stretch;
+}
+
+.action-icon {
+  width: 48px;
+  height: 48px;
+  flex-shrink: 0;
+  border-radius: 50%;
+  background: transparent;
+  color: var(--text-dim);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  transition: transform 0.12s, background 0.15s, color 0.15s, opacity 0.15s;
+}
+.action-icon:not(:disabled):hover {
+  background: var(--bg-elev-2);
+  color: var(--text);
+}
+.action-icon:not(:disabled):active { transform: scale(0.94); }
+.action-icon:disabled { opacity: 0.35; cursor: not-allowed; }
+
+.action-icon.autoplay.playing {
+  background: var(--accent);
+  color: white;
+}
+.action-icon.autoplay.playing:hover {
+  background: var(--accent);
+  filter: brightness(1.1);
+}
+
+/* Spinning stroke — only visible while autoplay is running.
+   Technique: a pseudo-element sits on top of the button, with a conic-gradient
+   background and a mask that erases the inside, leaving only a 2px annular
+   ring of the gradient visible. As the gradient rotates, the bright arc sweeps
+   around the ring — a clean circular stroke, no blur bleed, no stacking hacks. */
+.action-icon.autoplay.playing::before {
+  content: '';
+  position: absolute;
+  inset: -3px;
+  border-radius: 50%;
+  padding: 2px;
+  background: conic-gradient(
+    from 0deg,
+    transparent 0deg 230deg,
+    rgba(255, 255, 255, 0.4) 270deg,
+    rgba(255, 255, 255, 1)   320deg,
+    rgba(255, 255, 255, 0.4) 350deg,
+    transparent 360deg
+  );
+  -webkit-mask:
+    linear-gradient(#fff 0 0) content-box,
+    linear-gradient(#fff 0 0);
+  -webkit-mask-composite: xor;
+  mask:
+    linear-gradient(#fff 0 0) content-box,
+    linear-gradient(#fff 0 0);
+  mask-composite: exclude;
+  filter: drop-shadow(0 0 4px rgba(255, 255, 255, 0.5));
+  animation: spin-stroke 2.6s linear infinite;
+  pointer-events: none;
+}
+@keyframes spin-stroke {
+  to { transform: rotate(1turn); }
+}
+
+.action-pill {
+  flex: 1;
+  border-radius: 16px;
+  padding: 14px;
+  font-size: 15px;
+  font-weight: 600;
+  transition: transform 0.12s, background 0.15s, color 0.15s, filter 0.15s;
+}
+.action-pill:active { transform: scale(0.97); }
+.action-pill.again {
+  background: var(--bg-elev);
+  color: var(--text-mid);
+}
+.action-pill.again:hover {
+  background: var(--bg-elev-2);
+  color: var(--text);
+}
+.action-pill.know {
+  background: var(--accent);
+  color: white;
+}
+.action-pill.know:hover { filter: brightness(1.1); }
+
+/* --- done screens ------------------------------------------------------ */
+
+.done {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 40px 24px;
+  text-align: center;
+}
+.done-glyph {
+  font-family: var(--serif-zh);
+  font-size: 96px;
+  color: var(--accent);
+  margin-bottom: 24px;
+  line-height: 1;
+}
+.done.all-known .done-glyph {
+  color: var(--gold);
+}
+.done-title {
+  font-size: 22px;
+  font-weight: 700;
+  margin-bottom: 8px;
+}
+.done-sub {
+  color: var(--text-dim);
+  font-size: 14px;
+  margin-bottom: 36px;
+}
+.done-stats {
+  display: flex;
+  gap: 48px;
+  margin-bottom: 40px;
+}
+.stat-num {
+  font-family: var(--sans-latin);
+  font-size: 36px;
+  font-weight: 700;
+  color: var(--text);
+}
+.stat-num.again-num { color: var(--accent); }
+.stat-label {
+  font-size: 12px;
+  color: var(--text-dim);
+  margin-top: 4px;
+}
+
+.done-buttons {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  width: 100%;
+  max-width: 320px;
+}
+.done-btn {
+  width: 100%;
+  border-radius: 16px;
+  padding: 14px;
+  font-size: 15px;
+  font-weight: 600;
+  transition: transform 0.12s, filter 0.15s, background 0.15s, color 0.15s;
+}
+.done-btn:active { transform: scale(0.98); }
+.done-btn.primary {
+  background: var(--accent);
+  color: white;
+}
+.done-btn.primary:hover { filter: brightness(1.1); }
+.done-btn.secondary {
+  background: transparent;
+  color: var(--text-mid);
+  border: 1px solid var(--border);
+}
+.done-btn.secondary:hover {
+  color: var(--text);
+  border-color: var(--text-mid);
+}
+

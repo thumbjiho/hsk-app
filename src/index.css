@@ -1,0 +1,87 @@
+:root {
+  --bg: #1a1a1c;
+  --bg-elev: #242428;
+  --bg-elev-2: #2d2d32;
+  --text: #f5f5f5;
+  --text-dim: #8a8a90;
+  --text-mid: #b8b8bc;
+  --accent: #e63946;
+  --accent-soft: #2a1518;
+  --gold: #d4a574;
+  --border: #33333a;
+
+  --hover-tint: rgba(230, 57, 70, 0.06);
+  --hover-tint-strong: rgba(230, 57, 70, 0.12);
+  --hover-tint-play: rgba(230, 57, 70, 0.14);
+
+  /* All three are Noto family. --sans-latin is for pinyin/numbers where
+     we want clean Latin proportions without Korean-optimized spacing. */
+  --sans: 'Noto Sans KR', 'Noto Sans', system-ui, sans-serif;
+  --sans-latin: 'Noto Sans', 'Noto Sans KR', system-ui, sans-serif;
+  --serif-zh: 'Noto Serif SC', serif;
+
+  color-scheme: dark;
+  color: var(--text);
+  background: var(--bg);
+
+  font-family: var(--sans);
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  -webkit-tap-highlight-color: transparent;
+}
+
+html,
+body {
+  height: 100%;
+  background: var(--bg);
+  color: var(--text);
+  overflow: hidden;
+}
+
+button {
+  font-family: inherit;
+  color: inherit;
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+
+#root {
+  min-height: 100vh;
+  min-height: 100dvh;
+  display: flex;
+  justify-content: center;
+  align-items: stretch;
+}
+
+/* Subtle enter animation for every screen. Each view's root class applies
+   this on mount — and since App.jsx swaps root components on navigation,
+   the animation fires naturally on every level / chapter / words / learn
+   transition. Keep it quick and understated: a tiny upward drift and a
+   fade. Respects reduced-motion preferences. */
+@keyframes screen-in {
+  from { opacity: 0; transform: translateY(6px); }
+  to   { opacity: 1; transform: translateY(0); }
+}
+.level-view,
+.chapter-view,
+.words-view,
+.learn-view {
+  animation: screen-in 220ms cubic-bezier(0.2, 0.8, 0.2, 1);
+}
+@media (prefers-reduced-motion: reduce) {
+  .level-view,
+  .chapter-view,
+  .words-view,
+  .learn-view {
+    animation: none;
+  }
+}

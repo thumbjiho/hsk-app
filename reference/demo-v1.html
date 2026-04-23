@@ -1,0 +1,734 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+<title>HSK 단어 학습</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400;500;700&family=Noto+Serif+SC:wght@400;500;600;900&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+<style>
+  :root {
+    --bg: #1a1a1c;
+    --bg-elev: #242428;
+    --bg-elev-2: #2d2d32;
+    --text: #f5f5f5;
+    --text-dim: #8a8a90;
+    --text-mid: #b8b8bc;
+    --accent: #e63946;
+    --accent-soft: #2a1518;
+    --gold: #d4a574;
+    --border: #33333a;
+    --new-blue: #2e74c7;
+  }
+
+  * { box-sizing: border-box; margin: 0; padding: 0; -webkit-tap-highlight-color: transparent; }
+  html, body {
+    height: 100%;
+    font-family: 'Noto Sans KR', sans-serif;
+    background: var(--bg);
+    color: var(--text);
+    overflow: hidden;
+  }
+  button { font-family: inherit; color: inherit; background: none; border: none; cursor: pointer; }
+
+  .app {
+    min-height: 100vh;
+    min-height: 100dvh;
+    display: flex;
+    justify-content: center;
+    align-items: stretch;
+  }
+  .container {
+    width: min(480px, 100%);
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    height: 100dvh;
+  }
+
+  .navbar {
+    display: flex; justify-content: space-between; align-items: center;
+    padding: 16px 20px 12px;
+    flex-shrink: 0;
+  }
+  .navbar-title {
+    font-weight: 600; font-size: 16px;
+    display: flex; align-items: center; gap: 4px;
+  }
+  .nav-btn {
+    width: 40px; height: 40px;
+    display: flex; align-items: center; justify-content: center;
+    border-radius: 10px;
+    color: var(--text);
+  }
+  .nav-btn:hover { background: var(--bg-elev); }
+
+  .progress-row {
+    padding: 4px 20px 14px;
+    display: flex; align-items: center; gap: 14px;
+    font-family: 'Inter', sans-serif;
+    flex-shrink: 0;
+  }
+  .progress-count {
+    font-size: 14px; font-weight: 600;
+    min-width: 52px;
+  }
+  .progress-bar {
+    flex: 1;
+    height: 6px;
+    background: var(--bg-elev);
+    border-radius: 3px;
+    position: relative;
+    overflow: visible;
+  }
+  .progress-bar-fill {
+    position: absolute; left: 0; top: 0; bottom: 0;
+    background: linear-gradient(90deg, var(--gold), #e0b383);
+    border-radius: 3px;
+    transition: width 0.4s cubic-bezier(0.2, 0.8, 0.2, 1);
+  }
+  .progress-dot {
+    position: absolute;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    width: 10px; height: 10px;
+    border-radius: 50%;
+    background: var(--gold);
+    box-shadow: 0 0 10px rgba(212,165,116,0.7);
+    transition: left 0.4s cubic-bezier(0.2, 0.8, 0.2, 1);
+  }
+
+  .card-area {
+    flex: 1;
+    margin: 4px 16px 16px;
+    background: var(--bg-elev);
+    border-radius: 22px;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    overflow: hidden;
+    min-height: 0;
+    max-height: 640px;
+  }
+
+  .card-top {
+    display: flex; justify-content: space-between; align-items: center;
+    padding: 16px 20px 12px;
+    flex-shrink: 0;
+    position: relative;
+    z-index: 2;
+  }
+  .card-top-left { display: flex; gap: 10px; align-items: center; }
+  .card-star {
+    color: var(--text-dim); font-size: 18px;
+    padding: 2px 6px;
+    border-radius: 6px;
+    transition: color 0.2s;
+  }
+  .card-star.active { color: var(--gold); }
+  .card-star:hover { background: var(--bg-elev-2); }
+
+  .card-top-right { display: flex; gap: 6px; align-items: center; }
+
+  .script-toggle {
+    display: inline-flex;
+    background: var(--bg-elev-2);
+    border-radius: 14px;
+    padding: 3px;
+    gap: 2px;
+  }
+  .script-opt {
+    font-family: 'Noto Serif SC', serif;
+    font-size: 14px; font-weight: 500;
+    color: var(--text-dim);
+    padding: 4px 10px;
+    border-radius: 11px;
+    transition: all 0.2s;
+    min-width: 28px;
+  }
+  .script-opt:hover:not(.active) { color: var(--text-mid); }
+  .script-opt.active {
+    background: var(--accent);
+    color: white;
+  }
+
+  .icon-btn {
+    width: 32px; height: 32px;
+    background: var(--bg-elev-2);
+    border-radius: 50%;
+    display: flex; align-items: center; justify-content: center;
+    color: var(--text-mid);
+    transition: all 0.2s;
+  }
+  .icon-btn:hover { color: var(--text); }
+
+  .eye-btn.active {
+    background: var(--accent-soft);
+    color: var(--accent);
+  }
+
+  .word-speak {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    border: none;
+    background: transparent;
+    cursor: pointer;
+    position: relative;
+    min-height: 160px;
+    z-index: 1;
+  }
+  .word-speak::before {
+    content: '';
+    position: absolute;
+    left: 0; right: 0;
+    top: -200px;
+    bottom: 0;
+    background: transparent;
+    transition: background 0.2s;
+    pointer-events: none;
+    z-index: -1;
+  }
+  .word-speak:hover::before { background: rgba(230,57,70,0.06); }
+  .word-speak:active::before { background: rgba(230,57,70,0.12); }
+  .word-speak.playing::before {
+    background: rgba(230,57,70,0.14);
+    animation: pulse 0.8s ease-out;
+  }
+
+  .word-speak-inner {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 16px;
+    position: relative;
+  }
+  .word-speaker-hint {
+    position: absolute;
+    left: 50%;
+    bottom: -28px;
+    transform: translateX(-50%);
+    color: var(--text-dim);
+    opacity: 0;
+    transition: opacity 0.2s;
+    pointer-events: none;
+  }
+  .word-speak:hover .word-speaker-hint { opacity: 0.6; }
+  .word-speak.playing .word-speaker-hint { opacity: 1; color: var(--accent); }
+
+  @keyframes pulse {
+    0% { background: rgba(230,57,70,0.22); }
+    100% { background: rgba(230,57,70,0.06); }
+  }
+
+  .card-hanzi {
+    font-family: 'Noto Serif SC', serif;
+    font-size: 84px;
+    font-weight: 500;
+    letter-spacing: -0.02em;
+    text-align: center;
+    line-height: 1.1;
+    display: inline-block;
+  }
+  .card-pinyin {
+    font-family: 'Inter', sans-serif;
+    font-size: 22px;
+    color: var(--gold);
+    font-weight: 500;
+    letter-spacing: 0.06em;
+    opacity: 0;
+    transition: opacity 0.3s;
+  }
+  .card-pinyin.reveal { opacity: 1; }
+
+  .card-divider {
+    height: 1px;
+    background: var(--border);
+    margin: 0 20px 10px;
+    flex-shrink: 0;
+    position: relative;
+    z-index: 2;
+  }
+
+  .card-example {
+    padding: 0 20px 0;
+    flex-shrink: 0;
+    text-align: center;
+    position: relative;
+    z-index: 1;
+  }
+  .card-meaning {
+    font-size: 15px;
+    color: var(--gold);
+    margin-bottom: 10px;
+    font-weight: 500;
+    opacity: 0;
+    transition: opacity 0.3s;
+  }
+  .card-meaning.reveal { opacity: 1; }
+
+  .example-speak {
+    display: inline-block;
+    padding: 28px 14px 10px;
+    margin-bottom: 6px;
+    max-width: 100%;
+    background: transparent;
+    border: none;
+    cursor: pointer;
+    position: relative;
+    text-align: center;
+  }
+  .example-speak::before {
+    content: '';
+    position: absolute;
+    left: -100vw; right: -100vw;
+    top: 0;
+    bottom: -300px;
+    background: transparent;
+    transition: background 0.2s;
+    pointer-events: none;
+    z-index: -1;
+  }
+  .example-speak:hover::before { background: rgba(230,57,70,0.06); }
+  .example-speak:active::before { background: rgba(230,57,70,0.12); }
+  .example-speak.playing::before {
+    background: rgba(230,57,70,0.14);
+    animation: pulse 0.8s ease-out;
+  }
+
+  .example-speaker-hint {
+    position: absolute;
+    left: 50%;
+    top: 6px;
+    transform: translateX(-50%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: var(--text-dim);
+    opacity: 0;
+    transition: opacity 0.2s;
+    pointer-events: none;
+  }
+  .example-speak:hover .example-speaker-hint { opacity: 0.6; }
+  .example-speak.playing .example-speaker-hint { opacity: 1; color: var(--accent); }
+
+  .card-example-zh {
+    font-family: 'Noto Serif SC', serif;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 1.5;
+    color: var(--text);
+    display: inline-block;
+  }
+  .card-example-ko {
+    font-size: 14px;
+    color: var(--text-dim);
+    line-height: 1.5;
+    opacity: 0;
+    transition: opacity 0.3s;
+  }
+  .card-example-ko.reveal { opacity: 1; }
+
+  .reveal-bar {
+    display: flex; gap: 8px;
+    align-items: center;
+    flex-shrink: 0;
+    padding: 12px 20px 20px;
+    position: relative;
+    z-index: 2;
+  }
+  .hide-btn {
+    width: 42px; height: 42px; border-radius: 50%;
+    background: transparent;
+    border: 1px solid var(--border);
+    color: var(--text-dim);
+    display: flex; align-items: center; justify-content: center;
+    transition: all 0.15s;
+    flex-shrink: 0;
+  }
+  .hide-btn:not(:disabled):hover { color: var(--text); border-color: var(--text-mid); }
+  .hide-btn:disabled { opacity: 0.3; cursor: not-allowed; }
+
+  .reveal-btn {
+    flex: 1;
+    background: transparent;
+    border: 1px solid var(--border);
+    color: var(--text-mid);
+    border-radius: 22px;
+    padding: 11px;
+    font-size: 14px; font-weight: 500;
+    transition: all 0.15s;
+  }
+  .reveal-btn:hover { color: var(--text); border-color: var(--text-mid); }
+  .reveal-btn.active {
+    background: var(--bg-elev-2);
+    color: var(--text);
+    border-color: var(--bg-elev-2);
+  }
+
+  .answer-bar {
+    display: flex; gap: 10px;
+    padding: 12px 16px 20px;
+    flex-shrink: 0;
+  }
+  .answer-btn {
+    flex: 1;
+    border-radius: 16px;
+    padding: 12px;
+    font-weight: 600;
+    display: flex; flex-direction: column; align-items: center; gap: 3px;
+    transition: transform 0.12s;
+  }
+  .answer-btn:active { transform: scale(0.97); }
+  .answer-again {
+    background: var(--bg-elev);
+    color: var(--text-mid);
+  }
+  .answer-again .main { font-size: 15px; }
+  .answer-again .sub {
+    font-size: 11px;
+    font-family: 'Inter', sans-serif;
+    opacity: 0.6;
+  }
+  .answer-know {
+    background: var(--accent);
+    color: white;
+  }
+  .answer-know .main { font-size: 15px; }
+  .answer-know .sub {
+    font-size: 11px;
+    font-family: 'Inter', sans-serif;
+    opacity: 0.85;
+  }
+
+  .done {
+    flex: 1;
+    display: flex; flex-direction: column;
+    align-items: center; justify-content: center;
+    padding: 40px;
+    text-align: center;
+  }
+  .done-glyph {
+    font-family: 'Noto Serif SC', serif;
+    font-size: 96px;
+    color: var(--accent);
+    margin-bottom: 24px;
+    line-height: 1;
+  }
+  .done-title {
+    font-size: 22px; font-weight: 700; margin-bottom: 8px;
+  }
+  .done-sub {
+    color: var(--text-dim); font-size: 14px;
+    margin-bottom: 36px;
+  }
+  .done-stats {
+    display: flex; gap: 40px;
+    margin-bottom: 40px;
+  }
+  .stat-num {
+    font-family: 'Inter', sans-serif;
+    font-size: 32px; font-weight: 700;
+  }
+  .stat-label {
+    font-size: 12px; color: var(--text-dim);
+    margin-top: 4px;
+  }
+  .done-btn {
+    width: 100%;
+    max-width: 280px;
+    background: var(--accent);
+    color: white;
+    border-radius: 16px;
+    padding: 14px;
+    font-size: 15px; font-weight: 600;
+  }
+
+  .v-hidden { display: none !important; }
+</style>
+</head>
+<body>
+<div class="app">
+  <div class="container">
+    <div id="learn-view">
+      <div class="navbar">
+        <button class="nav-btn" title="닫기">
+          <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M15 18l-6-6 6-6"/></svg>
+        </button>
+        <div class="navbar-title">
+          HSK 1급 단어 학습
+          <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M6 9l6 6 6-6"/></svg>
+        </div>
+        <button class="nav-btn" title="더보기">
+          <svg width="22" height="22" viewBox="0 0 24 24" fill="currentColor"><circle cx="5" cy="12" r="2"/><circle cx="12" cy="12" r="2"/><circle cx="19" cy="12" r="2"/></svg>
+        </button>
+      </div>
+
+      <div class="progress-row">
+        <div class="progress-count" id="progress-count">0/10</div>
+        <div class="progress-bar">
+          <div class="progress-bar-fill" id="progress-fill" style="width: 0%"></div>
+          <div class="progress-dot" id="progress-dot" style="left: 0%"></div>
+        </div>
+      </div>
+
+      <div class="card-area">
+        <div class="card-top">
+          <div class="card-top-left">
+            <button class="card-star" id="star-btn" onclick="toggleStar()" title="즐겨찾기">☆</button>
+          </div>
+          <div class="card-top-right">
+            <div class="script-toggle" role="group" aria-label="간체 번체 선택">
+              <button class="script-opt active" id="script-simp" onclick="setScript('simp')">简</button>
+              <button class="script-opt" id="script-trad" onclick="setScript('trad')">繁</button>
+            </div>
+            <button class="icon-btn eye-btn" id="eye-btn" onclick="toggleAutoReveal()" title="뜻/병음 자동 표시">
+              <svg class="eye-on" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"/><circle cx="12" cy="12" r="3"/></svg>
+              <svg class="eye-off" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="display:none"><path d="M17.94 17.94A10.94 10.94 0 0112 20c-7 0-11-8-11-8a20 20 0 015.17-6.16M9.9 4.24A10.94 10.94 0 0112 4c7 0 11 8 11 8a20 20 0 01-3.17 4.23M14.12 14.12a3 3 0 11-4.24-4.24"/><path d="M1 1l22 22"/></svg>
+            </button>
+          </div>
+        </div>
+
+        <button class="word-speak" id="word-speak" onclick="playWordAudio()" aria-label="단어 발음 재생">
+          <div class="word-speak-inner">
+            <span class="card-hanzi" id="card-hanzi">爱</span>
+            <div class="card-pinyin" id="card-pinyin">ài</div>
+            <span class="word-speaker-hint" aria-hidden="true">
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M11 5L6 9H2v6h4l5 4V5z"/><path d="M15.5 8.5a5 5 0 010 7" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg>
+            </span>
+          </div>
+        </button>
+
+        <div class="card-divider"></div>
+
+        <div class="card-example">
+          <div class="card-meaning" id="card-meaning"></div>
+          <button class="example-speak" id="example-speak" onclick="playExampleAudio()" aria-label="예문 발음 재생">
+            <span class="example-speaker-hint" aria-hidden="true">
+              <svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor"><path d="M11 5L6 9H2v6h4l5 4V5z"/><path d="M15.5 8.5a5 5 0 010 7" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg>
+            </span>
+            <span class="card-example-zh" id="card-example-zh"></span>
+          </button>
+          <div class="card-example-ko" id="card-example-ko"></div>
+        </div>
+
+        <div class="reveal-bar">
+          <button class="hide-btn" id="hide-btn" onclick="hideReveal()" title="의미/병음 다시 가리기">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M17.94 17.94A10.94 10.94 0 0112 20c-7 0-11-8-11-8a20 20 0 015.17-6.16M9.9 4.24A10.94 10.94 0 0112 4c7 0 11 8 11 8a20 20 0 01-3.17 4.23M14.12 14.12a3 3 0 11-4.24-4.24"/><path d="M1 1l22 22"/></svg>
+          </button>
+          <button class="reveal-btn" id="reveal-meaning" onclick="revealMeaning()">의미</button>
+          <button class="reveal-btn" id="reveal-pinyin" onclick="revealPinyin()">병음</button>
+        </div>
+      </div>
+
+      <div class="answer-bar">
+        <button class="answer-btn answer-again" onclick="answer('again')">
+          <span class="main">다시 학습</span>
+          <span class="sub">1분 후</span>
+        </button>
+        <button class="answer-btn answer-know" onclick="answer('know')">
+          <span class="main">알고있음</span>
+          <span class="sub">21일 후 복습</span>
+        </button>
+      </div>
+    </div>
+
+    <div id="done-view" class="v-hidden done">
+      <div class="done-glyph">完</div>
+      <div class="done-title">잘 하셨어요!</div>
+      <div class="done-sub">이번 회차 학습을 완료했습니다</div>
+      <div class="done-stats">
+        <div>
+          <div class="stat-num" id="done-know">0</div>
+          <div class="stat-label">알고있음</div>
+        </div>
+        <div>
+          <div class="stat-num" id="done-again">0</div>
+          <div class="stat-label">다시 학습</div>
+        </div>
+      </div>
+      <button class="done-btn" onclick="restart()">다시 시작</button>
+    </div>
+  </div>
+</div>
+
+<script>
+const words = [
+  { w:'爱', wT:'愛', p:'ài', ko:'사랑하다', exZh:'我爱你。', exZhT:'我愛你。', exKo:'나는 너를 사랑한다.' },
+  { w:'爱好', wT:'愛好', p:'àihào', ko:'취미, 좋아하다', exZh:'我的爱好是看书。', exZhT:'我的愛好是看書。', exKo:'내 취미는 독서다.' },
+  { w:'八', wT:'八', p:'bā', ko:'8, 여덟', exZh:'今天八月八号。', exZhT:'今天八月八號。', exKo:'오늘은 8월 8일이다.' },
+  { w:'爸爸', wT:'爸爸', p:'bàba', ko:'아빠', exZh:'我爸爸是医生。', exZhT:'我爸爸是醫生。', exKo:'우리 아빠는 의사다.' },
+  { w:'白', wT:'白', p:'bái', ko:'흰, 하얀', exZh:'这件衣服是白色的。', exZhT:'這件衣服是白色的。', exKo:'이 옷은 흰색이다.' },
+  { w:'百', wT:'百', p:'bǎi', ko:'100, 백', exZh:'一百块钱。', exZhT:'一百塊錢。', exKo:'100원이다.' },
+  { w:'杯子', wT:'杯子', p:'bēizi', ko:'컵, 잔', exZh:'桌子上有一个杯子。', exZhT:'桌子上有一個杯子。', exKo:'탁자 위에 컵이 하나 있다.' },
+  { w:'比', wT:'比', p:'bǐ', ko:'~보다 (비교)', exZh:'他比我高。', exZhT:'他比我高。', exKo:'그는 나보다 키가 크다.' },
+  { w:'茶', wT:'茶', p:'chá', ko:'차', exZh:'我喝茶。', exZhT:'我喝茶。', exKo:'나는 차를 마신다.' },
+  { w:'吃', wT:'吃', p:'chī', ko:'먹다', exZh:'我想吃面条。', exZhT:'我想吃麵條。', exKo:'나는 면을 먹고 싶다.' },
+];
+
+let session = {
+  queue: [],
+  index: 0,
+  knowCount: 0,
+  againCount: 0,
+  history: [],
+  favorites: new Set(),
+  autoReveal: false,
+  script: 'simp',
+};
+
+function renderCard() {
+  if (session.index >= session.queue.length) {
+    showDone();
+    return;
+  }
+  const w = session.queue[session.index];
+  const useTrad = session.script === 'trad';
+
+  document.getElementById('card-hanzi').textContent = useTrad ? w.wT : w.w;
+  document.getElementById('card-pinyin').textContent = w.p;
+  document.getElementById('card-meaning').textContent = w.ko;
+  document.getElementById('card-example-zh').textContent = useTrad ? w.exZhT : w.exZh;
+  document.getElementById('card-example-ko').textContent = w.exKo;
+
+  if (session.autoReveal) {
+    document.getElementById('card-pinyin').classList.add('reveal');
+    document.getElementById('card-meaning').classList.add('reveal');
+    document.getElementById('card-example-ko').classList.add('reveal');
+    document.getElementById('reveal-pinyin').classList.add('active');
+    document.getElementById('reveal-meaning').classList.add('active');
+  } else {
+    document.getElementById('card-pinyin').classList.remove('reveal');
+    document.getElementById('card-meaning').classList.remove('reveal');
+    document.getElementById('card-example-ko').classList.remove('reveal');
+    document.getElementById('reveal-pinyin').classList.remove('active');
+    document.getElementById('reveal-meaning').classList.remove('active');
+  }
+
+  const star = document.getElementById('star-btn');
+  const isFav = session.favorites.has(session.index);
+  star.textContent = isFav ? '★' : '☆';
+  star.classList.toggle('active', isFav);
+
+  const count = session.index;
+  const total = session.queue.length;
+  document.getElementById('progress-count').textContent = `${count}/${total}`;
+  const pct = total > 0 ? (count / total) * 100 : 0;
+  document.getElementById('progress-fill').style.width = `${pct}%`;
+  document.getElementById('progress-dot').style.left = `${pct}%`;
+}
+
+function revealPinyin() {
+  document.getElementById('card-pinyin').classList.add('reveal');
+  document.getElementById('reveal-pinyin').classList.add('active');
+}
+function revealMeaning() {
+  document.getElementById('card-meaning').classList.add('reveal');
+  document.getElementById('card-example-ko').classList.add('reveal');
+  document.getElementById('reveal-meaning').classList.add('active');
+}
+function toggleStar() {
+  if (session.favorites.has(session.index)) session.favorites.delete(session.index);
+  else session.favorites.add(session.index);
+  const star = document.getElementById('star-btn');
+  const isFav = session.favorites.has(session.index);
+  star.textContent = isFav ? '★' : '☆';
+  star.classList.toggle('active', isFav);
+}
+function toggleAutoReveal() {
+  session.autoReveal = !session.autoReveal;
+  const btn = document.getElementById('eye-btn');
+  btn.classList.toggle('active', session.autoReveal);
+  btn.querySelector('.eye-on').style.display = session.autoReveal ? '' : 'none';
+  btn.querySelector('.eye-off').style.display = session.autoReveal ? 'none' : '';
+  if (session.autoReveal) { revealMeaning(); revealPinyin(); }
+}
+function setScript(s) {
+  if (session.script === s) return;
+  session.script = s;
+  document.getElementById('script-simp').classList.toggle('active', s === 'simp');
+  document.getElementById('script-trad').classList.toggle('active', s === 'trad');
+  renderCard();
+}
+function answer(type) {
+  session.history.push({ index: session.index, type });
+  if (type === 'know') session.knowCount++;
+  else session.againCount++;
+  session.index++;
+  renderCard();
+}
+function hideReveal() {
+  document.getElementById('card-pinyin').classList.remove('reveal');
+  document.getElementById('card-meaning').classList.remove('reveal');
+  document.getElementById('card-example-ko').classList.remove('reveal');
+  document.getElementById('reveal-pinyin').classList.remove('active');
+  document.getElementById('reveal-meaning').classList.remove('active');
+}
+
+function speak(text, lang = 'zh-CN', rate = 0.85) {
+  if (!('speechSynthesis' in window)) return;
+  const u = new SpeechSynthesisUtterance(text);
+  u.lang = lang;
+  u.rate = rate;
+  speechSynthesis.cancel();
+  speechSynthesis.speak(u);
+}
+function playWordAudio() {
+  const w = session.queue[session.index];
+  if (!w) return;
+  const btn = document.getElementById('word-speak');
+  btn.classList.add('playing');
+  setTimeout(() => btn.classList.remove('playing'), 1000);
+  speak(w.w);
+}
+function playExampleAudio() {
+  const w = session.queue[session.index];
+  if (!w) return;
+  const btn = document.getElementById('example-speak');
+  btn.classList.add('playing');
+  setTimeout(() => btn.classList.remove('playing'), 1500);
+  speak(w.exZh, 'zh-CN', 0.8);
+}
+
+function startSession() {
+  session = {
+    queue: [...words],
+    index: 0,
+    knowCount: 0,
+    againCount: 0,
+    history: [],
+    favorites: new Set(),
+    autoReveal: session.autoReveal || false,
+    script: session.script || 'simp',
+  };
+  document.getElementById('learn-view').classList.remove('v-hidden');
+  document.getElementById('done-view').classList.add('v-hidden');
+  renderCard();
+}
+function showDone() {
+  document.getElementById('learn-view').classList.add('v-hidden');
+  document.getElementById('done-view').classList.remove('v-hidden');
+  document.getElementById('done-know').textContent = session.knowCount;
+  document.getElementById('done-again').textContent = session.againCount;
+}
+function restart() { startSession(); }
+
+document.addEventListener('keydown', (e) => {
+  if (!document.getElementById('done-view').classList.contains('v-hidden')) return;
+  if (e.key === '1' || e.key === 'ArrowLeft') answer('again');
+  else if (e.key === '2' || e.key === 'ArrowRight') answer('know');
+  else if (e.key === ' ') { e.preventDefault(); playWordAudio(); }
+  else if (e.key === 'e') playExampleAudio();
+  else if (e.key === 'm') revealMeaning();
+  else if (e.key === 'p') revealPinyin();
+  else if (e.key === 'h') hideReveal();
+});
+
+startSession();
+</script>
+</body>
+</html>

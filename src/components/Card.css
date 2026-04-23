@@ -1,0 +1,290 @@
+/* ==========================================================================
+   Card layout
+   --------------------------------------------------------------------------
+   The card is a flex column with two click regions that each own their own
+   hover background. No ::before tricks, no negative offsets. The card's
+   `overflow: hidden` + `border-radius` clip the tints at rounded corners.
+   ========================================================================== */
+
+.card {
+  flex: 1;
+  margin: 4px 16px 16px;
+  max-height: 640px;
+  min-height: 0;
+  background: var(--bg-elev);
+  border-radius: 22px;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+}
+
+/* Shared region behavior: click to play audio, hover tints the whole area. */
+.region {
+  position: relative;
+  cursor: pointer;
+  transition: background 0.2s;
+  padding: 0 20px;
+}
+.region:hover { background: var(--hover-tint); }
+.region:active { background: var(--hover-tint-strong); }
+.region.playing { background: var(--hover-tint-play); }
+
+/* --- word region -------------------------------------------------------- */
+
+.word-region {
+  flex: 1 1 auto;
+  min-height: 180px;
+  display: flex;
+  flex-direction: column;
+  padding-top: 16px;
+  padding-bottom: 20px;
+}
+
+.card-top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-shrink: 0;
+}
+
+.star {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 32px;
+  height: 32px;
+  color: var(--text-dim);
+  border-radius: 50%;
+  transition: color 0.2s, background 0.2s, transform 0.12s;
+}
+.star:hover { background: var(--bg-elev-2); color: var(--gold); }
+.star:active { transform: scale(0.9); }
+.star.on { color: var(--gold); }
+
+.card-top-right {
+  display: flex;
+  gap: 6px;
+  align-items: center;
+}
+
+.script-toggle {
+  display: inline-flex;
+  background: var(--bg-elev-2);
+  border-radius: 14px;
+  padding: 3px;
+  gap: 2px;
+}
+.script-opt {
+  font-family: var(--serif-zh);
+  font-size: 14px;
+  font-weight: 500;
+  color: var(--text-dim);
+  padding: 4px 10px;
+  border-radius: 11px;
+  transition: color 0.2s, background 0.2s;
+  min-width: 28px;
+}
+.script-opt:hover:not(.active) { color: var(--text-mid); }
+.script-opt.active {
+  background: var(--accent);
+  color: white;
+}
+
+.icon-btn {
+  width: 32px;
+  height: 32px;
+  background: var(--bg-elev-2);
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--text-mid);
+  transition: color 0.2s, background 0.2s;
+}
+.icon-btn:hover { color: var(--text); }
+.eye-btn.active {
+  background: var(--accent-soft);
+  color: var(--accent);
+}
+
+.word-display {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 14px;
+  min-height: 0;
+}
+.hanzi {
+  font-family: var(--serif-zh);
+  font-size: 84px;
+  font-weight: 500;
+  line-height: 1.1;
+  letter-spacing: -0.02em;
+}
+.pinyin {
+  font-family: var(--sans-latin);
+  font-size: 22px;
+  font-weight: 500;
+  color: var(--gold);
+  letter-spacing: 0.06em;
+  opacity: 0;
+  transition: opacity 0.3s;
+}
+.pinyin.revealed { opacity: 1; }
+
+/* Korean meaning sits below pinyin inside the word region.
+   Kept visually distinct from pinyin (white, smaller) so the
+   hierarchy pinyin → meaning reads clearly. */
+.meaning {
+  font-size: 15px;
+  font-weight: 500;
+  color: var(--text);
+  opacity: 0;
+  transition: opacity 0.3s;
+  min-height: 1.4em;
+}
+.meaning.revealed { opacity: 1; }
+.meaning.empty { color: var(--text-dim); font-style: italic; }
+
+/* --- divider ------------------------------------------------------------ */
+
+.divider {
+  height: 1px;
+  background: var(--border);
+  margin: 0 20px;
+  flex-shrink: 0;
+}
+
+/* --- example region ----------------------------------------------------- */
+
+.example-region {
+  flex-shrink: 0;
+  display: flex;
+  flex-direction: column;
+  padding-top: 14px;
+  padding-bottom: 18px;
+  text-align: center;
+}
+.example-region.empty { cursor: default; }
+.example-region.empty:hover,
+.example-region.empty:active { background: transparent; }
+
+.example-empty {
+  padding: 20px 0 8px;
+  color: var(--text-dim);
+  font-size: 13px;
+  font-style: italic;
+}
+
+.example {
+  position: relative;
+  padding-top: 26px;        /* reserve space for the hover speaker hint */
+  padding-bottom: 6px;
+}
+.example-zh {
+  font-family: var(--serif-zh);
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 1.5;
+  color: var(--text);
+}
+.example-pinyin {
+  margin-top: 6px;
+  font-family: var(--sans-latin);
+  font-size: 13px;
+  color: var(--gold);
+  letter-spacing: 0.04em;
+  line-height: 1.4;
+  opacity: 0;
+  transition: opacity 0.3s;
+}
+.example-pinyin.revealed { opacity: 1; }
+.example-ko {
+  margin-top: 8px;
+  font-size: 14px;
+  color: var(--text-dim);
+  line-height: 1.5;
+  opacity: 0;
+  transition: opacity 0.3s;
+}
+.example-ko.revealed { opacity: 1; }
+
+/* --- speaker hints ------------------------------------------------------ */
+
+.speaker-hint {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--text-dim);
+  opacity: 0;
+  transition: opacity 0.2s, color 0.2s;
+  pointer-events: none;
+}
+.word-hint { bottom: 16px; }
+.example-hint { top: 4px; }
+
+.word-region:hover .word-hint,
+.example-region:hover .example-hint {
+  opacity: 0.6;
+}
+.word-region.playing .word-hint,
+.example-region.playing .example-hint {
+  opacity: 1;
+  color: var(--accent);
+}
+
+/* --- reveal bar --------------------------------------------------------- */
+
+.reveal-bar {
+  display: flex;
+  gap: 8px;
+  align-items: center;
+  margin-top: 14px;
+  cursor: default;
+}
+.hide-btn {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background: transparent;
+  border: 1px solid var(--border);
+  color: var(--text-dim);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: color 0.15s, border-color 0.15s, opacity 0.15s;
+  flex-shrink: 0;
+}
+.hide-btn:not(:disabled):hover {
+  color: var(--text);
+  border-color: var(--text-mid);
+}
+.hide-btn:disabled {
+  opacity: 0.3;
+  cursor: not-allowed;
+}
+.reveal-btn {
+  flex: 1;
+  background: transparent;
+  border: 1px solid var(--border);
+  color: var(--text-mid);
+  border-radius: 20px;
+  padding: 10px;
+  font-size: 14px;
+  font-weight: 500;
+  transition: color 0.15s, border-color 0.15s, background 0.15s;
+}
+.reveal-btn:hover {
+  color: var(--text);
+  border-color: var(--text-mid);
+}
+.reveal-btn.active {
+  background: var(--bg-elev-2);
+  color: var(--text);
+  border-color: var(--bg-elev-2);
+}
