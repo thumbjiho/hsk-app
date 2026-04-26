@@ -7,24 +7,28 @@ import {
   stopAudio,
 } from './audio.js'
 
-// The autoplay sequence for a single card:
-//   1. word (zh)
-//   2. meaning (ko)
-//   3. word (zh)
-//   4. meaning (ko)
-//   5. example (zh)
-//   6. translation (ko)
-//   7. example (zh)
-//   8. translation (ko)
-// then advance to the next card and repeat. Stops at the last card.
-const SEQUENCE = [
-  playWord, playMeaning, playWord, playMeaning,
-  playExample, playTranslation, playExample, playTranslation,
-]
+// Build the autoplay sequence for a single card based on user settings.
+//   order  - 'zh-first'  → word/meaning, example/translation
+//          - 'ko-first'  → meaning/word, translation/example
+//   repeat - 1 or 2: how many times each pair is played
+function buildSequence({ order = 'zh-first', repeat = 2 } = {}) {
+  const wordPair = order === 'ko-first'
+    ? [playMeaning, playWord]
+    : [playWord, playMeaning]
+  const examplePair = order === 'ko-first'
+    ? [playTranslation, playExample]
+    : [playExample, playTranslation]
+  const reps = repeat === 1 ? 1 : 2
+  const seq = []
+  for (let i = 0; i < reps; i++) seq.push(...wordPair)
+  for (let i = 0; i < reps; i++) seq.push(...examplePair)
+  return seq
+}
 
 // Pause between sub-steps inside one card, and a slightly longer one when
 // advancing to the next card (also gives React time to commit the new
-// session index before the next audio starts).
+// session index before the next audio starts). Speed scales these so faster
+// playback also tightens the gaps proportionally.
 const STEP_PAUSE_MS = 250
 const CARD_PAUSE_MS = 400
 
@@ -44,7 +48,7 @@ function delay(ms) {
  * @param onReveal callback invoked before each sub-step so the card content
  *                 is visible as the audio plays (dispatch 'reveal' twice)
  */
-export function useAutoplay({ queue, getIndex, onStep, onReveal }) {
+export function useAutoplay({ queue, getIndex, onStep, onReveal, getSettings }) {
   const [isPlaying, setIsPlaying] = useState(false)
 
   // Mutable flag so the async loop can be canceled without re-renders.
@@ -53,9 +57,11 @@ export function useAutoplay({ queue, getIndex, onStep, onReveal }) {
   const getIndexRef = useRef(getIndex)
   const onStepRef = useRef(onStep)
   const onRevealRef = useRef(onReveal)
+  const getSettingsRef = useRef(getSettings)
   useEffect(() => { getIndexRef.current = getIndex }, [getIndex])
   useEffect(() => { onStepRef.current = onStep }, [onStep])
   useEffect(() => { onRevealRef.current = onReveal }, [onReveal])
+  useEffect(() => { getSettingsRef.current = getSettings }, [getSettings])
 
   const stop = useCallback(() => {
     if (!activeRef.current) return
@@ -82,23 +88,34 @@ export function useAutoplay({ queue, getIndex, onStep, onReveal }) {
         const word = queue[idx]
         if (!word) break
 
+        // Read fresh settings on each card so changes mid-play take effect.
+        const settings = getSettingsRef.current?.() ?? {}
+        const speed = settings.speed ?? 1
+        const sequence = buildSequence(settings)
+        const stepPause = STEP_PAUSE_MS / speed
+        const cardPause = CARD_PAUSE_MS / speed
+
         onRevealRef.current?.()
 
-        for (let step = 0; step < SEQUENCE.length; step++) {
+        for (let step = 0; step < sequence.length; step++) {
           if (!activeRef.current) return
-          await SEQUENCE[step](word)
+          await sequence[step](word, { speed })
           if (!activeRef.current) return
           // Pause between sub-steps only; no pause after the last step
           // since we pause again when advancing to the next card.
-          if (step < SEQUENCE.length - 1) await delay(STEP_PAUSE_MS)
+          if (step < sequence.length - 1) await delay(stepPause)
         }
 
-        if (idx >= queue.length - 1) break
+        // Advance past every card — including the last. The reducer's
+        // autoStep marks unanswered cards as 'again' and walks index past
+        // queue.length when everything is answered, which trips the
+        // session's "done" branch.
         idx++
         onStepRef.current?.()
-        // Pause between cards, and let React commit the dispatched 'step'
+        if (idx >= queue.length) break
+        // Pause between cards, and let React commit the dispatched step
         // so the card UI is already on the new word when audio resumes.
-        await delay(CARD_PAUSE_MS)
+        await delay(cardPause)
       }
     } finally {
       activeRef.current = false

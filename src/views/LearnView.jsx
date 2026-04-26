@@ -1,5 +1,6 @@
 import { useCallback, useEffect, useMemo, useRef, useState } from "react";
 import Card from "../components/Card.jsx";
+import AudioSettingsMenu from "../components/AudioSettingsMenu.jsx";
 import {
   ChevronLeft,
   Pause,
@@ -9,9 +10,11 @@ import {
 } from "../components/Icons.jsx";
 import { useSession } from "../lib/useSession.js";
 import { useAutoplay } from "../lib/useAutoplay.js";
+import { useAudioSettings } from "../lib/useAudioSettings.js";
 import {
   playWord,
   playExample,
+  playChime,
   preloadAudio,
   stopAudio,
 } from "../lib/audio.js";
@@ -99,9 +102,18 @@ function PreloadScreen({ title, done, total, onBack }) {
 // fresh initial state when the queue changes.
 function LearnSession({ title, words, favorites, onToggleFavorite, onBack }) {
   const [state, dispatch] = useSession(words);
+  const [audioSettings, updateAudioSettings] = useAudioSettings();
+  const audioSettingsRef = useRef(audioSettings);
+  useEffect(() => { audioSettingsRef.current = audioSettings; }, [audioSettings]);
 
   const total = state.queue.length;
   const isDone = state.index >= total;
+
+  // Play a short chime exactly once when the session transitions into the
+  // done state — covers manual completion and autoplay roll-through alike.
+  useEffect(() => {
+    if (isDone) playChime();
+  }, [isDone]);
   const current = !isDone ? state.queue[state.index] : null;
   const knowCount = useMemo(
     () => state.answers.filter((a) => a === "know").length,
@@ -125,8 +137,12 @@ function LearnSession({ title, words, favorites, onToggleFavorite, onBack }) {
   const autoplay = useAutoplay({
     queue: state.queue,
     getIndex: () => indexRef.current,
-    onStep: () => dispatch({ type: "step" }),
+    // Autoplay marks each card as 'again' (unless the user already
+    // answered) so reaching the end naturally lands on the done screen
+    // with all unseen words queued for re-study.
+    onStep: () => dispatch({ type: "autoStep" }),
     onReveal: () => dispatch({ type: "revealAll" }),
+    getSettings: () => audioSettingsRef.current,
   });
 
   // User interactions stop autoplay. Wrap dispatch so *any* dispatched
@@ -243,15 +259,21 @@ function LearnSession({ title, words, favorites, onToggleFavorite, onBack }) {
           <ChevronLeft />
         </button>
         <div className="navbar-title">{title}</div>
-        <button
-          className={`shuffle-btn${state.shuffled ? " active" : ""}`}
-          onClick={() => dispatchAndStop({ type: "toggleShuffle" })}
-          title="전체 셔플"
-          aria-pressed={state.shuffled}
-          aria-label="전체 셔플"
-        >
-          <Shuffle />
-        </button>
+        <div className="navbar-actions">
+          <button
+            className={`shuffle-btn${state.shuffled ? " active" : ""}`}
+            onClick={() => dispatchAndStop({ type: "toggleShuffle" })}
+            title="전체 셔플"
+            aria-pressed={state.shuffled}
+            aria-label="전체 셔플"
+          >
+            <Shuffle />
+          </button>
+          <AudioSettingsMenu
+            settings={audioSettings}
+            onChange={updateAudioSettings}
+          />
+        </div>
       </div>
 
       <div className="progress-row">
@@ -268,9 +290,14 @@ function LearnSession({ title, words, favorites, onToggleFavorite, onBack }) {
             style={{ left: `${progressPct}%` }}
           />
         </div>
+        <div className="answer-counts" aria-label="답변 통계">
+          <span className="count-badge again" title="다시 학습">{againCount}</span>
+          <span className="count-badge know" title="알고있음">{knowCount}</span>
+        </div>
       </div>
 
       <Card
+        key={current.id}
         word={current}
         script={state.script}
         reveal={state.reveal}

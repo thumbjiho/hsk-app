@@ -121,6 +121,16 @@ export function Star({ size = 18, filled = false, ...props }) {
   )
 }
 
+export function MoreVertical(props) {
+  return (
+    <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor" {...props}>
+      <circle cx="12" cy="5" r="2" />
+      <circle cx="12" cy="12" r="2" />
+      <circle cx="12" cy="19" r="2" />
+    </svg>
+  )
+}
+
 export function Speaker({ size = 16, ...props }) {
   return (
     <svg width={size} height={size} viewBox="0 0 24 24" fill="currentColor" {...props}>

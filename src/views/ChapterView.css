@@ -47,6 +47,52 @@
   font-family: var(--sans-latin);
 }
 
+/* --- tab toggle (챕터별 / 주제별) -------------------------------------- */
+.chapter-tabs {
+  display: flex;
+  background: var(--bg-elev);
+  border-radius: 12px;
+  padding: 3px;
+  gap: 2px;
+  margin: 0 4px;
+}
+.chapter-tab {
+  flex: 1;
+  padding: 9px 12px;
+  font-size: 13px;
+  font-weight: 600;
+  color: var(--text-dim);
+  border-radius: 9px;
+  transition: color 180ms cubic-bezier(0.16,1,0.3,1),
+              background 180ms cubic-bezier(0.16,1,0.3,1);
+}
+.chapter-tab:hover:not(.active) { color: var(--text-mid); }
+.chapter-tab.active {
+  background: var(--bg-elev-2);
+  color: var(--text);
+}
+
+/* --- topic row (vertical list, identical layout to chapter-row but with
+   a leading icon tile) -------------------------------------------------- */
+.chapter-row.topic-row {
+  gap: 12px;
+}
+.topic-icon {
+  width: 36px;
+  height: 36px;
+  border-radius: 10px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  background: var(--bg-elev-2);
+  color: var(--gold);
+  flex-shrink: 0;
+  transition: background 180ms cubic-bezier(0.16,1,0.3,1);
+}
+.chapter-row.topic-row:hover .topic-icon {
+  background: color-mix(in srgb, var(--gold) 18%, var(--bg-elev-2));
+}
+
 .chapter-loading, .chapter-error {
   padding: 40px 20px;
   text-align: center;
@@ -116,6 +162,29 @@
   display: inline-flex;
   align-items: center;
   color: var(--gold);
+}
+
+/* Empty state — keep the slot present so it acts as a discoverability cue
+   ("there will be a favorites bucket here"). Muted, dashed border, no hover. */
+.chapter-row.favorites-row.empty {
+  background: transparent;
+  border: 1px dashed color-mix(in srgb, var(--gold) 32%, var(--border));
+  cursor: default;
+}
+.chapter-row.favorites-row.empty:hover {
+  background: transparent;
+  border-color: color-mix(in srgb, var(--gold) 32%, var(--border));
+}
+.chapter-row.favorites-row.empty .chapter-row-title {
+  color: var(--text-mid);
+}
+.chapter-row.favorites-row.empty .favorites-icon {
+  color: color-mix(in srgb, var(--gold) 60%, var(--text-dim));
+}
+.chapter-row.favorites-row.empty .chapter-row-preview {
+  font-family: var(--sans);
+  font-style: italic;
+  color: var(--text-dim);
 }
 
 .coming-soon-inline {

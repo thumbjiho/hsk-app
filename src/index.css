@@ -36,6 +36,9 @@
   margin: 0;
   padding: 0;
   -webkit-tap-highlight-color: transparent;
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  user-select: none;
 }
 
 html,
@@ -44,6 +47,9 @@ body {
   background: var(--bg);
   color: var(--text);
   overflow: hidden;
+  overscroll-behavior: none;
+  -webkit-text-size-adjust: 100%;
+  touch-action: manipulation;
 }
 
 /* iOS safe-area support. In Capacitor (and mobile web) the status bar /
@@ -73,26 +79,48 @@ button {
   align-items: stretch;
 }
 
-/* Subtle enter animation for every screen. Each view's root class applies
-   this on mount — and since App.jsx swaps root components on navigation,
-   the animation fires naturally on every level / chapter / words / learn
-   transition. Keep it quick and understated: a tiny upward drift and a
-   fade. Respects reduced-motion preferences. */
-@keyframes screen-in {
-  from { opacity: 0; transform: translateY(6px); }
+/* iOS-style directional slide between screens. App.jsx wraps each view in
+   <div class="screen" data-nav-dir="forward|back" key={screen}>, so
+   navigation force-remounts and fires the appropriate keyframe.
+   - forward: new view slides in from the right (going deeper into the app)
+   - back:    new view slides in from the left (returning)
+   The slight opacity tween softens the entrance so it doesn't feel cold. */
+.screen {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+}
+@keyframes screen-slide-forward {
+  from { opacity: 0.4; transform: translate3d(28%, 0, 0); }
+  to   { opacity: 1;   transform: translate3d(0, 0, 0); }
+}
+@keyframes screen-slide-back {
+  from { opacity: 0.4; transform: translate3d(-28%, 0, 0); }
+  to   { opacity: 1;   transform: translate3d(0, 0, 0); }
+}
+.screen[data-nav-dir="forward"] {
+  animation: screen-slide-forward 320ms cubic-bezier(0.32, 0.72, 0, 1) both;
+}
+.screen[data-nav-dir="back"] {
+  animation: screen-slide-back 320ms cubic-bezier(0.32, 0.72, 0, 1) both;
+}
+
+/* When a card replaces another in LearnView (between words / between
+   answer→next), give the new card a quick fade-in so the swap reads
+   as a transition rather than a snap. Keyed on word.id at the call site. */
+@keyframes card-in {
+  from { opacity: 0; transform: translateY(4px); }
   to   { opacity: 1; transform: translateY(0); }
 }
-.level-view,
-.chapter-view,
-.words-view,
-.learn-view {
-  animation: screen-in 220ms cubic-bezier(0.2, 0.8, 0.2, 1);
+.card {
+  animation: card-in 240ms cubic-bezier(0.16, 1, 0.3, 1) both;
 }
+
 @media (prefers-reduced-motion: reduce) {
-  .level-view,
-  .chapter-view,
-  .words-view,
-  .learn-view {
+  .screen[data-nav-dir="forward"],
+  .screen[data-nav-dir="back"],
+  .card {
     animation: none;
   }
 }

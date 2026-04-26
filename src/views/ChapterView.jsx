@@ -1,5 +1,10 @@
 import { useEffect, useMemo, useState } from 'react'
-import { loadLevel } from '../lib/loadLevel.js'
+import {
+  Users, HandHeart, Hash, Clock, UtensilsCrossed, GraduationCap, House,
+  Car, MapPin, Compass, CloudSun, Heart, Activity, Palette, Wrench,
+  Tag,
+} from 'lucide-react'
+import { loadLevel, loadTopics } from '../lib/loadLevel.js'
 import {
   ChevronLeft,
   Circle,
@@ -8,32 +13,53 @@ import {
 } from '../components/Icons.jsx'
 import './ChapterView.css'
 
+// Maps the `icon` field in hsk-{level}-topics.json onto the actual
+// lucide-react component. Static so bundlers can tree-shake.
+const TOPIC_ICON = {
+  Users, HandHeart, Hash, Clock, UtensilsCrossed, GraduationCap, House,
+  Car, MapPin, Compass, CloudSun, Heart, Activity, Palette, Wrench,
+}
+
 // Default chapter size. Easy to adjust — try 10/20/50 and see what feels right.
 export const CHAPTER_SIZE = 20
 
 export default function ChapterView({
   level,
   favorites,
+  tab = 'chapters',
+  onTabChange,
   onBack,
   onSelectChapter,
   onStudyAll,
   onStudySelected,
   onStudyFavorites,
+  onPreviewTopic,
 }) {
   const [words, setWords] = useState(null)
+  const [topics, setTopics] = useState(null)
   const [error, setError] = useState(null)
   const [selectMode, setSelectMode] = useState(false)
   const [selected, setSelected] = useState(() => new Set())
+  const setTab = onTabChange ?? (() => {})
 
   useEffect(() => {
     let cancelled = false
     loadLevel(level)
       .then((w) => { if (!cancelled) setWords(w) })
       .catch((e) => { if (!cancelled) setError(e.message) })
+    loadTopics(level)
+      .then((t) => { if (!cancelled) setTopics(t) })
+      .catch(() => {})
     return () => { cancelled = true }
   }, [level])
 
   const chapters = words ? chunk(words, CHAPTER_SIZE) : []
+  const wordById = useMemo(() => {
+    if (!words) return null
+    const m = new Map()
+    for (const w of words) m.set(w.id, w)
+    return m
+  }, [words])
 
   // Favorite words belonging to THIS level — the favorites Set is global,
   // but we only surface the slice that this level's word list owns so the
@@ -43,7 +69,10 @@ export default function ChapterView({
     return words.filter((w) => favorites.has(w.id))
   }, [words, favorites])
 
-  const enterSelectMode = () => setSelectMode(true)
+  const enterSelectMode = () => {
+    setSelectMode(true)
+    setTab('chapters')
+  }
   const exitSelectMode = () => {
     setSelectMode(false)
     setSelected(new Set())
@@ -80,35 +109,48 @@ export default function ChapterView({
         {!words && !error && <div className="chapter-loading">불러오는 중…</div>}
         {words && (
           <>
-            <div className="chapter-summary">
-              총 {words.length.toLocaleString()}단어 · {chapters.length}챕터 ·
-              {' '}챕터당 {CHAPTER_SIZE}단어
-            </div>
-            <div className="chapter-list">
-              {!selectMode && favoriteWords.length > 0 && (
+            {/* Favorites lives above everything — it's its own bucket and
+                shouldn't get hidden by switching between chapter/topic tabs.
+                Rendered directly inside chapter-body (a flex column) so it
+                stretches to the full width like other rows. */}
+            {!selectMode && (
+              <FavoritesRow
+                favoriteWords={favoriteWords}
+                onStudy={() => onStudyFavorites?.(favoriteWords)}
+              />
+            )}
+
+            {/* Tab toggle — only shown when topics are available for this level
+                and we're not in chapter-select mode. */}
+            {topics && !selectMode && (
+              <div className="chapter-tabs" role="tablist">
                 <button
-                  className="chapter-row favorites-row"
-                  onClick={() => onStudyFavorites?.(favoriteWords)}
+                  className={`chapter-tab${tab === 'chapters' ? ' active' : ''}`}
+                  onClick={() => setTab('chapters')}
+                  role="tab"
+                  aria-selected={tab === 'chapters'}
                 >
-                  <div className="chapter-row-left">
-                    <div className="chapter-row-title">
-                      <span className="favorites-icon" aria-hidden="true">
-                        <Star size={16} filled />
-                      </span>
-                      즐겨찾기
-                    </div>
-                    <div className="chapter-row-preview">
-                      {favoriteWords.slice(0, 5).map((w) => w.simplified).join(', ')}
-                      {favoriteWords.length > 5 ? '…' : ''}
-                    </div>
-                  </div>
-                  <div className="chapter-row-right">
-                    <div className="chapter-row-range">{favoriteWords.length}단어</div>
-                    <ChevronLeft className="chapter-row-chevron" />
-                  </div>
+                  챕터별
                 </button>
-              )}
-              {chapters.map((chunk, idx) => (
+                <button
+                  className={`chapter-tab${tab === 'topics' ? ' active' : ''}`}
+                  onClick={() => setTab('topics')}
+                  role="tab"
+                  aria-selected={tab === 'topics'}
+                >
+                  주제별
+                </button>
+              </div>
+            )}
+
+            <div className="chapter-summary">
+              {tab === 'topics' && topics
+                ? `총 ${words.length.toLocaleString()}단어 · ${topics.topics.length}개 주제`
+                : `총 ${words.length.toLocaleString()}단어 · ${chapters.length}챕터 · 챕터당 ${CHAPTER_SIZE}단어`}
+            </div>
+
+            <div className="chapter-list">
+              {tab === 'chapters' && chapters.map((chunk, idx) => (
                 <ChapterRow
                   key={idx}
                   index={idx}
@@ -118,6 +160,40 @@ export default function ChapterView({
                   onClick={() => handleRowClick(idx)}
                 />
               ))}
+
+              {tab === 'topics' && topics && topics.topics.map((t) => {
+                const Icon = TOPIC_ICON[t.icon] ?? Tag
+                const previewWords = t.wordIds.slice(0, 5)
+                  .map((id) => wordById?.get(id))
+                  .filter(Boolean)
+                return (
+                  <button
+                    key={t.id}
+                    className="chapter-row topic-row"
+                    onClick={() => {
+                      const topicWords = t.wordIds
+                        .map((id) => wordById?.get(id))
+                        .filter(Boolean)
+                      onPreviewTopic?.(t, topicWords)
+                    }}
+                  >
+                    <div className="topic-icon" aria-hidden="true">
+                      <Icon size={20} strokeWidth={1.75} />
+                    </div>
+                    <div className="chapter-row-left">
+                      <div className="chapter-row-title">{t.label}</div>
+                      <div className="chapter-row-preview">
+                        {previewWords.map((w) => w.simplified).join(', ')}
+                        {t.wordIds.length > previewWords.length ? '…' : ''}
+                      </div>
+                    </div>
+                    <div className="chapter-row-right">
+                      <div className="chapter-row-range">{t.count}단어</div>
+                      <ChevronLeft className="chapter-row-chevron" />
+                    </div>
+                  </button>
+                )
+              })}
             </div>
           </>
         )}
@@ -154,6 +230,49 @@ export default function ChapterView({
         </div>
       )}
     </div>
+  )
+}
+
+function FavoritesRow({ favoriteWords, onStudy }) {
+  if (favoriteWords.length === 0) {
+    return (
+      <div className="chapter-row favorites-row empty" aria-disabled="true">
+        <div className="chapter-row-left">
+          <div className="chapter-row-title">
+            <span className="favorites-icon" aria-hidden="true">
+              <Star size={16} />
+            </span>
+            즐겨찾기
+          </div>
+          <div className="chapter-row-preview">
+            단어 옆 ☆ 을 눌러 즐겨찾기에 추가해보세요
+          </div>
+        </div>
+        <div className="chapter-row-right">
+          <div className="chapter-row-range">0단어</div>
+        </div>
+      </div>
+    )
+  }
+  return (
+    <button className="chapter-row favorites-row" onClick={onStudy}>
+      <div className="chapter-row-left">
+        <div className="chapter-row-title">
+          <span className="favorites-icon" aria-hidden="true">
+            <Star size={16} filled />
+          </span>
+          즐겨찾기
+        </div>
+        <div className="chapter-row-preview">
+          {favoriteWords.slice(0, 5).map((w) => w.simplified).join(', ')}
+          {favoriteWords.length > 5 ? '…' : ''}
+        </div>
+      </div>
+      <div className="chapter-row-right">
+        <div className="chapter-row-range">{favoriteWords.length}단어</div>
+        <ChevronLeft className="chapter-row-chevron" />
+      </div>
+    </button>
   )
 }
 

@@ -13,6 +13,52 @@ const AUDIO_BASE = '/audio/google'
 let currentAudio = null
 let pendingResolve = null
 
+// Lazily-constructed AudioContext for synthesized chimes (e.g. completion).
+// Created on first use because some browsers require a user-gesture origin.
+let chimeCtx = null
+function getChimeCtx() {
+  if (typeof window === 'undefined') return null
+  if (chimeCtx) return chimeCtx
+  const Ctx = window.AudioContext || window.webkitAudioContext
+  if (!Ctx) return null
+  chimeCtx = new Ctx()
+  return chimeCtx
+}
+
+// Plays a short major-triad arpeggio — a "ta-da" cue for completion screens.
+// Synthesized so there's no asset to ship; tones are sine + tiny attack/decay
+// envelope so it doesn't click. Gracefully no-ops if Web Audio is unavailable.
+export function playChime() {
+  const ctx = getChimeCtx()
+  if (!ctx) return
+  // Resume in case another audio path suspended the context.
+  if (ctx.state === 'suspended') ctx.resume().catch(() => {})
+
+  const now = ctx.currentTime
+  // C5, E5, G5, C6 — bright but not piercing.
+  const notes = [523.25, 659.25, 783.99, 1046.5]
+  const noteDuration = 0.18
+  const stagger = 0.09
+
+  notes.forEach((freq, i) => {
+    const osc = ctx.createOscillator()
+    const gain = ctx.createGain()
+    osc.type = 'sine'
+    osc.frequency.value = freq
+    osc.connect(gain)
+    gain.connect(ctx.destination)
+
+    const start = now + i * stagger
+    const peak = 0.18
+    gain.gain.setValueAtTime(0, start)
+    gain.gain.linearRampToValueAtTime(peak, start + 0.02)
+    gain.gain.exponentialRampToValueAtTime(0.001, start + noteDuration)
+
+    osc.start(start)
+    osc.stop(start + noteDuration + 0.05)
+  })
+}
+
 // Cancels any in-flight audio or TTS and resolves the pending play promise.
 export function stopAudio() {
   if (currentAudio) {
@@ -51,10 +97,14 @@ function speakBrowserTTS(text, lang, rate) {
   })
 }
 
-function playFile(url, fallbackText, fallbackLang, fallbackRate) {
+// `speed` multiplies playbackRate on the prerecorded mp3s; for TTS fallback
+// it scales the per-language base rate (which is < 1 to slow each language to
+// a comfortable learning tempo). Pitch is preserved by the browser.
+function playFile(url, fallbackText, fallbackLang, fallbackBaseRate, speed = 1) {
   stopAudio()
   return new Promise((resolve) => {
     const audio = new Audio(url)
+    audio.playbackRate = speed
     currentAudio = audio
     pendingResolve = resolve
 
@@ -71,41 +121,41 @@ function playFile(url, fallbackText, fallbackLang, fallbackRate) {
       currentAudio = null
       // Hand the pending slot over to speakBrowserTTS so stopAudio still works.
       if (pendingResolve === resolve) pendingResolve = null
-      speakBrowserTTS(fallbackText, fallbackLang, fallbackRate).then(resolve)
+      speakBrowserTTS(fallbackText, fallbackLang, fallbackBaseRate * speed).then(resolve)
     }
     audio.onerror = onFail
     audio.play().catch(onFail)
   })
 }
 
-export function playWord(word) {
+export function playWord(word, { speed = 1 } = {}) {
   return playFile(
     `${AUDIO_BASE}/words/${word.id}.mp3`,
-    word.simplified, 'zh-CN', 0.85,
+    word.simplified, 'zh-CN', 0.85, speed,
   )
 }
 
-export function playExample(word) {
+export function playExample(word, { speed = 1 } = {}) {
   if (!word.example_zh) return Promise.resolve()
   return playFile(
     `${AUDIO_BASE}/examples/${word.id}.mp3`,
-    word.example_zh, 'zh-CN', 0.8,
+    word.example_zh, 'zh-CN', 0.8, speed,
   )
 }
 
-export function playMeaning(word) {
+export function playMeaning(word, { speed = 1 } = {}) {
   if (!word.meaning_ko) return Promise.resolve()
   return playFile(
     `${AUDIO_BASE}/meanings/${word.id}.mp3`,
-    word.meaning_ko, 'ko-KR', 0.95,
+    word.meaning_ko, 'ko-KR', 0.95, speed,
   )
 }
 
-export function playTranslation(word) {
+export function playTranslation(word, { speed = 1 } = {}) {
   if (!word.example_ko) return Promise.resolve()
   return playFile(
     `${AUDIO_BASE}/translations/${word.id}.mp3`,
-    word.example_ko, 'ko-KR', 0.95,
+    word.example_ko, 'ko-KR', 0.95, speed,
   )
 }
 

@@ -158,30 +158,40 @@ export default function Card({
           <div className="example-empty">예문 준비 중</div>
         )}
 
+        {/* All four slots render unconditionally so each button keeps its
+            fixed grid column. Buttons that don't apply to the current state
+            become invisible (visibility: hidden) — the slot stays. */}
         <div className="reveal-bar" onClick={stop(() => {})}>
           <button
-            className="hide-btn"
+            className={`hide-btn${nothingRevealed ? ' slot-hidden' : ''}`}
             onClick={stop(onHide)}
-            disabled={nothingRevealed}
             aria-label="의미/병음 다시 가리기"
+            tabIndex={nothingRevealed ? -1 : 0}
+            aria-hidden={nothingRevealed}
           >
             <RefreshCw />
           </button>
           <button
-            className={`reveal-btn${reveal.meaning ? ' active' : ''}`}
+            className={`reveal-btn${reveal.meaning ? ' slot-hidden' : ''}`}
             onClick={stop(onRevealMeaning)}
+            tabIndex={reveal.meaning ? -1 : 0}
+            aria-hidden={reveal.meaning}
           >
             의미
           </button>
           <button
-            className={`reveal-btn${reveal.pinyin ? ' active' : ''}`}
+            className={`reveal-btn${reveal.pinyin ? ' slot-hidden' : ''}`}
             onClick={stop(onRevealPinyin)}
+            tabIndex={reveal.pinyin ? -1 : 0}
+            aria-hidden={reveal.pinyin}
           >
             병음
           </button>
           <button
-            className={`reveal-btn${reveal.meaning && reveal.pinyin ? ' active' : ''}`}
+            className={`reveal-btn${nothingRevealed ? '' : ' slot-hidden'}`}
             onClick={stop(onRevealAll)}
+            tabIndex={nothingRevealed ? 0 : -1}
+            aria-hidden={!nothingRevealed}
           >
             둘다
           </button>

@@ -6,63 +6,82 @@ import LearnView from './views/LearnView.jsx'
 import { loadLevel } from './lib/loadLevel.js'
 import { useFavorites } from './lib/useFavorites.js'
 
-// State-machine navigation. Four screens, but Learn can be entered from
-// multiple places (single chapter, all-level, multi-chapter selection,
-// favorites), so we decouple it by passing a prebuilt `learnInputs` object
-// into it.
+// State-machine navigation. Four screens, but Words and Learn can both be
+// entered from multiple places (a chapter, a topic group, favorites,
+// multi-chapter selection, "study all"), so we decouple them with two
+// prebuilt input objects:
+//
+//   wordsInputs = { title, words: Word[] | null }   shown in WordsView preview
+//   learnInputs = { title, words: Word[], backScreen }
 //
 //   level   -> pick HSK 1-5
-//   chapter -> pick chapters (single or multi-select), favorites, or "전체 학습하기"
-//   words   -> preview a single chapter before flashcards
-//   learn   -> flashcard session over whatever words Learn was handed
-//
-// learnInputs = {
-//   title:      string,          // shown in the learn navbar
-//   words:      Word[],          // the session queue
-//   backScreen: 'chapter' | 'words', // where the back button goes
-// }
+//   chapter -> pick chapters / topics / favorites / "전체 학습"
+//   words   -> preview a chapter or topic before flashcards
+//   learn   -> flashcard session
 export default function App() {
   const [screen, setScreen] = useState('level')
+  const [navDir, setNavDir] = useState('forward')
   const [selectedLevel, setSelectedLevel] = useState(null)
   const [selectedChapter, setSelectedChapter] = useState(null)
-  const [chapterWords, setChapterWords] = useState(null)
+  const [wordsInputs, setWordsInputs] = useState(null)
   const [learnInputs, setLearnInputs] = useState(null)
+  // Lifted out of ChapterView so the chosen tab survives the round-trip
+  // through WordsView / LearnView (each navigation remounts the screen).
+  const [chapterTab, setChapterTab] = useState('chapters')
 
   const { favorites, toggleFavorite } = useFavorites()
 
-  // Load + slice the chapter when entering the words screen. Cached inside
-  // loadLevel so repeat trips are instant.
+  // Navigate with direction: 'forward' slides new screen in from the right,
+  // 'back' slides it in from the left. Pairs with .screen CSS animations.
+  const goTo = (next, dir = 'forward') => {
+    setNavDir(dir)
+    setScreen(next)
+  }
+
+  // Chapter previews enter Words with title set but words still null —
+  // load + slice the chapter here once so we don't block the screen
+  // transition. Topic previews already arrive with words populated.
   useEffect(() => {
     if (screen !== 'words') return
+    if (!wordsInputs || wordsInputs.words) return
+    if (selectedChapter == null) return
     let cancelled = false
-    loadLevel(selectedLevel).then((words) => {
+    loadLevel(selectedLevel).then((all) => {
       if (cancelled) return
       const start = selectedChapter * CHAPTER_SIZE
-      setChapterWords(words.slice(start, start + CHAPTER_SIZE))
+      setWordsInputs((prev) => prev && {
+        ...prev,
+        words: all.slice(start, start + CHAPTER_SIZE),
+      })
     })
     return () => { cancelled = true }
-  }, [screen, selectedLevel, selectedChapter])
+  }, [screen, wordsInputs, selectedLevel, selectedChapter])
 
+  let body
   if (screen === 'level') {
-    return (
+    body = (
       <LevelView
         onSelectLevel={(level) => {
           setSelectedLevel(level)
-          setScreen('chapter')
+          goTo('chapter')
         }}
       />
     )
-  }
-
-  if (screen === 'chapter') {
-    return (
+  } else if (screen === 'chapter') {
+    body = (
       <ChapterView
         level={selectedLevel}
         favorites={favorites}
-        onBack={() => setScreen('level')}
+        tab={chapterTab}
+        onTabChange={setChapterTab}
+        onBack={() => goTo('level', 'back')}
         onSelectChapter={(chapterIdx) => {
           setSelectedChapter(chapterIdx)
-          setScreen('words')
+          setWordsInputs({
+            title: `HSK ${selectedLevel}급 · 챕터 ${chapterIdx + 1}`,
+            words: null, // populated by the effect above
+          })
+          goTo('words')
         }}
         onStudyAll={(words) => {
           setLearnInputs({
@@ -70,7 +89,7 @@ export default function App() {
             words,
             backScreen: 'chapter',
           })
-          setScreen('learn')
+          goTo('learn')
         }}
         onStudySelected={(chapterIndices, allWords) => {
           const selectedWords = chapterIndices
@@ -85,7 +104,7 @@ export default function App() {
             words: selectedWords,
             backScreen: 'chapter',
           })
-          setScreen('learn')
+          goTo('learn')
         }}
         onStudyFavorites={(words) => {
           setLearnInputs({
@@ -93,41 +112,53 @@ export default function App() {
             words,
             backScreen: 'chapter',
           })
-          setScreen('learn')
+          goTo('learn')
+        }}
+        onPreviewTopic={(topic, topicWords) => {
+          // Clear chapter selection so the words effect doesn't try to
+          // re-load a chapter slice on top of the topic words.
+          setSelectedChapter(null)
+          setWordsInputs({
+            title: `HSK ${selectedLevel}급 · ${topic.label}`,
+            words: topicWords,
+          })
+          goTo('words')
         }}
       />
     )
-  }
-
-  if (screen === 'words') {
-    return (
+  } else if (screen === 'words') {
+    body = (
       <WordsView
-        level={selectedLevel}
-        chapterIndex={selectedChapter}
-        words={chapterWords}
+        title={wordsInputs?.title}
+        words={wordsInputs?.words}
         favorites={favorites}
         onToggleFavorite={toggleFavorite}
-        onBack={() => setScreen('chapter')}
+        onBack={() => goTo('chapter', 'back')}
         onStartLearn={() => {
           setLearnInputs({
-            title: `HSK ${selectedLevel}급 · 챕터 ${selectedChapter + 1}`,
-            words: chapterWords,
+            title: wordsInputs.title,
+            words: wordsInputs.words,
             backScreen: 'words',
           })
-          setScreen('learn')
+          goTo('learn')
         }}
+      />
+    )
+  } else {
+    body = (
+      <LearnView
+        title={learnInputs.title}
+        words={learnInputs.words}
+        favorites={favorites}
+        onToggleFavorite={toggleFavorite}
+        onBack={() => goTo(learnInputs.backScreen, 'back')}
       />
     )
   }
 
-  // screen === 'learn'
   return (
-    <LearnView
-      title={learnInputs.title}
-      words={learnInputs.words}
-      favorites={favorites}
-      onToggleFavorite={toggleFavorite}
-      onBack={() => setScreen(learnInputs.backScreen)}
-    />
+    <div className="screen" data-nav-dir={navDir} key={screen}>
+      {body}
+    </div>
   )
 }

@@ -3,11 +3,12 @@ import { playWord } from '../lib/audio.js'
 import './WordsView.css'
 
 // Preview screen between ChapterView and LearnView.
-// Shows every word in the chapter at a glance — tap a row to hear it,
-// tap the star to favorite, hit "학습 시작" to jump into the flashcard session.
+// Shows every word in the chapter / topic at a glance — tap a row to hear
+// it, tap the star to favorite, hit "학습 시작" to jump into the flashcard
+// session. The parent decides what `title` to show; this component is
+// agnostic to whether the source is a chapter slice or a topic group.
 export default function WordsView({
-  level,
-  chapterIndex,
+  title,
   words,
   favorites,
   onToggleFavorite,
@@ -18,7 +19,6 @@ export default function WordsView({
     return <div className="words-view words-loading">불러오는 중…</div>
   }
 
-  const title = `HSK ${level}급 · 챕터 ${chapterIndex + 1}`
   const translatedCount = words.filter((w) => w.meaning_ko).length
 
   return (

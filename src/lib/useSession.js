@@ -83,6 +83,24 @@ function reducer(state, action) {
         reveal: freshReveal(state),
       }
     }
+    case 'autoStep': {
+      // Autoplay completion advance: silently mark the current card as
+      // 'again' if the user hasn't answered it yet, then move to the next
+      // unanswered card. When everything is answered, index walks past the
+      // queue end which the view interprets as "done".
+      const answers = [...state.answers]
+      if (answers[state.index] === null) {
+        answers[state.index] = 'again'
+      }
+      let next = state.index + 1
+      while (next < answers.length && answers[next] !== null) next++
+      return {
+        ...state,
+        answers,
+        index: next,
+        reveal: freshReveal(state),
+      }
+    }
     case 'toggleShuffle': {
       // Shuffling (or unshuffling) resets the session — answers are cleared
       // because the queue index mapping changes.

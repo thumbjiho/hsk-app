@@ -1,0 +1,501 @@
+id	hanzi	pinyin	meaning_ko	topic_id	topic_label
+L1-0001	爱	ài	사랑하다	body	몸·감정
+L1-0002	爱好	àihào	취미, 좋아하다	daily	집·일상
+L1-0003	八	bā	8, 여덟	numbers	숫자·수량
+L1-0004	爸爸	bàba	아빠, 아버지	people	사람·가족
+L1-0005	吧	ba	~하자, ~겠지 (제안·추측의 어조사)	grammar	문법·기능어
+L1-0006	白	bái	희다, 하얀	adjectives	성질·형용사
+L1-0007	白天	báitiān	낮, 대낮	time	시간·날짜
+L1-0008	百	bǎi	100, 백	numbers	숫자·수량
+L1-0009	班	bān	반, 학급	school	학교·학습
+L1-0010	半	bàn	반, 절반	numbers	숫자·수량
+L1-0011	半年	bàn nián	반 년, 6개월	time	시간·날짜
+L1-0012	半天	bàntiān	반나절; 한참 동안	time	시간·날짜
+L1-0013	帮	bāng	돕다	actions	동작
+L1-0014	帮忙	bāngmáng	돕다, 거들다	actions	동작
+L1-0015	包	bāo	가방; 싸다, 포장하다	daily	집·일상
+L1-0016	包子	bāozi	빠오즈 (고기·채소 소를 넣은 찐빵)	food	음식·식사
+L1-0017	杯	bēi	잔 (양사)	daily	집·일상
+L1-0018	杯子	bēizi	컵, 잔	daily	집·일상
+L1-0019	北	běi	북, 북쪽	directions	방향·위치
+L1-0020	北边	běibian	북쪽	directions	방향·위치
+L1-0021	北京	Běijīng	베이징, 북경	places	장소
+L1-0022	本	běn	권 (책·공책 양사)	school	학교·학습
+L1-0023	本子	běnzi	공책, 노트	school	학교·학습
+L1-0024	比	bǐ	~보다 (비교); 비교하다	grammar	문법·기능어
+L1-0025	别	bié	~하지 마라	grammar	문법·기능어
+L1-0026	别的	biéde	다른 것, 다른	grammar	문법·기능어
+L1-0027	别人	biérén	다른 사람, 남	people	사람·가족
+L1-0028	病	bìng	병; 병이 나다, 아프다	body	몸·감정
+L1-0029	病人	bìngrén	환자	people	사람·가족
+L1-0030	不大	bù dà	그다지 ~하지 않다	grammar	문법·기능어
+L1-0031	不对	bùduì	틀리다, 맞지 않다	adjectives	성질·형용사
+L1-0032	不客气	bù kèqì	천만에요, 별말씀을요	greetings	인사·예의
+L1-0033	不用	bùyòng	~할 필요 없다	grammar	문법·기능어
+L1-0034	不	bù	아니다, 안 ~하다 (부정)	grammar	문법·기능어
+L1-0035	菜	cài	요리; 채소	food	음식·식사
+L1-0036	茶	chá	차	food	음식·식사
+L1-0037	差	chà	부족하다, 모자라다	adjectives	성질·형용사
+L1-0038	常	cháng	자주, 늘	grammar	문법·기능어
+L1-0039	常常	chángcháng	자주, 종종	grammar	문법·기능어
+L1-0040	唱	chàng	(노래를) 부르다	actions	동작
+L1-0041	唱歌	chànggē	노래를 부르다	actions	동작
+L1-0042	车	chē	차, 자동차	transport	교통·이동
+L1-0043	车票	chēpiào	차표, 승차권	transport	교통·이동
+L1-0044	车上	chē shang	차 안(에), 차에	transport	교통·이동
+L1-0045	车站	chēzhàn	정류장, 역	transport	교통·이동
+L1-0046	吃	chī	먹다	food	음식·식사
+L1-0047	吃饭	chīfàn	밥을 먹다, 식사하다	food	음식·식사
+L1-0048	出	chū	나가다, 나오다	actions	동작
+L1-0049	出来	chūlái	나오다	actions	동작
+L1-0050	出去	chūqù	나가다	actions	동작
+L1-0051	穿	chuān	입다	actions	동작
+L1-0052	床	chuáng	침대	daily	집·일상
+L1-0053	次	cì	번, 회	grammar	문법·기능어
+L1-0054	从	cóng	~부터, ~에서	grammar	문법·기능어
+L1-0055	错	cuò	틀리다, 잘못	adjectives	성질·형용사
+L1-0056	打	dǎ	치다, (전화) 걸다	actions	동작
+L1-0057	打车	dǎchē	택시를 잡다	transport	교통·이동
+L1-0058	打电话	dǎ diànhuà	전화를 걸다	actions	동작
+L1-0059	打开	dǎkāi	열다, 펴다	actions	동작
+L1-0060	打球	dǎ qiú	공놀이하다	actions	동작
+L1-0061	大	dà	크다	adjectives	성질·형용사
+L1-0062	大学	dàxué	대학, 대학교	school	학교·학습
+L1-0063	大学生	dàxuéshēng	대학생	school	학교·학습
+L1-0064	到	dào	도착하다, ~에 이르다	actions	동작
+L1-0065	得到	dédào	얻다, 받다	actions	동작
+L1-0066	地	de	(부사화 조사) ~하게	grammar	문법·기능어
+L1-0067	的	de	~의	grammar	문법·기능어
+L1-0068	等	děng	기다리다	actions	동작
+L1-0069	地	dì	땅, 바닥	nature	자연·날씨
+L1-0070	地点	dìdiǎn	장소, 지점	places	장소
+L1-0071	地方	dìfang	곳, 장소	places	장소
+L1-0072	地上	dìshang	땅 위, 바닥에	places	장소
+L1-0073	地图	dìtú	지도	places	장소
+L1-0074	弟弟	dìdi	남동생	people	사람·가족
+L1-0075	第（第二）	dì (dì-èr)	제~ (서수 접두사)	grammar	문법·기능어
+L1-0076	点	diǎn	시 (시각); 점	time	시간·날짜
+L1-0077	电	diàn	전기	daily	집·일상
+L1-0078	电话	diànhuà	전화	daily	집·일상
+L1-0079	电脑	diànnǎo	컴퓨터	daily	집·일상
+L1-0080	电视	diànshì	텔레비전	daily	집·일상
+L1-0081	电视机	diànshìjī	TV 수상기	daily	집·일상
+L1-0082	电影	diànyǐng	영화	daily	집·일상
+L1-0083	电影院	diànyǐngyuàn	영화관	places	장소
+L1-0084	东	dōng	동쪽	directions	방향·위치
+L1-0085	东边	dōngbian	동쪽	directions	방향·위치
+L1-0086	东西	dōngxi	물건	daily	집·일상
+L1-0087	动	dòng	움직이다	actions	동작
+L1-0088	动作	dòngzuò	동작, 행동	actions	동작
+L1-0089	都	dōu	모두, 다	grammar	문법·기능어
+L1-0090	读	dú	읽다	school	학교·학습
+L1-0091	读书	dúshū	책을 읽다, 공부하다	school	학교·학습
+L1-0092	对	duì	맞다, 옳다	adjectives	성질·형용사
+L1-0093	对不起	duìbuqǐ	미안합니다	greetings	인사·예의
+L1-0094	多	duō	많다	adjectives	성질·형용사
+L1-0095	多少	duōshao	얼마, 얼마나	grammar	문법·기능어
+L1-0096	饿	è	배고프다	body	몸·감정
+L1-0097	儿子	érzi	아들	people	사람·가족
+L1-0098	二	èr	2, 둘	numbers	숫자·수량
+L1-0099	饭	fàn	밥, 식사	food	음식·식사
+L1-0100	饭店	fàndiàn	식당, 호텔	food	음식·식사
+L1-0101	房间	fángjiān	방	daily	집·일상
+L1-0102	房子	fángzi	집	daily	집·일상
+L1-0103	放	fàng	놓다, 두다	actions	동작
+L1-0104	放假	fàngjià	방학하다, 휴가 가다	school	학교·학습
+L1-0105	放学	fàngxué	학교가 끝나다	school	학교·학습
+L1-0106	飞	fēi	날다	actions	동작
+L1-0107	飞机	fēijī	비행기	transport	교통·이동
+L1-0108	非常	fēicháng	매우, 아주	grammar	문법·기능어
+L1-0109	分	fēn	분 (시간); 점수	time	시간·날짜
+L1-0110	风	fēng	바람	nature	자연·날씨
+L1-0111	干	gān	마르다, 건조하다	adjectives	성질·형용사
+L1-0112	干净	gānjìng	깨끗하다	adjectives	성질·형용사
+L1-0113	干	gàn	하다	actions	동작
+L1-0114	干什么	gàn shénme	뭐 하다	actions	동작
+L1-0115	高	gāo	높다, 키가 크다	adjectives	성질·형용사
+L1-0116	高兴	gāoxìng	기쁘다, 즐겁다	body	몸·감정
+L1-0117	告诉	gàosu	알리다, 말하다	actions	동작
+L1-0118	哥哥	gēge	형, 오빠	people	사람·가족
+L1-0119	歌	gē	노래	daily	집·일상
+L1-0120	个	gè	개 (보편 양사)	grammar	문법·기능어
+L1-0121	给	gěi	주다; ~에게	actions	동작
+L1-0122	跟	gēn	~와, ~을 따라	grammar	문법·기능어
+L1-0123	工人	gōngrén	노동자, 근로자	people	사람·가족
+L1-0124	工作	gōngzuò	일하다; 일	actions	동작
+L1-0125	关	guān	닫다, 끄다	actions	동작
+L1-0126	关上	guānshang	닫다	actions	동작
+L1-0127	贵	guì	비싸다	adjectives	성질·형용사
+L1-0128	国	guó	나라, 국가	places	장소
+L1-0129	国家	guójiā	국가, 나라	places	장소
+L1-0130	国外	guó wài	해외, 외국	places	장소
+L1-0131	过	guò	지나다, ~해 본 적이 있다	actions	동작
+L1-0132	还	hái	아직, 또	grammar	문법·기능어
+L1-0133	还是	háishi	아니면, 여전히	grammar	문법·기능어
+L1-0134	还有	hái yǒu	그리고, 또 있다	grammar	문법·기능어
+L1-0135	孩子	háizi	아이	people	사람·가족
+L1-0136	汉语	Hànyǔ	중국어 (한어)	school	학교·학습
+L1-0137	汉字	Hànzì	한자	school	학교·학습
+L1-0138	好	hǎo	좋다	adjectives	성질·형용사
+L1-0139	好吃	hǎochī	맛있다	adjectives	성질·형용사
+L1-0140	好看	hǎokàn	보기 좋다, 예쁘다	adjectives	성질·형용사
+L1-0141	好听	hǎotīng	듣기 좋다	adjectives	성질·형용사
+L1-0142	好玩儿	hǎowánr	재미있다	adjectives	성질·형용사
+L1-0143	号	hào	날짜, 번호	time	시간·날짜
+L1-0144	喝	hē	마시다	food	음식·식사
+L1-0145	和	hé	~와, 그리고	grammar	문법·기능어
+L1-0146	很	hěn	매우, 아주	grammar	문법·기능어
+L1-0147	后	hòu	뒤, 후	directions	방향·위치
+L1-0148	后边	hòubian	뒤쪽	directions	방향·위치
+L1-0149	后天	hòutiān	모레	time	시간·날짜
+L1-0150	花	huā	꽃	nature	자연·날씨
+L1-0151	话	huà	말, 대화	daily	집·일상
+L1-0152	坏	huài	나쁘다, 고장나다	adjectives	성질·형용사
+L1-0153	还	huán	돌려주다	actions	동작
+L1-0154	回	huí	돌아가다, 돌아오다	actions	동작
+L1-0155	回答	huídá	대답하다, 대답	actions	동작
+L1-0156	回到	huídào	~로 돌아가다/오다	actions	동작
+L1-0157	回家	huí jiā	집에 돌아가다	actions	동작
+L1-0158	回来	huílái	돌아오다	actions	동작
+L1-0159	回去	huíqù	돌아가다	actions	동작
+L1-0160	会	huì	할 수 있다	grammar	문법·기능어
+L1-0161	火车	huǒchē	기차	transport	교통·이동
+L1-0162	机场	jīchǎng	공항	transport	교통·이동
+L1-0163	机票	jīpiào	항공권	transport	교통·이동
+L1-0164	鸡蛋	jīdàn	계란	food	음식·식사
+L1-0165	几	jǐ	몇	grammar	문법·기능어
+L1-0166	记	jì	기억하다, 적다	actions	동작
+L1-0167	记得	jìde	기억하다	actions	동작
+L1-0168	记住	jìzhù	기억해 두다	actions	동작
+L1-0169	家	jiā	집	daily	집·일상
+L1-0170	家里	jiā li	집 안에, 집에	daily	집·일상
+L1-0171	家人	jiārén	가족	people	사람·가족
+L1-0172	间	jiān	칸, 방 (양사)	grammar	문법·기능어
+L1-0173	见	jiàn	보다, 만나다	actions	동작
+L1-0174	见面	jiànmiàn	만나다	actions	동작
+L1-0175	教	jiāo	가르치다	school	학교·학습
+L1-0176	叫	jiào	~라고 부르다, 부르다	actions	동작
+L1-0177	教学楼	jiàoxuélóu	강의동, 교사동	school	학교·학습
+L1-0178	姐姐	jiějie	언니, 누나	people	사람·가족
+L1-0179	介绍	jièshào	소개하다	actions	동작
+L1-0180	今年	jīnnián	올해	time	시간·날짜
+L1-0181	今天	jīntiān	오늘	time	시간·날짜
+L1-0182	进	jìn	들어가다	actions	동작
+L1-0183	进来	jìnlái	들어오다	actions	동작
+L1-0184	进去	jìnqù	들어가다	actions	동작
+L1-0185	九	jiǔ	9, 아홉	numbers	숫자·수량
+L1-0186	就	jiù	바로, 곧	grammar	문법·기능어
+L1-0187	觉得	juéde	느끼다, 생각하다	body	몸·감정
+L1-0188	开	kāi	열다	actions	동작
+L1-0189	开车	kāichē	차를 운전하다	transport	교통·이동
+L1-0190	开会	kāihuì	회의를 하다	actions	동작
+L1-0191	开玩笑	kāi wánxiào	농담하다	actions	동작
+L1-0192	看	kàn	보다	actions	동작
+L1-0193	看病	kànbìng	진료받다, 진료하다	body	몸·감정
+L1-0194	看到	kàndào	보다, 보이다	actions	동작
+L1-0195	看见	kànjiàn	보이다	actions	동작
+L1-0196	考	kǎo	시험 보다	school	학교·학습
+L1-0197	考试	kǎoshì	시험	school	학교·학습
+L1-0198	渴	kě	목마르다	body	몸·감정
+L1-0199	课	kè	수업	school	학교·학습
+L1-0200	课本	kèběn	교과서	school	학교·학습
+L1-0201	课文	kèwén	본문	school	학교·학습
+L1-0202	口	kǒu	입; 식구 (양사)	body	몸·감정
+L1-0203	块	kuài	위안 (화폐); 덩이	numbers	숫자·수량
+L1-0204	快	kuài	빠르다	adjectives	성질·형용사
+L1-0205	来	lái	오다	actions	동작
+L1-0206	来到	láidào	~에 오다, 도착하다	actions	동작
+L1-0207	老	lǎo	늙다, 오래되다	adjectives	성질·형용사
+L1-0208	老人	lǎorén	노인	people	사람·가족
+L1-0209	老师	lǎoshī	선생님	school	학교·학습
+L1-0210	了	le	(완료·변화 어조사)	grammar	문법·기능어
+L1-0211	累	lèi	피곤하다	body	몸·감정
+L1-0212	冷	lěng	춥다	adjectives	성질·형용사
+L1-0213	里	lǐ	안, 속	directions	방향·위치
+L1-0214	里边	lǐbian	안쪽	directions	방향·위치
+L1-0215	两	liǎng	둘, 2	numbers	숫자·수량
+L1-0216	零	líng	0, 영	numbers	숫자·수량
+L1-0217	六	liù	6, 여섯	numbers	숫자·수량
+L1-0218	楼	lóu	건물, 층	places	장소
+L1-0219	楼上	lóu shàng	위층	directions	방향·위치
+L1-0220	楼下	lóu xià	아래층	directions	방향·위치
+L1-0221	路	lù	길	places	장소
+L1-0222	路口	lùkǒu	교차로, 길목	places	장소
+L1-0223	路上	lùshang	길에, 도중에	places	장소
+L1-0224	妈妈	māma	엄마	people	사람·가족
+L1-0225	马路	mǎlù	큰길, 도로	places	장소
+L1-0226	马上	mǎshàng	즉시, 곧	grammar	문법·기능어
+L1-0227	吗	ma	(의문 어조사) ~입니까?	grammar	문법·기능어
+L1-0228	买	mǎi	사다	actions	동작
+L1-0229	慢	màn	느리다	adjectives	성질·형용사
+L1-0230	忙	máng	바쁘다	adjectives	성질·형용사
+L1-0231	毛	máo	마오 (0.1위안)	numbers	숫자·수량
+L1-0232	没	méi	없다, 안	grammar	문법·기능어
+L1-0233	没关系	méi guānxi	괜찮다, 상관없다	greetings	인사·예의
+L1-0234	没什么	méi shénme	별거 아니다, 괜찮다	greetings	인사·예의
+L1-0235	没事儿	méishìr	괜찮다, 별일 없다	greetings	인사·예의
+L1-0236	没有	méiyǒu	없다; 안 했다	grammar	문법·기능어
+L1-0237	妹妹	mèimei	여동생	people	사람·가족
+L1-0238	门	mén	문	daily	집·일상
+L1-0239	门口	ménkǒu	입구	places	장소
+L1-0240	门票	ménpiào	입장권	daily	집·일상
+L1-0241	们（朋友们）	men (péngyoumen)	~들 (복수 접미사)	grammar	문법·기능어
+L1-0242	米饭	mǐfàn	밥, 쌀밥	food	음식·식사
+L1-0243	面包	miànbāo	빵	food	음식·식사
+L1-0244	面条儿	miàntiáor	국수	food	음식·식사
+L1-0245	名字	míngzi	이름	daily	집·일상
+L1-0246	明白	míngbai	이해하다, 알다	actions	동작
+L1-0247	明年	míngnián	내년	time	시간·날짜
+L1-0248	明天	míngtiān	내일	time	시간·날짜
+L1-0249	拿	ná	들다, 가지다	actions	동작
+L1-0250	哪	nǎ	어느	grammar	문법·기능어
+L1-0251	哪里	nǎlǐ	어디	grammar	문법·기능어
+L1-0252	哪儿	nǎr	어디	grammar	문법·기능어
+L1-0253	哪些	nǎxiē	어느 것들	grammar	문법·기능어
+L1-0254	那	nà	그, 저	grammar	문법·기능어
+L1-0255	那边	nàbiān	저쪽	grammar	문법·기능어
+L1-0256	那里	nàlǐ	거기, 저기	grammar	문법·기능어
+L1-0257	那儿	nàr	거기	grammar	문법·기능어
+L1-0258	那些	nàxiē	저것들	grammar	문법·기능어
+L1-0259	奶	nǎi	우유; 가슴	food	음식·식사
+L1-0260	奶奶	nǎinai	할머니 (친)	people	사람·가족
+L1-0261	男	nán	남자	people	사람·가족
+L1-0262	男孩儿	nánháir	남자아이	people	사람·가족
+L1-0263	男朋友	nánpéngyou	남자친구	people	사람·가족
+L1-0264	男人	nánrén	남자	people	사람·가족
+L1-0265	男生	nánshēng	남학생	people	사람·가족
+L1-0266	南	nán	남쪽	directions	방향·위치
+L1-0267	南边	nánbian	남쪽	directions	방향·위치
+L1-0268	难	nán	어렵다	adjectives	성질·형용사
+L1-0269	呢	ne	~는요? (의문 어조사)	grammar	문법·기능어
+L1-0270	能	néng	~할 수 있다	grammar	문법·기능어
+L1-0271	你	nǐ	너	grammar	문법·기능어
+L1-0272	你们	nǐmen	너희	grammar	문법·기능어
+L1-0273	年	nián	년, 해	time	시간·날짜
+L1-0274	您	nín	당신 (존댓말)	grammar	문법·기능어
+L1-0275	牛奶	niúnǎi	우유	food	음식·식사
+L1-0276	女	nǚ	여자	people	사람·가족
+L1-0277	女儿	nǚ'ér	딸	people	사람·가족
+L1-0278	女孩儿	nǚháir	여자아이	people	사람·가족
+L1-0279	女朋友	nǚpéngyou	여자친구	people	사람·가족
+L1-0280	女人	nǚrén	여자	people	사람·가족
+L1-0281	女生	nǚshēng	여학생	people	사람·가족
+L1-0282	旁边	pángbiān	옆	directions	방향·위치
+L1-0283	跑	pǎo	달리다	actions	동작
+L1-0284	朋友	péngyou	친구	people	사람·가족
+L1-0285	票	piào	표	daily	집·일상
+L1-0286	七	qī	7, 일곱	numbers	숫자·수량
+L1-0287	起	qǐ	일어나다	actions	동작
+L1-0288	起床	qǐchuáng	기상하다, 일어나다	actions	동작
+L1-0289	起来	qǐlái	일어나다	actions	동작
+L1-0290	汽车	qìchē	자동차	transport	교통·이동
+L1-0291	前	qián	앞	directions	방향·위치
+L1-0292	前边	qiánbian	앞쪽	directions	방향·위치
+L1-0293	前天	qiántiān	그저께	time	시간·날짜
+L1-0294	钱	qián	돈	numbers	숫자·수량
+L1-0295	钱包	qiánbāo	지갑	daily	집·일상
+L1-0296	请	qǐng	청하다, ~해 주세요	greetings	인사·예의
+L1-0297	请假	qǐngjià	휴가를 내다, 조퇴하다	school	학교·학습
+L1-0298	请进	qǐng jìn	들어오세요	greetings	인사·예의
+L1-0299	请问	qǐngwèn	실례지만 (질문 시작)	greetings	인사·예의
+L1-0300	请坐	qǐng zuò	앉으세요	greetings	인사·예의
+L1-0301	球	qiú	공	daily	집·일상
+L1-0302	去	qù	가다	actions	동작
+L1-0303	去年	qùnián	작년	time	시간·날짜
+L1-0304	热	rè	덥다, 뜨겁다	adjectives	성질·형용사
+L1-0305	人	rén	사람	people	사람·가족
+L1-0306	认识	rènshi	알다, 안면이 있다	actions	동작
+L1-0307	认真	rènzhēn	진지하다, 성실하다	adjectives	성질·형용사
+L1-0308	日	rì	일, 날	time	시간·날짜
+L1-0309	日期	rìqī	날짜	time	시간·날짜
+L1-0310	肉	ròu	고기	food	음식·식사
+L1-0311	三	sān	3, 셋	numbers	숫자·수량
+L1-0312	山	shān	산	nature	자연·날씨
+L1-0313	商场	shāngchǎng	쇼핑몰, 상점가	places	장소
+L1-0314	商店	shāngdiàn	상점, 가게	places	장소
+L1-0315	上	shàng	위; 오르다	directions	방향·위치
+L1-0316	上班	shàngbān	출근하다	actions	동작
+L1-0317	上边	shàngbian	위쪽	directions	방향·위치
+L1-0318	上车	shàng chē	차에 타다	transport	교통·이동
+L1-0319	上次	shàng cì	지난번	time	시간·날짜
+L1-0320	上课	shàngkè	수업하다	school	학교·학습
+L1-0321	上网	shàngwǎng	인터넷을 하다	daily	집·일상
+L1-0322	上午	shàngwǔ	오전	time	시간·날짜
+L1-0323	上学	shàngxué	학교 가다	school	학교·학습
+L1-0324	少	shǎo	적다	adjectives	성질·형용사
+L1-0325	谁	shéi/shuí	누구	grammar	문법·기능어
+L1-0326	身上	shēnshang	몸에, 몸 위	body	몸·감정
+L1-0327	身体	shēntǐ	몸, 건강	body	몸·감정
+L1-0328	什么	shénme	무엇	grammar	문법·기능어
+L1-0329	生病	shēngbìng	병이 나다	body	몸·감정
+L1-0330	生气	shēngqì	화내다	body	몸·감정
+L1-0331	生日	shēngrì	생일	time	시간·날짜
+L1-0332	十	shí	10, 열	numbers	숫자·수량
+L1-0333	时候	shíhou	때, 시기	time	시간·날짜
+L1-0334	时间	shíjiān	시간	time	시간·날짜
+L1-0335	事	shì	일	daily	집·일상
+L1-0336	试	shì	시도하다, 써 보다	actions	동작
+L1-0337	是	shì	~이다	grammar	문법·기능어
+L1-0338	是不是	shì bu shì	~이지 않나요?	grammar	문법·기능어
+L1-0339	手	shǒu	손	body	몸·감정
+L1-0340	手机	shǒujī	휴대폰	daily	집·일상
+L1-0341	书	shū	책	school	학교·학습
+L1-0342	书包	shūbāo	책가방	school	학교·학습
+L1-0343	书店	shūdiàn	서점	places	장소
+L1-0344	树	shù	나무	nature	자연·날씨
+L1-0345	水	shuǐ	물	food	음식·식사
+L1-0346	水果	shuǐguǒ	과일	food	음식·식사
+L1-0347	睡	shuì	자다	actions	동작
+L1-0348	睡觉	shuìjiào	잠을 자다	actions	동작
+L1-0349	说	shuō	말하다	actions	동작
+L1-0350	说话	shuōhuà	말을 하다	actions	동작
+L1-0351	四	sì	4, 넷	numbers	숫자·수량
+L1-0352	送	sòng	보내다, 선물하다, 데려다주다	actions	동작
+L1-0353	岁	suì	살, 세 (나이)	time	시간·날짜
+L1-0354	他	tā	그 (3인칭 남성)	grammar	문법·기능어
+L1-0355	他们	tāmen	그들	grammar	문법·기능어
+L1-0356	她	tā	그녀	grammar	문법·기능어
+L1-0357	她们	tāmen	그녀들	grammar	문법·기능어
+L1-0358	太	tài	너무, 매우	grammar	문법·기능어
+L1-0359	天	tiān	하늘, 날	time	시간·날짜
+L1-0360	天气	tiānqì	날씨	nature	자연·날씨
+L1-0361	听	tīng	듣다	actions	동작
+L1-0362	听到	tīngdào	듣다, 들려오다	actions	동작
+L1-0363	听见	tīngjiàn	듣다, 들리다	actions	동작
+L1-0364	听写	tīngxiě	받아쓰기	school	학교·학습
+L1-0365	同学	tóngxué	동급생, 학우	school	학교·학습
+L1-0366	图书馆	túshūguǎn	도서관	places	장소
+L1-0367	外	wài	바깥, 외	directions	방향·위치
+L1-0368	外边	wàibian	바깥쪽	directions	방향·위치
+L1-0369	外国	wàiguó	외국	places	장소
+L1-0370	外语	wàiyǔ	외국어	school	학교·학습
+L1-0371	玩儿	wánr	놀다	actions	동작
+L1-0372	晚	wǎn	늦다	adjectives	성질·형용사
+L1-0373	晚饭	wǎnfàn	저녁 식사	food	음식·식사
+L1-0374	晚上	wǎnshang	저녁, 밤	time	시간·날짜
+L1-0375	网上	wǎng shang	인터넷에서, 온라인	daily	집·일상
+L1-0376	网友	wǎngyǒu	인터넷 친구	people	사람·가족
+L1-0377	忘	wàng	잊다	actions	동작
+L1-0378	忘记	wàngjì	잊다, 망각하다	actions	동작
+L1-0379	问	wèn	묻다	actions	동작
+L1-0380	我	wǒ	나	grammar	문법·기능어
+L1-0381	我们	wǒmen	우리	grammar	문법·기능어
+L1-0382	五	wǔ	5, 다섯	numbers	숫자·수량
+L1-0383	午饭	wǔfàn	점심 식사	food	음식·식사
+L1-0384	西	xī	서쪽	directions	방향·위치
+L1-0385	西边	xībian	서쪽	directions	방향·위치
+L1-0386	洗	xǐ	씻다	actions	동작
+L1-0387	洗手间	xǐshǒujiān	화장실	places	장소
+L1-0388	喜欢	xǐhuan	좋아하다	body	몸·감정
+L1-0389	下	xià	아래; 내려가다	directions	방향·위치
+L1-0390	下班	xiàbān	퇴근하다	actions	동작
+L1-0391	下边	xiàbian	아래쪽	directions	방향·위치
+L1-0392	下车	xià chē	차에서 내리다	transport	교통·이동
+L1-0393	下次	xià cì	다음번	time	시간·날짜
+L1-0394	下课	xiàkè	수업이 끝나다	school	학교·학습
+L1-0395	下午	xiàwǔ	오후	time	시간·날짜
+L1-0396	下雨	xià yǔ	비가 오다	nature	자연·날씨
+L1-0397	先	xiān	먼저	grammar	문법·기능어
+L1-0398	先生	xiānsheng	선생, ~씨 (남성 호칭)	people	사람·가족
+L1-0399	现在	xiànzài	지금, 현재	time	시간·날짜
+L1-0400	想	xiǎng	생각하다, ~하고 싶다	body	몸·감정
+L1-0401	小	xiǎo	작다	adjectives	성질·형용사
+L1-0402	小孩儿	xiǎoháir	아이, 꼬마	people	사람·가족
+L1-0403	小姐	xiǎojiě	아가씨, ~씨 (여성 호칭)	people	사람·가족
+L1-0404	小朋友	xiǎopéngyǒu	어린이, 꼬마 친구	people	사람·가족
+L1-0405	小时	xiǎoshí	시간 (경과)	time	시간·날짜
+L1-0406	小学	xiǎoxué	초등학교	school	학교·학습
+L1-0407	小学生	xiǎoxuéshēng	초등학생	school	학교·학습
+L1-0408	笑	xiào	웃다	actions	동작
+L1-0409	写	xiě	쓰다	actions	동작
+L1-0410	谢谢	xièxie	감사하다	greetings	인사·예의
+L1-0411	新	xīn	새롭다	adjectives	성질·형용사
+L1-0412	新年	xīnnián	새해	time	시간·날짜
+L1-0413	星期	xīngqī	주, 요일	time	시간·날짜
+L1-0414	星期日	xīngqīrì	일요일	time	시간·날짜
+L1-0415	星期天	xīngqītiān	일요일	time	시간·날짜
+L1-0416	行	xíng	되다, 가능하다	adjectives	성질·형용사
+L1-0417	休息	xiūxi	쉬다	actions	동작
+L1-0418	学	xué	배우다	school	학교·학습
+L1-0419	学生	xuéshēng	학생	school	학교·학습
+L1-0420	学习	xuéxí	공부하다	school	학교·학습
+L1-0421	学校	xuéxiào	학교	school	학교·학습
+L1-0422	学院	xuéyuàn	학원, 단과대학	school	학교·학습
+L1-0423	要	yào	원하다, ~하려고 하다	grammar	문법·기능어
+L1-0424	爷爷	yéye	할아버지 (친)	people	사람·가족
+L1-0425	也	yě	또한, ~도	grammar	문법·기능어
+L1-0426	页	yè	쪽, 페이지 (양사)	school	학교·학습
+L1-0427	一	yī	1, 하나	numbers	숫자·수량
+L1-0428	衣服	yīfu	옷	daily	집·일상
+L1-0429	医生	yīshēng	의사	people	사람·가족
+L1-0430	医院	yīyuàn	병원	places	장소
+L1-0431	一半	yībàn	절반	numbers	숫자·수량
+L1-0432	一会儿	yīhuìr	잠시, 잠깐	time	시간·날짜
+L1-0433	一块儿	yīkuàir	함께, 같이	grammar	문법·기능어
+L1-0434	一下儿	yīxiàr	한번, 잠깐	grammar	문법·기능어
+L1-0435	一样	yīyàng	똑같다	adjectives	성질·형용사
+L1-0436	一边	yībiān	한편, 한쪽	grammar	문법·기능어
+L1-0437	一点儿	yīdiǎnr	약간, 조금	grammar	문법·기능어
+L1-0438	一起	yīqǐ	함께, 같이	grammar	문법·기능어
+L1-0439	一些	yīxiē	약간, 일부	grammar	문법·기능어
+L1-0440	用	yòng	사용하다, 쓰다	actions	동작
+L1-0441	有	yǒu	있다, 가지다	grammar	문법·기능어
+L1-0442	有的	yǒude	어떤 것, 일부	grammar	문법·기능어
+L1-0443	有名	yǒumíng	유명하다	adjectives	성질·형용사
+L1-0444	有时候	yǒushíhou	때때로, 가끔	grammar	문법·기능어
+L1-0445	有（一）些	yǒu(yī)xiē	약간, 조금 있다	grammar	문법·기능어
+L1-0446	有用	yǒuyòng	쓸모 있다, 유용하다	adjectives	성질·형용사
+L1-0447	右	yòu	오른쪽	directions	방향·위치
+L1-0448	右边	yòubian	오른쪽	directions	방향·위치
+L1-0449	雨	yǔ	비	nature	자연·날씨
+L1-0450	元	yuán	위안 (화폐)	numbers	숫자·수량
+L1-0451	远	yuǎn	멀다	adjectives	성질·형용사
+L1-0452	月	yuè	월, 달	time	시간·날짜
+L1-0453	再	zài	다시, 또	grammar	문법·기능어
+L1-0454	再见	zàijiàn	안녕 (작별 인사)	greetings	인사·예의
+L1-0455	在	zài	~에 있다; ~에서; ~하는 중	grammar	문법·기능어
+L1-0456	在家	zàijiā	집에 있다	grammar	문법·기능어
+L1-0457	早	zǎo	이르다	adjectives	성질·형용사
+L1-0458	早饭	zǎofàn	아침 식사	food	음식·식사
+L1-0459	早上	zǎoshang	아침	time	시간·날짜
+L1-0460	怎么	zěnme	어떻게	grammar	문법·기능어
+L1-0461	站	zhàn	역, 정류장	transport	교통·이동
+L1-0462	找	zhǎo	찾다	actions	동작
+L1-0463	找到	zhǎodào	찾다, 발견하다	actions	동작
+L1-0464	这	zhè	이, 이것	grammar	문법·기능어
+L1-0465	这边	zhèbiān	이쪽	grammar	문법·기능어
+L1-0466	这里	zhèlǐ	여기	grammar	문법·기능어
+L1-0467	这儿	zhèr	여기	grammar	문법·기능어
+L1-0468	这些	zhèxiē	이것들	grammar	문법·기능어
+L1-0469	着	zhe	~하고 있다 (지속)	grammar	문법·기능어
+L1-0470	真	zhēn	정말, 참으로	grammar	문법·기능어
+L1-0471	真的	zhēn de	정말로, 진짜	grammar	문법·기능어
+L1-0472	正	zhèng	마침, 한창	grammar	문법·기능어
+L1-0473	正在	zhèngzài	~하는 중이다	grammar	문법·기능어
+L1-0474	知道	zhīdào	알다	actions	동작
+L1-0475	知识	zhīshi	지식	school	학교·학습
+L1-0476	中	zhōng	중간, 가운데	directions	방향·위치
+L1-0477	中国	Zhōngguó	중국	places	장소
+L1-0478	中间	zhōngjiān	중간, 가운데	directions	방향·위치
+L1-0479	中文	Zhōngwén	중국어	school	학교·학습
+L1-0480	中午	zhōngwǔ	정오, 점심	time	시간·날짜
+L1-0481	中学	zhōngxué	중고등학교	school	학교·학습
+L1-0482	中学生	zhōngxuéshēng	중고생	school	학교·학습
+L1-0483	重	zhòng	무겁다	adjectives	성질·형용사
+L1-0484	重要	zhòngyào	중요하다	adjectives	성질·형용사
+L1-0485	住	zhù	살다, 거주하다	actions	동작
+L1-0486	准备	zhǔnbèi	준비하다	actions	동작
+L1-0487	桌子	zhuōzi	탁자	daily	집·일상
+L1-0488	字	zì	글자	school	학교·학습
+L1-0489	子（桌子）	zi (zhuōzi)	(명사 접미사)	grammar	문법·기능어
+L1-0490	走	zǒu	걷다, 가다	actions	동작
+L1-0491	走路	zǒulù	걷다	actions	동작
+L1-0492	最	zuì	가장, 제일	grammar	문법·기능어
+L1-0493	最好	zuìhǎo	가장 좋다, ~하는 것이 좋겠다	grammar	문법·기능어
+L1-0494	最后	zuìhòu	마지막	time	시간·날짜
+L1-0495	昨天	zuótiān	어제	time	시간·날짜
+L1-0496	左	zuǒ	왼쪽	directions	방향·위치
+L1-0497	左边	zuǒbian	왼쪽	directions	방향·위치
+L1-0498	坐	zuò	앉다; 타다	actions	동작
+L1-0499	坐下	zuò xia	앉다	actions	동작
+L1-0500	做	zuò	만들다, 하다	actions	동작

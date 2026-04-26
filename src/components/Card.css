@@ -22,7 +22,7 @@
 .region {
   position: relative;
   cursor: pointer;
-  transition: background 0.2s;
+  transition: background 220ms cubic-bezier(0.16, 1, 0.3, 1);
   padding: 0 20px;
 }
 .region:hover { background: var(--hover-tint); }
@@ -241,11 +241,18 @@
 /* --- reveal bar --------------------------------------------------------- */
 
 .reveal-bar {
-  display: flex;
+  display: grid;
+  grid-template-columns: 40px 1fr 1fr 1fr;
   gap: 8px;
   align-items: center;
   margin-top: 14px;
   cursor: default;
+}
+
+/* Hides a button while preserving its grid slot — siblings don't shift. */
+.reveal-bar .slot-hidden {
+  opacity: 0;
+  pointer-events: none;
 }
 .hide-btn {
   width: 40px;
@@ -257,19 +264,14 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  transition: color 0.15s, border-color 0.15s, opacity 0.15s;
-  flex-shrink: 0;
+  transition: color 0.15s, border-color 0.15s,
+              opacity 200ms cubic-bezier(0.16, 1, 0.3, 1);
 }
-.hide-btn:not(:disabled):hover {
+.hide-btn:hover {
   color: var(--text);
   border-color: var(--text-mid);
 }
-.hide-btn:disabled {
-  opacity: 0.3;
-  cursor: not-allowed;
-}
 .reveal-btn {
-  flex: 1;
   background: transparent;
   border: 1px solid var(--border);
   color: var(--text-mid);
@@ -277,7 +279,8 @@
   padding: 10px;
   font-size: 14px;
   font-weight: 500;
-  transition: color 0.15s, border-color 0.15s, background 0.15s;
+  transition: color 0.15s, border-color 0.15s, background 0.15s,
+              opacity 200ms cubic-bezier(0.16, 1, 0.3, 1);
 }
 .reveal-btn:hover {
   color: var(--text);
